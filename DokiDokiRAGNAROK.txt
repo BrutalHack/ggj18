@@ -1,0 +1,271 @@
+A Wealth Transmission Game
+---
+
+- Pillaging, the
+	The ancient art of Wealth Transmission,
+	mostly performed by super-badass Vikings.
+	
+Doki Doki -
+RAGNARÖÖÖÖÖK
+
+A Visual Novel Pillaging Simulator
+
+	- BE A BADASS VIKING
+	- DON'T BE A BADASS VIKING
+	
+PICK YOUR VIK
+
+	Olaf the Destroyer
+		A musclebound barbarian from the frozen north.
+		Enjoys driving his enemies before him, stealing treasures from the coast, and long walks on the beach.
+	Slayhilda
+		A fearsome warrior of the sea.
+		She's here to defy gender conventions and pillage, AND SHE ALREADY DID THAT FIRST THING.
+		
+--- Time to Transmit Some Wealth! ---
+
+My name is Olaf!
+I am a true Viking and, thus, pretty much a certified badass.
+Yet I've never actually raided a village before!
+I'm so embarrassed! All the other Vikings laugh at me. Sometimes I cry a little, but in a badass way.
+Then suddenly, after a long night of mead-based partying...
+--- Odin appears in a dream ---
+O: Brave Warrior... It is I, Allfather Odin...
+V: What?! Is this a dream?!
+O: ...no. It's Odin. I JUST said that.
+V: Oh. Right.
+O: Anyhow. Brave Warrior... I command you...
+O: Go forth and pillage! For the glory of the Vikings!
+		-> (grunt affirmatively)	
+			O: Then go out and conquer!
+			And suddenly... I wake up!
+		-> (grunt rejectingly)
+			O: Wow, you're no fun.
+			--- super-fast credits roll ---
+			--- GAME OVER ---
+
+Squinting through heavy eyelids, I rise from my fearsome powernap.
+I take a moment to gather myself.
+And then I pretty much begin pillaging immediately.
+
+--- World Map!
+	Choose:
+	-> Brittany
+		An island full of craven, noodle-armed dudes.
+		Prime pillaging material. Raid your little heart out, mighty viking!
+	-> Iceland
+		You hear the siren call of easy loot from the horizon...
+		Must be those Icelanders. Those guys are, like, UNREASONABLY rich.
+	-> Normandy
+		If you set out to terrorize costal villages, this is THE place to go.
+		It's basically Las Vegas, just with less stealing.
+Go pillage?
+	-> Pillage GO!
+	-> (grunt undecisively)
+	
+--- Brittany
+Your boundless lust for treasure makes your mighty viking gaze wander northward...
+You heard of truly ludicrous riches in this territory. Time to put those rumors to the test!
+With utmost determination, you engage the horizon in a STARING CONTEST.
+You keep your eyes fixed on the waves ahead. It is truly the most powerful of navigating techniques.
+Absolutely nothing shall escape your powerful peepers.
+And just as the merciless northern winds start encrusting your eyes with delicious seasalt...
+...a coastal village appears in your sights seductively!
+B: ...OHHH!!!! What's this? A viking!
+V: !
+B: I've never seen one before! Hello!
+--- PHASE 1
+B: I'm BRITTANY-CHAN! How do you do, Mr. Viking?
+	-> Hello Brittany. I'd like to plunder your village.
+		B: Oh, Mr. Viking! I bet you say that to ALL the villages you plunder! ( => Happy)
+		--- Odin appears! ---
+		O: That's it, brave viking! You have begun PILLAGING!
+		O: Before your next action - listen closely!
+		O: You might spot some CLUES for the best course of action...
+		--- Odin disappears ---
+		B: To tell the truth, I'm a little nervous... Not like you confident seafarers.
+		B: I heard that you vikings even grow more powerful through something called LIQUID COURAGE!(Clue: Mead powers you up)
+		--- Action time! ---
+	-> I'm doing fine. Thanks for asking.
+		B: Haha, how polite! Most visitors are much more coarse... Those ruffians just don't know how to properly loot a village. ( => Happy)
+		--- Same events as before with Odin, same clue ---
+	-> (grunt plunderingly)
+		--- ( => Angry)
+		--- CLUE: Attacking England is effective, but only the first time, and when the target is angry.
+	-> (start with confused pillaging motions)
+		B: Uh, what are you doing?
+		B: This is kinda awkward... What if the Isle of Man sees us like this? ( => Sweatdrop)
+		--- Odin's tutorial, same as first time ---
+		B: But, I shouldn't say that, when we barely know each other...
+		B: Is pillaging in such a straightforward manner common to YOUR FAITH? (Clue: Praise Odin is effective with Sweatdrop)
+--- ACTION!
+	-> Raid	(more effective when: drunk, happy)
+		->(neutral)
+		->(happy)
+		->(drunk)
+		->(happy & drunk)
+		->(very drunk)
+	-> Drink Mead (neutral, but powers up Raid)
+		->(first time)
+			B: What...?!
+			B: What unparalleled drinking speed! I can see why they call you vikings the HONEYED MAELSTROM!
+			B: They do call you that, don't they?
+		->(subsequent times)
+			B: CHUG CHUG CHUG! Amaing, Mr. Viking!
+			B: Just how do you stay this thirsty all the time?!
+	-> Praise Odin (more effective when sweatdrop, causes happy)
+		->(first time when sweatdrop or angry)
+			B: Ah, I see! So that's what viking culture is like!
+		->(second time when sweatdrop or angry)
+		->(subsequent times when sweatdrop or angry)
+		--- ODIN TIP! --- (no proceeding dialog when not sweatdrop or angry)
+	-> Attack England (more effective when angry, but only once)
+		->(when not angry)
+			B: Oh, please... Attacking the heartland right away?
+			B: You can't expect that to work when I've still got my COMPOSURE!
+		->(when angry)
+			B: Ugh...!!! How can this be?!
+			B: You deliberately put me off-guard to strike at my oafish, yet beloved royal family?
+			B: Haha! I underestimated you! You lead a mean raid, Mr. Viking!
+			B: But don't overdo it, okay?
+		->(when already having attacked England when angry before)
+			B: Hey! Knock it off! I thought I told you not to overdo it!
+--- PHASE 2
+B: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 3
+B: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 4
+B: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 5
+B: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 6
+B: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- VICTORY
+--- DEFEAT
+
+--- Iceland
+Narration
+N: Dialogue Iceland
+V: Dialogue Viking
+--- PHASE 1
+I: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- ACTION!
+	-> Raid
+	-> Drink Mead
+	-> Praise Odin
+		--- ODIN TIP! --- (possibly Loki tip instead throughout entire encounter)
+	-> Attack England
+--- PHASE 2
+I: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 3
+I: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 4
+I: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 5
+I: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 6
+I: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- VICTORY
+--- DEFEAT
+
+--- Normandy
+Narration
+N: Dialogue Normandy
+V: Dialogue Viking
+--- PHASE 1
+N: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- ACTION!
+	-> Raid
+	-> Drink Mead
+		->(when not having praised Odin before)
+		->(when not having praised Odin before, subsequent times)
+		->(when having praised Odin before)
+		->(when having praised Odin before, subsequent times)
+	-> Praise Odin
+		--- ODIN TIP! --- (possibly Loki tip instead throughout entire encounter)
+	-> Attack England
+		->(when transforming Raid into Party for the first time)
+		->(when transforming Raid into Party subsequent times)
+		->(when trying when Raid is already Party)
+--- PHASE 2
+N: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 3
+N: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 4
+N: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 5
+N: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- PHASE 6
+N: ---
+	-> 1
+	-> 2
+	-> 3
+	-> 4
+--- VICTORY
+--- DEFEAT
+
+--- YOU WON THE GAME!
