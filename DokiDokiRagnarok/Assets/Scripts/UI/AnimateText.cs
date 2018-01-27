@@ -39,5 +39,10 @@ namespace DokiDokiRagnarok.UI
             }
             TextButton.interactable = true;
         }
+
+        public void SetTextButtonInteractable(bool newValue)
+        {
+            TextButton.interactable = newValue;
+        }
     }
 }

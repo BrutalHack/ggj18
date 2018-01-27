@@ -15,6 +15,8 @@ namespace DokiDokiRagnarok.Controllers
         public RaidModel DebugRaidModel;
         private AudioSource _audioSource;
 
+        public DialogOptions DialogOptions;
+
         private int _dialogStep = -1;
         private int _phaseStep = -1;
 
@@ -86,14 +88,20 @@ namespace DokiDokiRagnarok.Controllers
             if (_dialog == _raidPhase.Intro)
             {
                 //TODO Dialog Prompt
-                ChooseDialog(3);
+                //ChooseDialog(3);
+                AnimateText.SetTextButtonInteractable(false);
+                DialogOptions.ShowDialogOptions();
+
             }
         }
 
         public void ChooseDialog(int option)
         {
             _dialog = _raidPhase.Dialogs[option];
+            AnimateText.SetTextButtonInteractable(true);
             NextStep();
+
+            DialogOptions.HideDialogOptions();
         }
 
         public void Victory()
@@ -106,6 +114,26 @@ namespace DokiDokiRagnarok.Controllers
         public void Defeat()
         {
             
+        }
+
+        public void FirstDialog()
+        {
+            ChooseDialog(0);
+        }
+
+        public void SecondDialog()
+        {
+            ChooseDialog(1);
+        }
+
+        public void ThirdDialog()
+        {
+            ChooseDialog(2);
+        }
+
+        public void FourthDialog()
+        {
+            ChooseDialog(3);
         }
     }
 }
