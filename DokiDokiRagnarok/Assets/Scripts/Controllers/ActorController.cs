@@ -41,7 +41,6 @@ namespace DokiDokiRagnarok.Controllers
         public void DisableAllActors()
         {
             destroyAllChildren(VillageActor.transform);
-            destroyAllChildren(VikingActor.transform);
             LokiActor.SetActive(false);
             OdinActor.SetActive(false);
         }
@@ -64,7 +63,11 @@ namespace DokiDokiRagnarok.Controllers
         public void SetVikingActor(GameObject actorPrefab)
         {
             DisableAllActors();
-            Instantiate(actorPrefab, VikingActor.transform);
+            destroyAllChildren(VikingActor.transform);
+            if (actorPrefab != null)
+            {
+                Instantiate(actorPrefab, VikingActor.transform);
+            }
         }
 
         public void SetLoki(bool active)
@@ -82,7 +85,10 @@ namespace DokiDokiRagnarok.Controllers
         public void SetVillageActor(GameObject actorPrefab)
         {
             DisableAllActors();
-            Instantiate(actorPrefab, VillageActor.transform);
+            if (actorPrefab != null)
+            {
+                Instantiate(actorPrefab, VillageActor.transform);
+            }
         }
 
         private void destroyAllChildren(Transform node)

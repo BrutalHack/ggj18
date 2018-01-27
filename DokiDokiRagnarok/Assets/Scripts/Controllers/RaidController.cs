@@ -1,11 +1,8 @@
-﻿using DokiDokiRagnarok.Controllers;
-using DokiDokiRagnarok.Models;
+﻿using DokiDokiRagnarok.Models;
 using DokiDokiRagnarok.UI;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
-namespace DokiDokiRagnarok
+namespace DokiDokiRagnarok.Controllers
 {
     public class RaidController : MonoBehaviour
     {
@@ -14,8 +11,11 @@ namespace DokiDokiRagnarok
         private RaidModel _raid;
         private RaidPhaseModel _raidPhase;
         private DialogModel _dialog;
-        public RaidModel DebugRaidModel; 
-        
+        public RaidModel DebugRaidModel;
+
+        private int _dialogStep = -1;
+        private int _phaseStep = -1;
+
         void Start()
         {
             _raid = World.ChosenRaid;
@@ -24,17 +24,57 @@ namespace DokiDokiRagnarok
             {
                 _raid = DebugRaidModel;
             }
-            _raidPhase = _raid.RaidPhases[0];
-            _dialog = _raidPhase.Intro;
 
-            ActorController.SetActor(_dialog.Actors[0]);
-            AnimateText.ShowText(_dialog.DialogTexts[0]);
-            _dialog.Events[0].Invoke();
+            NextPhase();
         }
 
-        void Update()
+        public void NextStep()
         {
-        
+            _dialogStep++;
+            if (_dialogStep == _dialog.DialogTexts.Count)
+            {
+                if (_dialog == _raidPhase.Intro)
+                {
+                    StartDialog();
+                }
+                else
+                {
+                    NextPhase();
+                    return;
+                }
+            }
+
+            ActorController.SetActor(_dialog.Actors[_dialogStep]);
+            AnimateText.ShowText(_dialog.DialogTexts[_dialogStep]);
+            if (_dialogStep < _dialog.Events.Count)
+            {
+                _dialog.Events[_dialogStep].Invoke();
+            }
+        }
+
+        private void NextPhase()
+        {
+            _phaseStep++;
+            _dialogStep = -1;
+            _raidPhase = _raid.RaidPhases[_phaseStep];
+            _dialog = _raidPhase.Intro;
+            NextStep();
+        }
+
+        public void StartDialog()
+        {
+            _dialogStep = -1;
+            if (_dialog == _raidPhase.Intro)
+            {
+                //TODO Dialog Prompt
+                ChooseDialog(3);
+            }
+        }
+
+        public void ChooseDialog(int option)
+        {
+            _dialog = _raidPhase.Dialogs[option];
+            NextStep();
         }
     }
 }
