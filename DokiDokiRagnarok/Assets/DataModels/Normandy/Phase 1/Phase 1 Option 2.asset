@@ -25,5 +25,6 @@ MonoBehaviour:
     truth I'm heaping on your plate here, unwashed barbarian!
   - You and those accursed Englishmen!
   - Grrrrrrr! I HATE THOSE ENGLISH GUYS SO MUCH!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
   Events: []

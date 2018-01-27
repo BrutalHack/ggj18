@@ -24,5 +24,6 @@ MonoBehaviour:
     gods.'
   - Hey, if you show them your respect, I might just be more LENIENT WITH YOUR OTHER
     WEIRD VIKING CUSTOMS.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   Events: []

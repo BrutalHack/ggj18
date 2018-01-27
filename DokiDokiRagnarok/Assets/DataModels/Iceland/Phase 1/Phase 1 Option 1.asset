@@ -22,5 +22,6 @@ MonoBehaviour:
   - NEVER have I encountered a Warrior like you!
   - Don't you now the basics of village etiquette? You haven't been BLESSED with good
     manners!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 1e3c018a70e844c45a0ad392184f945d, type: 3}
   Events: []

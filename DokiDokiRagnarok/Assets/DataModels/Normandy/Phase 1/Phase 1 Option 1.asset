@@ -21,5 +21,6 @@ MonoBehaviour:
   - What?! What do you think you're saying?
   - I'm mainland! I ride with the continental gang, dude!
   - Ain't no fjords up in this joint, unwashed barbarian!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
   Events: []

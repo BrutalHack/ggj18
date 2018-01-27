@@ -24,5 +24,6 @@ MonoBehaviour:
     my character arc.
   - Truly, I have become a stronger, more confident British fishing village for it!
   - We really are alike, Viking-San!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
   Events: []

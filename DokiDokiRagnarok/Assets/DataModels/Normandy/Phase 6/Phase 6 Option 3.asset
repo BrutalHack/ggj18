@@ -22,5 +22,6 @@ MonoBehaviour:
   - But, let's just accept the ludicrous premise, and I'm sure things will work out
     somehow.
   - Normandy-Chan it is, Viking-Sempai!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

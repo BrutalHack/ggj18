@@ -22,5 +22,6 @@ MonoBehaviour:
   - 'In fact, it is so unbelievable not badass that I can''t help but think you are
     lying. '
   - It even said so in the parentheses. Didn't think I would catch up on that?
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: bd439c437b25e45268818fc6d7711747, type: 3}
   Events: []

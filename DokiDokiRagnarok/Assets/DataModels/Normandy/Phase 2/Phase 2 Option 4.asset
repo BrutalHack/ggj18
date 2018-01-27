@@ -26,5 +26,6 @@ MonoBehaviour:
   - Nasty bumps from drunk-driving longboats!
   - Or a torn diaphragm from laughing too much at the English!
   - Not that I mind LAUGHING AT THE ENGLISH, but let's not downplay the dangers.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 9016386a1d4d543abb9359f882772180, type: 3}
   Events: []

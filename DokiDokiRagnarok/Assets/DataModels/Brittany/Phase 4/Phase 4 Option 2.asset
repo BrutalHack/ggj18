@@ -22,5 +22,6 @@ MonoBehaviour:
   - Then you don't have to feel as many things. You'd have much more efficient feelings
     that way!
   - Your belief in your badass gods must help you KEEP YOUR EMOTIONS IN CHECK.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   Events: []

@@ -21,5 +21,6 @@ MonoBehaviour:
   - Haha, you're right. Bloodlust truly is a powerful emotion.
   - Why shouldn't we just give in to our emotions, and be just conqueror and conqueree?
   - It could be so simple.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 4c951fd3504234ab689eb389758e1659, type: 3}
   Events: []

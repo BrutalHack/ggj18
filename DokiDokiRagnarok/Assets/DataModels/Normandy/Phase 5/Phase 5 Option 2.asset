@@ -24,5 +24,6 @@ MonoBehaviour:
     pillagable populace!
   - Truly, it embodies everything about the viking lifestyle!
   - I feel like I finally understand!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 2fc811f272388417bbc6b73033cb5cb7, type: 3}
   Events: []

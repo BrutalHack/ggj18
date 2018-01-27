@@ -30,5 +30,6 @@ MonoBehaviour:
   - To tell the truth, I'm a little nervous... Not like you confident seafarers.
   - I heard that you vikings even grow more powerful through something called LIQUID
     COURAGE!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: bd439c437b25e45268818fc6d7711747, type: 3}
   Events: []

@@ -30,5 +30,6 @@ MonoBehaviour:
   - You might spot some CLUES for the best course of action...
   - Ah! Now you made me all flustered...
   - Just what are you trying to pull by making me LOSE MY COMPOSURE, Viking-San?!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   Events: []

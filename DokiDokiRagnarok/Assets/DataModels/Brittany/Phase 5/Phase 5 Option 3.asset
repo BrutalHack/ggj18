@@ -19,5 +19,6 @@ MonoBehaviour:
   - 'Heehee. That rhymed. '
   - '...what?'
   - I mean... Yeah! It does! But that's not the point!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
   Events: []
