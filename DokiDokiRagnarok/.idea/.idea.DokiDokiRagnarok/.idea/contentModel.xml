@@ -27,8 +27,10 @@
           <e p="Controllers" t="Include">
             <e p="ActorController.cs" t="Include" />
             <e p="RaidController.cs" t="Include" />
+            <e p="WorldController.cs" t="Include" />
           </e>
           <e p="Emotion.cs" t="Include" />
+          <e p="LoopMusic.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="Action.cs" t="Include" />
             <e p="ActorModel.cs" t="Include" />
@@ -36,15 +38,15 @@
             <e p="DialogModel.cs" t="Include" />
             <e p="RaidModel.cs" t="Include" />
             <e p="RaidPhaseModel.cs" t="Include" />
+            <e p="Viking.cs" t="Include" />
+            <e p="Village.cs" t="Include" />
+            <e p="World.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="AnimateText.cs" t="Include" />
             <e p="ChooseViking.cs" t="Include" />
-            <e p="Country.cs" t="Include" />
             <e p="EndGame.cs" t="Include" />
             <e p="StartGame.cs" t="Include" />
-            <e p="World.cs" t="Include" />
-            <e p="WorldController.cs" t="Include" />
           </e>
         </e>
       </e>

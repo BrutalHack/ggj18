@@ -38,6 +38,14 @@ MonoBehaviour:
   - '!'
   - I've never seen one before! Hello!
   - I'm BRITTANY-CHAN! How do you do, Viking-San?
+  DialogAudio:
+  - {fileID: 8300000, guid: 4b748c14fa6514913adae3aa30b8a810, type: 3}
+  - {fileID: 8300000, guid: 02e551cce89a347f2b8db5ce49be5f2b, type: 3}
+  - {fileID: 8300000, guid: fab6c916c24bd490ea0b3397a3104950, type: 3}
+  - {fileID: 8300000, guid: cffc5bd6b809c4c5091e7a5d81f2d034, type: 3}
+  - {fileID: 8300000, guid: d45a3fda70d9b4dc2b5841cbcf7d9d1a, type: 3}
+  - {fileID: 8300000, guid: 8e79c608c902945179378c6fcae38152, type: 3}
+  - {fileID: 8300000, guid: 399d4070c0a05435a8f95b43f224035b, type: 3}
   Events:
   - m_PersistentCalls:
       m_Calls: []

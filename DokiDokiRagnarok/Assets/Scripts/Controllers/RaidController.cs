@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace DokiDokiRagnarok.Controllers
 {
+    [RequireComponent(typeof(AudioSource))]
     public class RaidController : MonoBehaviour
     {
         public ActorController ActorController;
@@ -12,12 +13,14 @@ namespace DokiDokiRagnarok.Controllers
         private RaidPhaseModel _raidPhase;
         private DialogModel _dialog;
         public RaidModel DebugRaidModel;
+        private AudioSource _audioSource;
 
         private int _dialogStep = -1;
         private int _phaseStep = -1;
 
         void Start()
         {
+            _audioSource = GetComponent<AudioSource>();
             _raid = World.ChosenRaid;
 
             if (DebugRaidModel)
@@ -46,6 +49,12 @@ namespace DokiDokiRagnarok.Controllers
 
             ActorController.SetActor(_dialog.Actors[_dialogStep]);
             AnimateText.ShowText(_dialog.DialogTexts[_dialogStep]);
+
+            if (_dialogStep < _dialog.DialogAudio.Count)
+            {
+                _audioSource.Stop();
+                _audioSource.PlayOneShot(_dialog.DialogAudio[_dialogStep]);
+            }
             if (_dialogStep < _dialog.Events.Count)
             {
                 _dialog.Events[_dialogStep].Invoke();
