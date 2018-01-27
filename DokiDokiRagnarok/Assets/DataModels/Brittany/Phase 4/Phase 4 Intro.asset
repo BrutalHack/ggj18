@@ -12,29 +12,15 @@ MonoBehaviour:
   m_Name: Phase 4 Intro
   m_EditorClassIdentifier: 
   Actors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - But still...
+  - I can't help but feel that this meeting was destiny!
+  - Uuuuuh... But don't take this the wrong way!
+  - I just think we could be very good friends.
   Events:
   - m_PersistentCalls:
       m_Calls: []

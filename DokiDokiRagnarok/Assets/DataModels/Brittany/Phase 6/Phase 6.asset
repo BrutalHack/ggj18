@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: cec4588c6ebc74944b7fdea9b1ff706c, type: 2}
   DialogOptions:
-  - 
-  - 
-  - 
-  - 
+  - Canute, not CAN NOT.
+  - Uuuuh, I don't really know this Canute guy.
+  - I'd conquer you for noone... but for love.
+  - (belch with the reverberance of a thousand drinks)
   Dialogs:
   - {fileID: 11400000, guid: 8aa85c61bf7758b499a4ccb9a0596315, type: 2}
   - {fileID: 11400000, guid: f4886677bc512514a891e5fb4c2e0183, type: 2}

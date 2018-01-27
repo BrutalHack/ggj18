@@ -12,29 +12,10 @@ MonoBehaviour:
   m_Name: Phase 3 Intro
   m_EditorClassIdentifier: 
   Actors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Tell me, uuuuh... why did you chose to sail here, when you had so many rich, defenseless
+    settlements to chose from?
   Events:
   - m_PersistentCalls:
       m_Calls: []

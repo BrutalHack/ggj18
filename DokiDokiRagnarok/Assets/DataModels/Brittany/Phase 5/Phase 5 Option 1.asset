@@ -11,6 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
   m_Name: Phase 5 Option 1
   m_EditorClassIdentifier: 
-  Actors: []
-  DialogTexts: []
+  Actors:
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
+  DialogTexts:
+  - Haha, you're right. Bloodlust truly is a powerful emotion.
+  - Why shouldn't we just give in to our emotions, and be just conqueror and conqueree?
+  - It could be so simple.
   Events: []

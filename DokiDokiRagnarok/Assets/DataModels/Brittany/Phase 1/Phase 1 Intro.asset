@@ -12,29 +12,32 @@ MonoBehaviour:
   m_Name: Phase 1 Intro
   m_EditorClassIdentifier: 
   Actors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Your boundless lust for treasure makes your mighty viking gaze wander northward...
+  - You heard of truly ludicrous riches in this territory. Time to put those rumors
+    to the test!
+  - With utmost determination, you engage the horizon in a STARING CONTEST.
+  - You keep your eyes fixed on the waves ahead. It is truly the most powerful of
+    navigating techniques.
+  - Absolutely nothing shall escape your powerful peepers.
+  - And just as the merciless northern winds start encrusting your eyes with delicious
+    seasalt...
+  - '...a coastal village appears in your sights seductively!'
+  - '...OHHH!!!! What''s this? A viking!'
+  - '!'
+  - I've never seen one before! Hello!
+  - I'm BRITTANY-CHAN! How do you do, Mr. Viking?
   Events:
   - m_PersistentCalls:
       m_Calls: []

@@ -11,6 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
   m_Name: Phase 3 Option 4
   m_EditorClassIdentifier: 
-  Actors: []
-  DialogTexts: []
+  Actors:
+  - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  DialogTexts:
+  - 'Oh, Mr. Viking, that''s so awful of you! '
+  - You broke the will of my peasants... but did you have to break my heart, too?!
+  - Sometimes I think you're just making me angry TO ATTACK SOMEWHERE ELSE!
   Events: []

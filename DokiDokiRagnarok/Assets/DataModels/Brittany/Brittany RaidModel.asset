@@ -19,3 +19,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 99d65f32b91c7bf469a10fc094717282, type: 2}
   - {fileID: 11400000, guid: 951286b94be77b943ad37ad46a22adfa, type: 2}
   - {fileID: 11400000, guid: 5862ac3e89ca72340b2bcf15dccfa5c1, type: 2}
+  VictoryDialog: {fileID: 11400000, guid: ef7cd80ff8d4bfe43b21b3f6a264fcab, type: 2}
+  DefeatDialog: {fileID: 11400000, guid: 5b5b4b8342d041749b2408e9e6344f84, type: 2}

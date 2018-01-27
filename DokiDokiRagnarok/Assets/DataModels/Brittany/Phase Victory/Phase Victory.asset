@@ -9,32 +9,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
-  m_Name: Phase 2 Intro
+  m_Name: Phase Victory
   m_EditorClassIdentifier: 
   Actors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
   DialogTexts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Success! You could overcome your differences and find common battleground.
+  - The British village was pillaged, and razed to the ground!
+  - The fields burn, the huts are ruined, the village treasures have been stolen.
+  - Truly a happy end for everyone involved.
+  - Praise Odin!
   Events:
   - m_PersistentCalls:
       m_Calls: []
