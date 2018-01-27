@@ -39,6 +39,16 @@ namespace DokiDokiRagnarok.Controllers
                 if (_dialog == _raidPhase.Intro)
                 {
                     StartDialog();
+                    return;
+                }
+                else if (_dialog == _raid.DefeatDialog)
+                {
+                    //TODO End it
+                    Debug.Log("Defeat");
+                } else if (_dialog == _raid.VictoryDialog)
+                {
+                    //TODO
+                    Debug.Log("Victory");
                 }
                 else
                 {
@@ -84,6 +94,18 @@ namespace DokiDokiRagnarok.Controllers
         {
             _dialog = _raidPhase.Dialogs[option];
             NextStep();
+        }
+
+        public void Victory()
+        {
+            _dialogStep = -1;
+            _dialog = _raid.VictoryDialog;
+            NextStep();
+        }
+
+        public void Defeat()
+        {
+            
         }
     }
 }
