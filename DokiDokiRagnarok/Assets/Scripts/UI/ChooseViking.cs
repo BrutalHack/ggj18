@@ -44,7 +44,7 @@ public class ChooseViking : MonoBehaviour
 
     public void VikingChoosed()
     {
-        World.Character = activeimage;
+        World.ChosenCharacter = activeimage;
         SceneManager.LoadScene("Game");
     }
 
