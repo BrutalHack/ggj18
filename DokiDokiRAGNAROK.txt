@@ -85,13 +85,15 @@ B: I'm BRITTANY-CHAN! How do you do, Mr. Viking?
 		--- Odin disappears ---
 		B: To tell the truth, I'm a little nervous... Not like you confident seafarers.
 		B: I heard that you vikings even grow more powerful through something called LIQUID COURAGE!(Clue: Mead powers you up)
-		--- Action time! ---
 	-> I'm doing fine. Thanks for asking.
 		B: Haha, how polite! Most visitors are much more coarse... Those ruffians just don't know how to properly loot a village. ( => Happy)
 		--- Same events as before with Odin, same clue ---
 	-> (grunt plunderingly)
-		--- ( => Angry)
-		--- CLUE: Attacking England is effective, but only the first time, and when the target is angry.
+		B: W-What are you insinuating, Mr. Viking?
+		B: Are - are your grunts some sort of communication? How rude! At least use words when you address a simple British fishing village! ( => Angry)
+		--- Odin's tutorial, same as first time ---
+		B: Ah! Now you made me all flustered...
+		B: Just what are you trying to pull by making me LOSE MY COMPOSURE, Mr. Viking?! (Clue: Attacking England works when angry)
 	-> (start with confused pillaging motions)
 		B: Uh, what are you doing?
 		B: This is kinda awkward... What if the Isle of Man sees us like this? ( => Sweatdrop)
@@ -101,10 +103,22 @@ B: I'm BRITTANY-CHAN! How do you do, Mr. Viking?
 --- ACTION!
 	-> Raid	(more effective when: drunk, happy)
 		->(neutral)
+			B: Wow. That's some ADEQUATE raiding!
+			B: Uh, I mean, in a good way.
 		->(happy)
+			B: Oh, what great raiding technique!
 		->(drunk)
+			B: Oh...?! Your pillaging has grown more powerful than before!
+			B: Just how high is your plunderlevel?!
 		->(happy & drunk)
+			B: Guh...! Ridiculous!
+			B: Have you truly mastered the parallel coastline razing technique in such a short time?!
+			B: Haha! Your pillaging woos and entices me... you scoundrel!
 		->(very drunk)
+			B: S-Such raiding power!!!
+			B: Look how many exclamation marks you made me use! I'm... I'm lacking vocabulary to do your relentless village pummeling justice!
+			B: Hmmm... Plunderealistic?
+			B: Sounds good! Plunderealistic job, Mr. Viking!!!
 	-> Drink Mead (neutral, but powers up Raid)
 		->(first time)
 			B: What...?!
@@ -116,8 +130,13 @@ B: I'm BRITTANY-CHAN! How do you do, Mr. Viking?
 	-> Praise Odin (more effective when sweatdrop, causes happy)
 		->(first time when sweatdrop or angry)
 			B: Ah, I see! So that's what viking culture is like!
+			B: I'm glad you could demonstrate this aspect of your rich viking history to me.
+			B: I'm already feeling much better!
 		->(second time when sweatdrop or angry)
+			B: Wow! You must really look up to this Odin guy, Mr. Viking!
+			B: Oh, I just can't stay mad at you adorable warlords.
 		->(subsequent times when sweatdrop or angry)
+			B: Ha... Classic Odin.
 		--- ODIN TIP! --- (no proceeding dialog when not sweatdrop or angry)
 	-> Attack England (more effective when angry, but only once)
 		->(when not angry)
@@ -131,37 +150,111 @@ B: I'm BRITTANY-CHAN! How do you do, Mr. Viking?
 		->(when already having attacked England when angry before)
 			B: Hey! Knock it off! I thought I told you not to overdo it!
 --- PHASE 2
-B: ---
-	-> 1
-	-> 2
-	-> 3
-	-> 4
+B: Well, I feel like we already got to know each other better.
+B: It's not every day you have fire set to your coastline in such a personable manner.
+B: Why don't you tell me something about yourself?
+	-> I'm a badass vegetarian.
+		B: Wow, that's so interesting!
+		B: I feel like a responsible diet is an often underestimated aspect of proper vikanism.
+		B: Such as mead. I heard successive drinks have GREAT CUMULATIVE EFFECTS! ( => Clue: multiple drinks boost the next Raid even more)
+	-> You don't want to know about my tormented past that has left me so tragically handsome.
+		B: But I do! Tell me what tragedy has ravaged you with such handsomeness. ( => Happy)
+		B: Or better yet, don't! Let's make that backstory mysterious as well.
+	-> I'm shy.
+		B: Oh, don't worry - so am I!
+		B: But with the support of my friends, and by believing in myself, I managed to complete my character arc.
+		B: Truly, I have become a stronger, more confident British fishing village for it!
+		B: We really are alike, Mr. Viking! ( => Happy)
+	-> (scream unintelligibly)
+		B: Uuuuuh... I didn't quite catch that. ( => Sweatdrop)
 --- PHASE 3
-B: ---
-	-> 1
-	-> 2
-	-> 3
-	-> 4
+B: Tell me, uuuuh... why did you chose to sail here, when you had so many rich, defenseless settlements to chose from?
+	-> There was just something about the way your inhabitants flee in terror from the Viking hordes.
+		B: Yes, they do tend to do that.
+		B: I don't know... Whenever I witness you mercilessly tormenting my populace, destroying their livelihoods and taking their possessions...
+		B: ...I just feel such a warmth in my heart! ( => Happy)
+		B: Though that might just be from you setting the thatched roofs on fire.
+	-> Do I need any special reason to be a huge badass all the time?
+		B: I guess not.
+		B: Being badass just seems to come natural to you vikings!
+		B: Perhaps it's the MEAD. It's healthy, improves your raiding capibilities and generally improves your outlook on life!
+	-> I literally have no idea.
+		B: ...huh.
+		B: Well, this is awkward, then. ( => Sweatdrop)
+	-> Sorry, I was distracted by those rich, defenseless settlements. You were saying?
+		B: Oh, Mr. Viking, that's so awful of you! ( => Angry)
+		B: You broke the will of my peasants... but did you have to break my heart, too?!
+		B: Sometimes I think you're just making me angry TO ATTACK SOMEWHERE ELSE!( => Clue: Attacking England is effective when angry)
 --- PHASE 4
-B: ---
-	-> 1
-	-> 2
-	-> 3
-	-> 4
+B: But still...
+B: I can't help but feel that this meeting was destiny!
+B: Uuuuuh... But don't take this the wrong way!
+B: I just think we could be very good friends.
+	-> Brittany, I want to be more than just conquerbuddies.
+		B: Huh?! ( => Sweatdrop)
+		B: D-Don't be stupid!
+		B: It's not like I want you to subjugate my populace! B-Baka!
+	-> Friendship is one of the many emotions I have replaced with rage.
+		B: Wow, that must be very convenient.
+		B: Then you don't have to feel as many things. You'd have much more efficient feelings that way!
+		B: Your belief in your badass gods must help you KEEP YOUR EMOTIONS IN CHECK. ( => Clue: Praising Odin also resets Sweatdrop/Angry to neutral)
+	-> You cut my life into pieces. This is my last resort.
+		B: Now, now, let's not quote any lyrics we might regret later.
+		B: But I appreciate your honesty! ( => Happy)
+	-> (start crying uncontrollably, but in a badass way)
+		B: Mr. Viking?! Some kind of liquid is leaking from your eyes!
+		B: Is it the blood of your enemies?! Or pure mead?!
+		B: Oh, you're... crying.
+		B: I must admit, that seems like the least likely viking-related liquid... ( => Sweatdrop)
 --- PHASE 5
-B: ---
-	-> 1
-	-> 2
-	-> 3
-	-> 4
+B: I... I just don't know if I'm ready for the next step!
+B: I mean, could I really commit? Could YOU really commit?
+B: Just think of all you'd have to give up to pillage my village!
+	-> Can't I just be a simple viking, head over heel in bloodlust?
+		B: Haha, you're right. Bloodlust truly is a powerful emotion.
+		B: Why shouldn't we just give in to our emotions, and be just conqueror and conqueree?
+		B: It could be so simple. ( => Happy)
+	-> I refuse to think in general.
+		B: Oh, that is so like you!
+		B: And somewhat worrying.
+		B: But mostly, so like you! ( => Happy)
+	-> Heehee. That rhymed. 
+		B: ...what?
+		B: I mean... Yeah! It does! But that's not the point! ( => Angry)
+	-> I'm sorry, I was just thinking of those other rich, defenseless settlements again.
+		B: What?!
+		B: You're so heartless! Why do you disrespect my feelings in such a way?
+		B: You can't just invade a foreign nation and expect a subjugated village not to feel ANY affection! ( => Angry)
+		B: It's over!!! ( => Instant DEFEAT scene)
 --- PHASE 6
-B: ---
-	-> 1
-	-> 2
-	-> 3
-	-> 4
+B: I... I just have to go out and say it. 
+B: With all what you're doing for me, Mr. Viking... You can't mean...
+B: You... wouldn't really conquer me for the Danish King Canute's realm, would you?
+	-> Canute, not CAN NOT.
+		B: Oh, Mr. Viking...
+	-> Uuuuh, I don't really know this Canute guy.
+		B: Oh. Uh, neither do I, actually.
+		B: Now this is an awkward note to go out on...
+		B: Shall we just see where an afternoon of relaxed pillaging takes us?
+	-> I'd conquer you for noone... but for love.
+		B: What a cheesy line!
+		B: Yet it fits perfectly to your rancid viking smell.
+		B: It's like sour milk... meets fierce invader passion.
+		B: Oh, Mr. Viking...
+	-> (belch with the reverberance of a thousand drinks)
+		B: Oh, Mr. Viking!
+		B: You just ALWAYS know what to say!
 --- VICTORY
+Success! You could overcome your differences and find common battleground.
+The British village was pillaged, and razed to the ground!
+The fields burn, the huts are ruined, the village treasures have been stolen.
+Truly a happy end for everyone involved.
+Praise Odin!
 --- DEFEAT
+Too tragic... In the end, it was not meant to be.
+Our brave viking could just not fulfill plucky Brittany's plundering desires.
+The British village rejected Olaf, and was later attacked by a fierce, handsome raiding party from, I dunno, probably Denmark.
+Do not fret... It happens to the best of vikings.
 
 --- Iceland
 Narration

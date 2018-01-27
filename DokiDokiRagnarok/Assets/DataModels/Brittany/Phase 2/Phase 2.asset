@@ -13,10 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: aebd6e16d1640374b8527944bfc32d7b, type: 2}
   DialogOptions:
-  - 
-  - 
-  - 
-  - 
+  - I'm a badass vegetarian.
+  - You don't want to know about my tormented past that has left me so tragically
+    handsome.
+  - I'm shy.
+  - (scream unintelligibly)
   Dialogs:
   - {fileID: 11400000, guid: e8abf946094fa8645a5596d4044e3ca1, type: 2}
   - {fileID: 11400000, guid: bdaacbba120fe344c8eda7e476c3b0b6, type: 2}

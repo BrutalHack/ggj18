@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 9dcede6852ce6e54e9d043c59b91568b, type: 2}
   DialogOptions:
-  - 
-  - 
-  - 
-  - 
+  - Can't I just be a simple viking, head over heels in bloodlust?
+  - I refuse to think in general.
+  - 'Heehee. That rhymed. '
+  - I'm sorry, I was just thinking of those other rich, defenseless settlements again.
   Dialogs:
   - {fileID: 11400000, guid: 852f3bef914f6684a9170987c0006e55, type: 2}
   - {fileID: 11400000, guid: 11ed9b6688232844fbd2dd6a176809c3, type: 2}

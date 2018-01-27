@@ -12,29 +12,13 @@ MonoBehaviour:
   m_Name: Phase 6 Intro
   m_EditorClassIdentifier: 
   Actors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 'I... I just have to go out and say it. '
+  - With all what you're doing for me, Mr. Viking... You can't mean...
+  - You... wouldn't really conquer me for the Danish King Canute's realm, would you?
   Events:
   - m_PersistentCalls:
       m_Calls: []

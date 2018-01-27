@@ -11,6 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
   m_Name: Phase 2 Option 4
   m_EditorClassIdentifier: 
-  Actors: []
-  DialogTexts: []
+  Actors:
+  - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
+  DialogTexts:
+  - Uuuuuh... I didn't quite catch that.
   Events: []

@@ -11,6 +11,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
   m_Name: Phase 1 Option 4
   m_EditorClassIdentifier: 
-  Actors: []
-  DialogTexts: []
+  Actors:
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
+  - {fileID: 11400000, guid: 3d5482606f1aa19459fd56acbcb4e0be, type: 2}
+  - {fileID: 11400000, guid: 3d5482606f1aa19459fd56acbcb4e0be, type: 2}
+  - {fileID: 11400000, guid: 3d5482606f1aa19459fd56acbcb4e0be, type: 2}
+  - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
+  - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
+  DialogTexts:
+  - Uh, what are you doing?
+  - This is kinda awkward... What if the Isle of Man sees us like this?
+  - That's it, brave viking! You have begun PILLAGING!
+  - Before your next action - listen closely!
+  - You might spot some CLUES for the best course of action...
+  - But, I shouldn't say that, when we barely know each other...
+  - Is pillaging in such a straightforward manner common to YOUR FAITH?
   Events: []

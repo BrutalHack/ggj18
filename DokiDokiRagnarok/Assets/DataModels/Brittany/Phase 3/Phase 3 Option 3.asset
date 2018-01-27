@@ -11,6 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
   m_Name: Phase 3 Option 3
   m_EditorClassIdentifier: 
-  Actors: []
-  DialogTexts: []
+  Actors:
+  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
+  DialogTexts:
+  - '...huh.'
+  - Well, this is awkward, then.
   Events: []
