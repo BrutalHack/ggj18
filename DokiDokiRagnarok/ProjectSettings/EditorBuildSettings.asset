@@ -7,7 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Start.unity
-    guid: 7c99a1a9977d0f84f98be41bb80f0d09
+    guid: eb91973b6e42e4be6979a410cdb036b6
   - enabled: 1
     path: Assets/Scenes/Game.unity
-    guid: eb91973b6e42e4be6979a410cdb036b6
+    guid: 7c99a1a9977d0f84f98be41bb80f0d09
+  - enabled: 1
+    path: Assets/Scenes/PickViking.unity
+    guid: 259652df0f08def4184666f574ebec01
