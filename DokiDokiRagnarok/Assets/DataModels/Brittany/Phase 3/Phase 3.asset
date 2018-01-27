@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 3
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: 5a48ac8c6097fcc4ead4435f11abe1fb, type: 2}
+  DialogOptions:
+  - 
+  - 
+  - 
+  - 
+  Dialogs:
+  - {fileID: 11400000, guid: 7825912cf967e364ea04248c29fd4e1c, type: 2}
+  - {fileID: 11400000, guid: cd0b283e8408a244090421ea36457cde, type: 2}
+  - {fileID: 11400000, guid: d139ef798330c574e840fb6863336b77, type: 2}
+  - {fileID: 11400000, guid: 79971c163ac5c5747bd8634520da41bd, type: 2}
