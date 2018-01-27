@@ -17,5 +17,6 @@ MonoBehaviour:
   DialogTexts:
   - It is the richest country of all I've seen so far.
   - 'Such... such... flattery... '
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 7d7d2cf288baa490996f4c3579d63c2a, type: 3}
   Events: []

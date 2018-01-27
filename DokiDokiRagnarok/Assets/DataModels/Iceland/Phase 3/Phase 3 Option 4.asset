@@ -22,5 +22,6 @@ MonoBehaviour:
   - You think so?
   - (blow the horn)
   - If you keep this up, I might let you in on my kinky side...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

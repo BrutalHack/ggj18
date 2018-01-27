@@ -20,5 +20,6 @@ MonoBehaviour:
   - That really does sound pretty rad.
   - I guess that just comes with the territory when you worship INCREDIBLY RAD GODS
     like Odin!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 41914ff48d714473b9607c279fbac7c7, type: 3}
   Events: []

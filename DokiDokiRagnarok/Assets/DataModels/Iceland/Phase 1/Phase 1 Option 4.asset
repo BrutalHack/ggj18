@@ -23,5 +23,6 @@ MonoBehaviour:
   - I won't show you what's behind my doors just because you start bragging!
   - Is that why you're here?
   - To show me the SKILLS your people are known for?
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

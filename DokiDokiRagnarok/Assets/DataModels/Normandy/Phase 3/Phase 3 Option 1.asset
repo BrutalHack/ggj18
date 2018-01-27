@@ -17,5 +17,6 @@ MonoBehaviour:
   DialogTexts:
   - I'm glad we're all pro-pillaging here.
   - O-Of course! Did it ever sound like I wasn't?
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

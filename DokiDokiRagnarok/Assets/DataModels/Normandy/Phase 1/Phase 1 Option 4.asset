@@ -26,5 +26,6 @@ MonoBehaviour:
     what'd REALLY rustle my jimmies?
   - Bringing YOUR ICKY STICKY HONEY DRINK here! Don't you dare pour that stuff, I
     can see you're itching to!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 1e3c018a70e844c45a0ad392184f945d, type: 3}
   Events: []

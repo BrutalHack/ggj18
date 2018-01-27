@@ -18,5 +18,6 @@ MonoBehaviour:
   - (blow the horn)
   - I am trying to start a conversation! Don't just try to win me over with your embarrassing
     attempts at music!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d21d9569546464266a0dc1a31f4a290c, type: 3}
   Events: []

@@ -19,5 +19,6 @@ MonoBehaviour:
   - We're all afraid to love, which is why I replaced all of MY love with casual pillaging.
   - C... Casual pillaging?!
   - You can't just casually pillage around and expect a stable loot life!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
   Events: []

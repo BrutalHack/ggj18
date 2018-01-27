@@ -25,5 +25,6 @@ MonoBehaviour:
     your peasants once in a while!
   - Thank you, dear viking.
   - Thanks to you, I can let my citizens perish at the hands of awesome vikings again.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
   Events: []

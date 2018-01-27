@@ -21,5 +21,6 @@ MonoBehaviour:
   - Yeah, I noticed.
   - How foolish of me! Argh!
   - It was a mistake to interpret your various grunting sounds as sage advice.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 7d7d2cf288baa490996f4c3579d63c2a, type: 3}
   Events: []

@@ -21,5 +21,6 @@ MonoBehaviour:
   - Oh, have I hurt your feelings?
   - Do you dwell on the past? Some village must have disappointed you, am I right?
   - Were their treasures nothing but air?
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 22c0512a074114501aba5ec3419c9186, type: 3}
   Events: []

@@ -22,5 +22,6 @@ MonoBehaviour:
   - I'm not even being sarcastic. There is just something about those brutish manners
     of your kind.
   - I might just have somewhat of a weakness for HARD-DRINKING VIKINGS...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

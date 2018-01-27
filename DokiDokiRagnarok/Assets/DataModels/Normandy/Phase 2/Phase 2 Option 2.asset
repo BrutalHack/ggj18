@@ -22,5 +22,6 @@ MonoBehaviour:
     there?
   - You really don't know when to give up, do you? I told you I don't want any pillaging.
   - I recognize your natural desire to set the coastlines aflame, but I just can't!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

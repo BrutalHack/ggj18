@@ -22,5 +22,6 @@ MonoBehaviour:
   - Being badass just seems to come natural to you vikings!
   - Perhaps it's the MEAD. It's healthy, improves your raiding capibilities and generally
     improves your outlook on life!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
   Events: []

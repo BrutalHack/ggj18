@@ -21,5 +21,6 @@ MonoBehaviour:
   - 'Oh, Viking-San, that''s so awful of you! '
   - You broke the will of my peasants... but did you have to break my heart, too?!
   - Sometimes I think you're just making me angry TO ATTACK SOMEWHERE ELSE!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
   Events: []

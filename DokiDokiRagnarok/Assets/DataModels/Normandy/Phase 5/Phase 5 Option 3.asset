@@ -18,5 +18,6 @@ MonoBehaviour:
   - There is an emptiness in my heart that no amount of pillaging, or actual hearts,
     could ever fill.
   - Now you're just sounding whiny.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

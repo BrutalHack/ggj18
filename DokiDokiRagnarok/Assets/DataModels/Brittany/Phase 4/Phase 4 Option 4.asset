@@ -23,5 +23,6 @@ MonoBehaviour:
   - Is it the blood of your enemies?! Or pure mead?!
   - Oh, you're... crying.
   - I must admit, that seems like the least likely viking-related liquid...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
   Events: []

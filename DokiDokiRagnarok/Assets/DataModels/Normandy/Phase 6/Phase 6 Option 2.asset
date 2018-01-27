@@ -25,5 +25,6 @@ MonoBehaviour:
   - This has been a truly magical hostile invasion, Viking-Sempai.
   - You have opened my eyes, and prepared me to tackle the world again!
   - But I don't know what I should do...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 881d4f27376134d3283496f4a2521875, type: 3}
   Events: []

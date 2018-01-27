@@ -21,5 +21,6 @@ MonoBehaviour:
   - Huh?!
   - D-Don't be stupid!
   - It's not like I want you to subjugate my populace or anything! B-Baka!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

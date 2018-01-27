@@ -20,5 +20,6 @@ MonoBehaviour:
   - Me telling you that you are being unspeakably rude!
   - I don't want to get to know your axes! They've probably hurt lots of other villages
     before!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   Events: []
