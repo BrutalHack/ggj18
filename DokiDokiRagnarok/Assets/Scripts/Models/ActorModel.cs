@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 
-public class ActorModel : ScriptableObject
+namespace DokiDokiRagnarok.Models
 {
-    public string Name;
-    public AudioClip SoundEffect;
-    public Sprite Sprite;
+    public class ActorModel : ScriptableObject
+    {
+        public string Name;
+        public AudioClip SoundEffect;
+        public Sprite Sprite;
+    }
 }

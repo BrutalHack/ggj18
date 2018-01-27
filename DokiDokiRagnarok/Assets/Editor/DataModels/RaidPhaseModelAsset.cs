@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using DokiDokiRagnarok.Models;
+using UnityEditor;
 
 namespace DokiDokiRagnarok.Editor.DataModels
 {

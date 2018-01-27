@@ -3,12 +3,12 @@ using UnityEditor;
 
 namespace DokiDokiRagnarok.Editor.DataModels
 {
-	public class DialogSegmentModelAsset
-	{
-		[MenuItem("Assets/Create/DataModels/DialogSegmentModel")]
-		public static void CreateAsset()
-		{
-			ScriptableObjectUtility.CreateAsset<DialogSegmentModel>();
-		}
-	}
+    public class DialogModelAsset
+    {
+        [MenuItem("Assets/Create/DataModels/DialogModel")]
+        public static void CreateAsset()
+        {
+            ScriptableObjectUtility.CreateAsset<DialogModel>();
+        }
+    }
 }
