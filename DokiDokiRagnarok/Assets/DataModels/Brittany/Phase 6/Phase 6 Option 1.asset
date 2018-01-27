@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Name: Phase 6 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   DialogTexts:
+  - Canute, not CAN NOT.
   - Oh, Viking-San...
+  DialogAudio: []
   Events: []

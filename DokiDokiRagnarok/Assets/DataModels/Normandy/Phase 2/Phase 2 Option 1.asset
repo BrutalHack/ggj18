@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Phase 2 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
@@ -19,10 +20,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
   DialogTexts:
+  - No. Buzzing is what bees do, and I'm much bigger than a bee.
   - I...
   - Wha...
   - That's...
   - '...I can''t actually argue with that.'
   - You are, actually. You are bigger than a bee.
   - There is some hope yet for your perceptive faculties.
+  DialogAudio: []
   Events: []

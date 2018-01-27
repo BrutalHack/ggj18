@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 7a1f2640043a2884cb74a7688a7e9c1e, type: 2}
   DialogOptions:
-  - I'm a badass viking. It's in my blood.
+  - I'm a badass viking.
   - '''Cause I like the booty.'
   - (flex your muscles)
   - (blow the horn)

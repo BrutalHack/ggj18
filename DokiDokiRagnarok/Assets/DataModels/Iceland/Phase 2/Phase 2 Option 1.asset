@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Name: Phase 2 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - I'm a badass viking. It's in my blood.
   - Wow, that's so interesting!
   - I'm not even being sarcastic. There is just something about those brutish manners
     of your kind.
   - I might just have somewhat of a weakness for HARD-DRINKING VIKINGS...
+  DialogAudio: []
   Events: []

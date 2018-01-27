@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Name: Phase 5 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
   DialogTexts:
+  - (belch, but try to pass it off as a warcry)
   - What a fearsome war cry!
   - Now I understand! Your bellowing shout strikes fear into the hearts of the easily
     pillagable populace!
   - Truly, it embodies everything about the viking lifestyle!
   - I feel like I finally understand!
+  DialogAudio: []
   Events: []

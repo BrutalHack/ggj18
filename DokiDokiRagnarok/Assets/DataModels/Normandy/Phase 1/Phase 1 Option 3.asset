@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Name: Phase 1 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - My shtick can't be tired, it's Odin's shtick!
   - Well - besides the fact that what you just said came out, like, HORRIBLY wrong
     -
   - '- I can respect that, actually. I can relate to your desire to worship your badass
     gods.'
   - Hey, if you show them your respect, I might just be more LENIENT WITH YOUR OTHER
     WEIRD VIKING CUSTOMS.
+  DialogAudio: []
   Events: []

@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Name: Phase 5 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   DialogTexts:
+  - 'Heehee. That rhymed. '
   - '...what?'
   - I mean... Yeah! It does! But that's not the point!
+  DialogAudio: []
   Events: []

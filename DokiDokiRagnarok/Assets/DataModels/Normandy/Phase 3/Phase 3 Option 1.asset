@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Name: Phase 3 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: def720ba235950241b48c31982af4b48, type: 2}
   DialogTexts:
+  - I'm glad we're all pro-pillaging here.
   - O-Of course! Did it ever sound like I wasn't?
+  DialogAudio: []
   Events: []

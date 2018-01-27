@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Name: Phase 1 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - (bend the knee)
   - 'W- what are you doing?! Oh my... '
   - You may have caught me off guard, but still! Don't believe you can persuade me
     that easily!
   - Stand up, I can't handle this much flattery.
   - I hope none of the other villages hear about this...
+  DialogAudio: []
   Events: []

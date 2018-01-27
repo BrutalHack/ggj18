@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 4 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 0}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - (sigh in a melancholic way)
   - Oh, have I hurt your feelings?
   - Do you dwell on the past? Some village must have disappointed you, am I right?
   - Were their treasures nothing but air?
+  DialogAudio: []
   Events: []

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: Brittany (Angry)
   m_EditorClassIdentifier: 
   Name: Brittany
-  SoundEffect: {fileID: 0}
-  Sprite: {fileID: 0}
+  ActorGameObject: {fileID: 1589087395501398, guid: 027ccb7611e814181b197edf3a9717a4,
+    type: 2}
+  ActorType: 0

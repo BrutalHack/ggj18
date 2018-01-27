@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 5 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   DialogTexts:
+  - Can't I just be a simple viking, head over heels in bloodlust?
   - Haha, you're right. Bloodlust truly is a powerful emotion.
   - Why shouldn't we just give in to our emotions, and be just conqueror and conqueree?
   - It could be so simple.
+  DialogAudio: []
   Events: []

@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Name: Phase 5 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   DialogTexts:
+  - I'm sorry, I was just thinking of those other rich, defenseless settlements again.
   - What?!
   - You're so heartless! Why do you disrespect my feelings in such a way?
   - You can't just invade a foreign nation and expect a subjugated village not to
     feel ANY affection!
   - It's over!!!
+  DialogAudio: []
   Events: []

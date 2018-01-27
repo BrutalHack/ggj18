@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Phase 1 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   - {fileID: 11400000, guid: 3d5482606f1aa19459fd56acbcb4e0be, type: 2}
   - {fileID: 11400000, guid: 3d5482606f1aa19459fd56acbcb4e0be, type: 2}
@@ -19,11 +20,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - Hello Brittany. I'd like to plunder your village.
   - Oh, Viking-San! I bet you say that to ALL the villages you plunder!
   - That's it, brave viking! You have begun PILLAGING!
   - Before your next action - listen closely!
   - You might spot some CLUES for the best course of action...
-  - You might spot some CLUES for the best course of action...
+  - To tell the truth, I'm a little nervous... Not like you confident seafarers.
   - I heard that you vikings even grow more powerful through something called LIQUID
     COURAGE!
+  DialogAudio: []
   Events: []

@@ -22,6 +22,11 @@ MonoBehaviour:
   - The British village rejected Olaf, and was later attacked by a fierce, handsome
     raiding party from, I dunno, probably Denmark.
   - Do not fret... It happens to the best of vikings.
+  DialogAudio:
+  - {fileID: 8300000, guid: 06ecd09d6ed4c43aca414adc415ea2f5, type: 3}
+  - {fileID: 8300000, guid: 528c6c350e9d0447089d42d1f2757186, type: 3}
+  - {fileID: 8300000, guid: fa77f8d92bf92409ea8219f8688a742c, type: 3}
+  - {fileID: 8300000, guid: 9b49da1912a7b4327a3c318d80b7fd46, type: 3}
   Events:
   - m_PersistentCalls:
       m_Calls: []

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 112a26cf68abd3640b759470b15c5384, type: 2}
   DialogOptions:
-  - I'm glad we're all pro-pillaging here.
+  - I'm glad.
   - (grunt happily)
-  - Let me apologize, too - I admit, I could've tried being less badass.
+  - Let me apologize, too.
   - Nah.
   Dialogs:
   - {fileID: 11400000, guid: 8869946ae85a23945b86308b27664e42, type: 2}

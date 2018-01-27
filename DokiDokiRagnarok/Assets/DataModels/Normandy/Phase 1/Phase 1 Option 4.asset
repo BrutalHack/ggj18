@@ -12,15 +12,19 @@ MonoBehaviour:
   m_Name: Phase 1 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - Hey, what's your problem? I'm just here to loot and pillage, no need to get upset
+    about it!
   - I'm ABSOLUTELY NOT upset!
   - And if I am, it's because I wanted to! You unwashed barbarian!
   - You know what'd make me upset? YOU KNOW WHAT'd really grind my gears? You know
     what'd REALLY rustle my jimmies?
   - Bringing YOUR ICKY STICKY HONEY DRINK here! Don't you dare pour that stuff, I
     can see you're itching to!
+  DialogAudio: []
   Events: []

@@ -15,8 +15,8 @@ MonoBehaviour:
   DialogOptions:
   - No.
   - (grunt intensely)
-  - (grunt intensely)
-  - Enough talk, Normandy! Let us pillage our sorrows away, and burn down your township!
+  - Only if you're Normandy-Chan.
+  - Enough talk!
   Dialogs:
   - {fileID: 11400000, guid: 6a162352ebd38fe46aa6f44e2c9d15b0, type: 2}
   - {fileID: 11400000, guid: c5fe8773dcf61a4489115011b5656299, type: 2}

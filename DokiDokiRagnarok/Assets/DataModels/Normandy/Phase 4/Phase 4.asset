@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 1b6c8f1904845274c95ad45a8a6bda1a, type: 2}
   DialogOptions:
-  - We're all afraid to love, which is why I replaced all of MY love with casual pillaging.
+  - We're all afraid to love.
   - (grunt understandingly)
-  - You need to come out of your shell, Normandy, to allow pillaging into your township
-    once again.
-  - I'm, like, WAY beyond checked out at this point.
+  - Come out of your shell.
+  - I totally checked out.
   Dialogs:
   - {fileID: 11400000, guid: a3b268b72917f5d44810c2a8039e8ae3, type: 2}
   - {fileID: 11400000, guid: 2a0816f9a7870e14f96222085a619928, type: 2}

@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Name: Phase 1 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   DialogTexts:
+  - (grunt indignantly)
   - Yeah, you just hatin' because you can't handle the continental-sized loads of
     truth I'm heaping on your plate here, unwashed barbarian!
   - Yeah, you just hatin' because you can't handle the continental-sized loads of
     truth I'm heaping on your plate here, unwashed barbarian!
   - You and those accursed Englishmen!
   - Grrrrrrr! I HATE THOSE ENGLISH GUYS SO MUCH!
+  DialogAudio: []
   Events: []

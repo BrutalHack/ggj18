@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Name: Phase 4 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   DialogTexts:
+  - (start crying uncontrollably, but in a badass way)
   - Viking-San?! Some kind of liquid is leaking from your eyes!
   - Is it the blood of your enemies?! Or pure mead?!
   - Oh, you're... crying.
   - I must admit, that seems like the least likely viking-related liquid...
+  DialogAudio: []
   Events: []

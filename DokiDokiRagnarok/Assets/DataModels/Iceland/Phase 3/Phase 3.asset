@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 173158b9be3a4394bbf0df7cb44ce6f2, type: 2}
   DialogOptions:
-  - What is more honest than throwing tantrums with an axe?
-  - '(lie) You know, I always wanted to be a baker. '
+  - Axes are honest.
+  - (lie)
   - (shrug)
-  - Izzi-Sama, I am an honest Warrior and you are honestly full of riches. It's a
-    match.
+  - I am an honest warrior.
   Dialogs:
   - {fileID: 11400000, guid: 3d7f97f4b9af0f143bc70995f4a2baa7, type: 2}
   - {fileID: 11400000, guid: cf75a71cee1eeb142854a7c743ed9150, type: 2}

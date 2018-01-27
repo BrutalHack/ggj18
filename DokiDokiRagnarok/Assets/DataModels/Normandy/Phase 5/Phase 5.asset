@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 20b0e6b52906b184fb2e4fa1fc0fff37, type: 2}
   DialogOptions:
-  - Incredibly rad all the time.
-  - (belch, but try to pass it off as a warcry)
-  - There is an emptiness in my heart that no amount of pillaging, or actual hearts,
-    could ever fill.
-  - Incredibly unhygienic.
+  - Incredibly rad.
+  - (belch)
+  - Emptiness in my heart.
+  - Unhygienic.
   Dialogs:
   - {fileID: 11400000, guid: 7c5a56a3a140fa648a2b124328465665, type: 2}
   - {fileID: 11400000, guid: 9f63566db07ecf5449fe88347c4914d0, type: 2}

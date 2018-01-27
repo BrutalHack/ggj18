@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 4 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - Brittany, I want to be more than just conquerbuddies.
   - Huh?!
   - D-Don't be stupid!
   - It's not like I want you to subjugate my populace or anything! B-Baka!
+  DialogAudio: []
   Events: []

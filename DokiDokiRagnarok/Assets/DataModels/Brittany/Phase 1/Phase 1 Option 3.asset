@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Phase 1 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   - {fileID: 11400000, guid: 3d5482606f1aa19459fd56acbcb4e0be, type: 2}
@@ -20,6 +21,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   DialogTexts:
+  - (grunt plunderingly)
   - W-What are you insinuating, Viking-San?
   - Are - are your grunts some sort of communication? How rude! At least use words
     when you address a simple British fishing village!
@@ -28,4 +30,5 @@ MonoBehaviour:
   - You might spot some CLUES for the best course of action...
   - Ah! Now you made me all flustered...
   - Just what are you trying to pull by making me LOSE MY COMPOSURE, Viking-San?!
+  DialogAudio: []
   Events: []

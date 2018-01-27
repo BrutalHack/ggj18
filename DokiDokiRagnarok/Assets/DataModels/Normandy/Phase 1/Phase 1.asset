@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: cfec1a0b24e08504e8beaa6b88476d63, type: 2}
   DialogOptions:
-  - Uh, I like your... fjords.
+  - I like your fjords.
   - (grunt indignantly)
-  - My shtick can't be tired, it's Odin's shtick!
-  - Hey, what's your problem? I'm just here to loot and pillage, no need to get upset
-    about it!
+  - My shtick isn't tired!
+  - What's your problem?
   Dialogs:
   - {fileID: 11400000, guid: a21cf0e0655ea8b439a071de79e9d1b5, type: 2}
   - {fileID: 11400000, guid: 908f5f7452a0a604d9a0dcc81b24e71a, type: 2}

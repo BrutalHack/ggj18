@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 6 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - This raid will be one you won't be able to forget!
   - There he goes again being cocky...
   - I thought you would have learned a bit about me by now...
   - Such disappointment...
+  DialogAudio: []
   Events: []

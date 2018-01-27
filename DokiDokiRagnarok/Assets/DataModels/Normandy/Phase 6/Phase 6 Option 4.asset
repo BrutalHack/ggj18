@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Name: Phase 6 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - Enough talk, Normandy! Let us pillage our sorrows away, and burn down your township!
   - Wow, that's some uncharacteristic language right there.
   - But, I don't mind. I'll face the world again!
   - My township is ready to be pillaged, and I've been a bad, bad midcontinental strip
     of coastal landscape!
+  DialogAudio: []
   Events: []

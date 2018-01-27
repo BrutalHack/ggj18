@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 6 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - Uuuuh, I don't really know this Canute guy.
   - Oh. Uh, neither do I, actually.
   - Now this is an awkward note to go out on...
   - Shall we just see where an afternoon of relaxed pillaging takes us?
+  DialogAudio: []
   Events: []

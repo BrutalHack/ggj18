@@ -22,6 +22,11 @@ MonoBehaviour:
   - The icelandish village rejected Olaf, and was later attacked by a fierce, handsome
     raiding party from, I dunno, probably Denmark.
   - Do not fret... It happens to the best of vikings.
+  DialogAudio:
+  - {fileID: 8300000, guid: 4f21b6fcd59c74d3abaea78200bf3908, type: 3}
+  - {fileID: 8300000, guid: 0727f3488137d4963b90dbf5989be581, type: 3}
+  - {fileID: 8300000, guid: a83164db754804769968af2959d17a03, type: 3}
+  - {fileID: 8300000, guid: c25e62b13078142c9a200dab9ad90a19, type: 3}
   Events:
   - m_PersistentCalls:
       m_Calls: []

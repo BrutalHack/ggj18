@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Name: Phase 4 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 0bd91ba7f143aa048b2043664426c539, type: 2}
   DialogTexts:
+  - I raid until there is nothing left to flourish!
   - 'Such an egoistic way of life! '
   - Do you ever think of the huts you leave behind?
+  DialogAudio: []
   Events: []

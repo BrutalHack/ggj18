@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 34bf4222ed05c0f428a116c746b7ef41, type: 2}
   DialogOptions:
-  - It is the richest country of all I've seen so far.
-  - This raid will be one you won't be able to forget!
-  - Izzi-sama, I shall keep you in my volcano forever...
-  - (scratch your beard and nod)
+  - It is the richest country.
+  - You won't forget this raid!
+  - I will remember you.
+  - (scratch beard)
   Dialogs:
   - {fileID: 11400000, guid: 4dc77cf6881c80a439406348db5ede67, type: 2}
   - {fileID: 11400000, guid: 8461d5db3bdd27a48b28d24a9a6205b7, type: 2}

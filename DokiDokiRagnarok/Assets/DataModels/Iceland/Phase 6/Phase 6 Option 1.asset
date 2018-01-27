@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Name: Phase 6 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - It is the richest country of all I've seen so far.
   - 'Such... such... flattery... '
+  DialogAudio: []
   Events: []

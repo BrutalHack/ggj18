@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: acd2e3d0d8898b242b5b08498765c0f5, type: 2}
   DialogOptions:
-  - Fertile land is always worth burning again.
+  - Fertile land is worth burning.
   - (sigh in a melancholic way)
-  - I raid until there is nothing left to flourish!
+  - I raid until nothing is left!
   - (ignore the question and burp)
   Dialogs:
   - {fileID: 11400000, guid: 51b1ca236658b0949ae748d1f11d0eee, type: 2}

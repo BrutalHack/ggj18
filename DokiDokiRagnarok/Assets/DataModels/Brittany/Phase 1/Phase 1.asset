@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 670ec203faac9894899f8dfedf03b16e, type: 2}
   DialogOptions:
-  - Hello Brittany. I'd like to plunder your village.
-  - I'm doing fine. Thanks for asking.
+  - I'd like to plunder your village.
+  - I'm doing fine.
   - (grunt plunderingly)
-  - (start with confused pillaging motions)
+  - (start confused pillaging motions)
   Dialogs:
   - {fileID: 11400000, guid: 094aae797b2666c40afd3e17a8299132, type: 2}
   - {fileID: 11400000, guid: e3ea85e3b167f7e46871ba1b0bd66e55, type: 2}

@@ -32,6 +32,12 @@ MonoBehaviour:
   - And here I thought that I, Loki, could trick you with my false advice!
   - Good job! Hahahahaaaaa...
   - So long, sucker!
+  DialogAudio:
+  - {fileID: 8300000, guid: 34987a34df1e84392a83c2fd55aa0b58, type: 3}
+  - {fileID: 8300000, guid: 010dc1c8d2e47471e9fce6f7e1b3cc8d, type: 3}
+  - {fileID: 8300000, guid: 82950ad6aa08c4a3e9e8f69aaa0d0e7b, type: 3}
+  - {fileID: 8300000, guid: 08cd7c959da27472a84f53cc9ceaf981, type: 3}
+  - {fileID: 8300000, guid: facfeea78b9d14072980a2afc1008539, type: 3}
   Events:
   - m_PersistentCalls:
       m_Calls: []

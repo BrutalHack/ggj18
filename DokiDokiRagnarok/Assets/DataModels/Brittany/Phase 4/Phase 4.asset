@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: 16a5776002ad36d4584b7c5a55b3ed9c, type: 2}
   DialogOptions:
-  - Brittany, I want to be more than just conquerbuddies.
-  - Friendship is one of the many emotions I have replaced with rage.
-  - You cut my life into pieces. This is my last resort.
-  - (start crying uncontrollably, but in a badass way)
+  - I want to be more.
+  - I know no friendship.
+  - You cut my life into pieces.
+  - (start crying)
   Dialogs:
   - {fileID: 11400000, guid: 8289e1a10e879104aa02d74cf8c5c0e6, type: 2}
   - {fileID: 11400000, guid: 7c034e14f5d66b14f97a92689c272366, type: 2}

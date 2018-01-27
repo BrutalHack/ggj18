@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Name: Phase 2 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - (grunt hopefully)
   - Yeah, I didn't really catch that, but I think I heard some hopeful grunting in
     there?
-  - Yeah, I didn't really catch that, but I think I heard some hopeful grunting in
-    there?
+  - You really don't know when to give up, do you? I told you I don't want any pillaging.
   - I recognize your natural desire to set the coastlines aflame, but I just can't!
+  DialogAudio: []
   Events: []

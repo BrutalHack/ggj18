@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: c9003018b2db7264f8a2f2b970064d66, type: 2}
   DialogOptions:
-  - I greet thee Izzi-sama, may I have a look at those so called riches?
+  - I greet thee, Izzi-sama!
   - '(mumble) S-sorry... '
   - (bend the knee)
   - (present your goods)

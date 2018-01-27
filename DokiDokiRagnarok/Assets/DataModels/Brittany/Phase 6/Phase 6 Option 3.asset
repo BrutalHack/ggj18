@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Name: Phase 6 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - I'd conquer you for noone... but for love.
   - What a cheesy line!
   - Yet it fits perfectly to your rancid viking smell.
   - It's like sour milk... meets fierce invader passion.
   - Oh, Viking-San...
+  DialogAudio: []
   Events: []

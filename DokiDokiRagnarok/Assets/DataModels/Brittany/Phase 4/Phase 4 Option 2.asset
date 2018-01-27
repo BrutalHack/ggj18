@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Name: Phase 4 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - Friendship is one of the many emotions I have replaced with rage.
   - Wow, that must be very convenient.
   - Then you don't have to feel as many things. You'd have much more efficient feelings
     that way!
   - Your belief in your badass gods must help you KEEP YOUR EMOTIONS IN CHECK.
+  DialogAudio: []
   Events: []

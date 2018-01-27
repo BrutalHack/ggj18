@@ -23,6 +23,12 @@ MonoBehaviour:
   - The fields burn, the huts are ruined, the village treasures have been stolen.
   - Truly a happy end for everyone involved.
   - Praise Odin!
+  DialogAudio:
+  - {fileID: 8300000, guid: 33e93aaa3aef44f008601c0589b3156a, type: 3}
+  - {fileID: 8300000, guid: 218beadc4cd3d471fa0f6d8aa2c35288, type: 3}
+  - {fileID: 8300000, guid: 9e7c96957efcd42e0962c80a2fba4c8c, type: 3}
+  - {fileID: 8300000, guid: b77af20d5f8d24482abdcd859b0b8f94, type: 3}
+  - {fileID: 8300000, guid: 4cdafba2be6e34d719b85774293912a4, type: 3}
   Events:
   - m_PersistentCalls:
       m_Calls: []

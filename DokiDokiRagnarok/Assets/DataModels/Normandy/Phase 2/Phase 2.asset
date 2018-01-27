@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Intro: {fileID: 11400000, guid: de758c31e81c9c44cb0f30c5e7c2f186, type: 2}
   DialogOptions:
-  - No. Buzzing is what bees do, and I'm much bigger than a bee.
+  - I don't buzz.
   - (grunt hopefully)
-  - You keep calling me an unwashed barbarian, and that is starting to hurt my feelings.
-  - But pillaging is a wholesome activity for the whole family, recommended by leading
-    vikings!
+  - Unwashed barbarian?
+  - Pillaging is fun!
   Dialogs:
   - {fileID: 11400000, guid: f4669522f3524df4c8726ec941689faa, type: 2}
   - {fileID: 11400000, guid: 27e5213da13a2494c9f5bb2d12332eda, type: 2}

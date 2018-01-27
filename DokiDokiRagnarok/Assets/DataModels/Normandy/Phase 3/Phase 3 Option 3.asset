@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Name: Phase 3 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - Let me apologize, too - I admit, I could've tried being less badass.
   - I understand. It must be difficult for a viking to surpress the blazing inferno
     of badass within.
   - Why not channel some of those badass impulses toward the English?
   - I'd love to SEE ENGLAND BURN.
+  DialogAudio: []
   Events: []

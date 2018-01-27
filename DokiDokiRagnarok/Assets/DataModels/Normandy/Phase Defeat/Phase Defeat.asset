@@ -17,6 +17,9 @@ MonoBehaviour:
   DialogTexts:
   - Well.
   - That sucked.
+  DialogAudio:
+  - {fileID: 8300000, guid: ca782a901c6ff49b8bb14dbae0dff581, type: 3}
+  - {fileID: 8300000, guid: 17256ee7018464a5e871c7815d821e76, type: 3}
   Events:
   - m_PersistentCalls:
       m_Calls: []

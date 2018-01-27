@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Name: Phase 1 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 09f3b34eb8dcb1d4b8ff1ecc25bbce80, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - (present your goods)
   - So you want to compare riches?
   - I won't show you what's behind my doors just because you start bragging!
   - Is that why you're here?
   - To show me the SKILLS your people are known for?
+  DialogAudio: []
   Events: []

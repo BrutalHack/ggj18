@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 2 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - I'm a badass vegetarian.
   - Wow, that's so interesting!
   - I feel like a responsible diet is an often underestimated aspect of proper vikanism.
   - Such as mead. I heard successive drinks have GREAT CUMULATIVE EFFECTS!
+  DialogAudio: []
   Events: []

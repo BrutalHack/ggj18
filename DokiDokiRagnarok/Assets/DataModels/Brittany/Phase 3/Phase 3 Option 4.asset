@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 3 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
+  - Sorry, I was distracted by those rich, defenseless settlements. You were saying?
   - 'Oh, Viking-San, that''s so awful of you! '
   - You broke the will of my peasants... but did you have to break my heart, too?!
   - Sometimes I think you're just making me angry TO ATTACK SOMEWHERE ELSE!
+  DialogAudio: []
   Events: []

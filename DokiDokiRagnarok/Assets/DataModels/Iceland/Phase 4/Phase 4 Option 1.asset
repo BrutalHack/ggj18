@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 4 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 09f3b34eb8dcb1d4b8ff1ecc25bbce80, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - Fertile land is always worth burning again.
   - Nani?!
   - I was talking about riches, but YOU evidently only care about one thing!
   - Destruction!
+  DialogAudio: []
   Events: []

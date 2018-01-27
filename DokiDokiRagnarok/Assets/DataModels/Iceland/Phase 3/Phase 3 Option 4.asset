@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Name: Phase 3 Option 4
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
+  - Izzi-Sama, I am an honest Warrior and you are honestly full of riches. It's a
+    match.
   - You think so?
-  - What is this tingly feeling inside me...? Your words flattter me.
+  - (blow the horn)
   - If you keep this up, I might let you in on my kinky side...
+  DialogAudio: []
   Events: []

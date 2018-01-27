@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Name: Phase 6 Option 2
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - (grunt intensely)
   - From that sound, I can only glean what might as well be confirmation!
   - Alright then! Viking-Sempai it is!
   - This has been a truly magical hostile invasion, Viking-Sempai.
   - You have opened my eyes, and prepared me to tackle the world again!
   - But I don't know what I should do...
+  DialogAudio: []
   Events: []

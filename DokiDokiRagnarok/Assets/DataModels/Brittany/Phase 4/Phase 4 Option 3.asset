@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Name: Phase 4 Option 3
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   DialogTexts:
+  - You cut my life into pieces. This is my last resort.
   - Now, now, let's not quote any lyrics we might regret later.
   - But I appreciate your honesty!
+  DialogAudio: []
   Events: []

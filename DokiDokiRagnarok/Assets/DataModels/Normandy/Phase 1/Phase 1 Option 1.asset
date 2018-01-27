@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Phase 1 Option 1
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
+  - Uh, I like your... fjords.
   - What?! What do you think you're saying?
   - I'm mainland! I ride with the continental gang, dude!
   - Ain't no fjords up in this joint, unwashed barbarian!
+  DialogAudio: []
   Events: []
