@@ -7,6 +7,6 @@ public class StartGame : MonoBehaviour {
 
     public void StartLevel()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("PickViking");
     }
 }
