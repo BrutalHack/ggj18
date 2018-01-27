@@ -9,8 +9,11 @@
       <e p="Assets" t="Include">
         <e p="Editor" t="Include">
           <e p="DataModels" t="Include">
+            <e p="ActorModelAsset.cs" t="Include" />
+            <e p="DialogSegmentModelAsset.cs" t="Include" />
+            <e p="RaidModelAsset.cs" t="Include" />
+            <e p="RaidPhaseModelAsset.cs" t="Include" />
             <e p="ScriptableObjectUtility.cs" t="Include" />
-            <e p="VillageModelAsset.cs" t="Include" />
           </e>
         </e>
         <e p="Plugins" t="Include">
@@ -22,9 +25,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Models" t="Include">
-            <e p="VillageModel.cs" t="Include" />
+            <e p="ActorModel.cs" t="Include" />
+            <e p="DialogSegmentModel.cs" t="Include" />
+            <e p="RaidModel.cs" t="Include" />
+            <e p="RaidPhaseModel.cs" t="Include" />
           </e>
-          <e p="NewBehaviourScript.cs" t="Include" />
         </e>
       </e>
       <e p="DokiDokiRagnarok.sln" t="IncludeFlat" />
