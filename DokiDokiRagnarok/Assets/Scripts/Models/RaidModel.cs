@@ -7,5 +7,8 @@ namespace DokiDokiRagnarok.Models
     {
         public string Name;
         public List<RaidPhaseModel> RaidPhases;
+        
+        public DialogModel VictoryDialog;
+        public DialogModel DefeatDialog;
     }
 }
