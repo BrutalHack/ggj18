@@ -15,10 +15,10 @@ namespace DokiDokiRagnarok.UI
             string message = @"My name is Olaf!
 I am a true Viking and, thus, pretty much a certified badass.
 Yet I've never actually raided a village before!";
-            DisplayText(message);
+            ShowText(message);
         }
 
-        void DisplayText(string message)
+        public void ShowText(string message)
         {
             TextComponent = GetComponent<Text>();
             TextComponent.text = "";
@@ -31,7 +31,6 @@ Yet I've never actually raided a village before!";
             {
                 TextComponent.text += letter;
                 yield return 0;
-                Debug.Log(letter == '\n');
                 if (letter == '\n')
                 {
                     yield return new WaitForSeconds(_newLineInterval);

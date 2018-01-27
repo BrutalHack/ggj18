@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DokiDokiRagnarok.Models;
+using UnityEngine;
 
 namespace DokiDokiRagnarok.Controllers
 {
@@ -15,15 +16,26 @@ namespace DokiDokiRagnarok.Controllers
 
         void Start()
         {
-            SetEmotion(Emotion.Angry);
-            SetVikingActor(VikingPrefab);
-            SetVillageActor(VillagePrefab);
-            SetOdin(true);
-            SetLoki(true);
         }
 
-        void Update()
+        public void SetActor(ActorModel actor)
         {
+            if (actor.ActorType == ActorType.Loki)
+            {
+                SetLoki(true);
+            }
+            else if (actor.ActorType == ActorType.Odin)
+            {
+                SetOdin(true);
+            }
+            else if (actor.ActorType == ActorType.Player)
+            {
+                SetVikingActor(actor.ActorGameObject);
+            }
+            else if (actor.ActorType == ActorType.Village)
+            {
+                SetVillageActor(actor.ActorGameObject);
+            }
         }
 
         public void DisableAllActors()
