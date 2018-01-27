@@ -7,5 +7,6 @@ namespace DokiDokiRagnarok.Models
         public string Name;
         public AudioClip SoundEffect;
         public GameObject ActorGameObject;
+        public ActorType ActorType;
     }
 }

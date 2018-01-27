@@ -16,7 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 'Oh, Mr. Viking, that''s so awful of you! '
+  - 'Oh, Viking-San, that''s so awful of you! '
   - You broke the will of my peasants... but did you have to break my heart, too?!
   - Sometimes I think you're just making me angry TO ATTACK SOMEWHERE ELSE!
   Events: []

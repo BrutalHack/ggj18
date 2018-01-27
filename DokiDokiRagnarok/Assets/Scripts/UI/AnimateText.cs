@@ -9,19 +9,16 @@ namespace DokiDokiRagnarok.UI
         [SerializeField] private float _letterInterval = 0.01f;
         [SerializeField] private float _newLineInterval = 0.4f;
         public Text TextComponent;
+        public Button TextButton;
 
         void Start()
         {
-            string message = @"My name is Olaf!
-I am a true Viking and, thus, pretty much a certified badass.
-Yet I've never actually raided a village before!";
-            DisplayText(message);
         }
 
-        void DisplayText(string message)
+        public void ShowText(string message)
         {
-            TextComponent = GetComponent<Text>();
             TextComponent.text = "";
+            TextButton.interactable = false;
             StartCoroutine(TypeText(message));
         }
 
@@ -31,7 +28,6 @@ Yet I've never actually raided a village before!";
             {
                 TextComponent.text += letter;
                 yield return 0;
-                Debug.Log(letter == '\n');
                 if (letter == '\n')
                 {
                     yield return new WaitForSeconds(_newLineInterval);
@@ -41,6 +37,7 @@ Yet I've never actually raided a village before!";
                     yield return new WaitForSeconds(_letterInterval);
                 }
             }
+            TextButton.interactable = true;
         }
     }
 }

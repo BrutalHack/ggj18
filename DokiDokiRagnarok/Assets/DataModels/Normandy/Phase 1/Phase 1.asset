@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 1
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: cfec1a0b24e08504e8beaa6b88476d63, type: 2}
+  DialogOptions:
+  - Uh, I like your... fjords.
+  - (grunt indignantly)
+  - My shtick can't be tired, it's Odin's shtick!
+  - Hey, what's your problem? I'm just here to loot and pillage, no need to get upset
+    about it!
+  Dialogs:
+  - {fileID: 11400000, guid: a21cf0e0655ea8b439a071de79e9d1b5, type: 2}
+  - {fileID: 11400000, guid: 908f5f7452a0a604d9a0dcc81b24e71a, type: 2}
+  - {fileID: 11400000, guid: e82ab416a479de5449038a115145be57, type: 2}
+  - {fileID: 11400000, guid: bd0f0bf24a060ad429bef53a89cdee40, type: 2}

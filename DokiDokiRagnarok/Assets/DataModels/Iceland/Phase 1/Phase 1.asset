@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 1
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: c9003018b2db7264f8a2f2b970064d66, type: 2}
+  DialogOptions:
+  - I greet thee Izzi-sama, may I have a look at those so called riches?
+  - '(mumble) S-sorry... '
+  - (bend the knee)
+  - (present your goods)
+  Dialogs:
+  - {fileID: 11400000, guid: 28ca0cc07c1c69a42902cf6b998b685a, type: 2}
+  - {fileID: 11400000, guid: 5a7b3056532c0984188391ea6ec39a04, type: 2}
+  - {fileID: 11400000, guid: 256dae9d6ae108440b698696ab6bbb8a, type: 2}
+  - {fileID: 11400000, guid: e2e344d86ea7c2d408df547051c3e4d1, type: 2}

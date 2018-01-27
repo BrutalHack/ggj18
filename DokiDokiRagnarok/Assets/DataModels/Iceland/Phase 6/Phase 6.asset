@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 6
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: 34bf4222ed05c0f428a116c746b7ef41, type: 2}
+  DialogOptions:
+  - It is the richest country of all I've seen so far.
+  - This raid will be one you won't be able to forget!
+  - Izzi-sama, I shall keep you in my volcano forever...
+  - (scratch your beard and nod)
+  Dialogs:
+  - {fileID: 11400000, guid: 4dc77cf6881c80a439406348db5ede67, type: 2}
+  - {fileID: 11400000, guid: 8461d5db3bdd27a48b28d24a9a6205b7, type: 2}
+  - {fileID: 11400000, guid: aedeaa519a5555841ad80ffea51ac65c, type: 2}
+  - {fileID: 11400000, guid: 759fbd857edcd9b44ad3652c07650ade, type: 2}

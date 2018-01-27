@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DokiDokiRagnarok.Models;
+using UnityEngine;
 
 namespace DokiDokiRagnarok.Controllers
 {
@@ -15,21 +16,31 @@ namespace DokiDokiRagnarok.Controllers
 
         void Start()
         {
-            SetEmotion(Emotion.Angry);
-            SetVikingActor(VikingPrefab);
-            SetVillageActor(VillagePrefab);
-            SetOdin(true);
-            SetLoki(true);
         }
 
-        void Update()
+        public void SetActor(ActorModel actor)
         {
+            if (actor.ActorType == ActorType.Loki)
+            {
+                SetLoki(true);
+            }
+            else if (actor.ActorType == ActorType.Odin)
+            {
+                SetOdin(true);
+            }
+            else if (actor.ActorType == ActorType.Player)
+            {
+                SetVikingActor(actor.ActorGameObject);
+            }
+            else if (actor.ActorType == ActorType.Village)
+            {
+                SetVillageActor(actor.ActorGameObject);
+            }
         }
 
         public void DisableAllActors()
         {
             destroyAllChildren(VillageActor.transform);
-            destroyAllChildren(VikingActor.transform);
             LokiActor.SetActive(false);
             OdinActor.SetActive(false);
         }
@@ -52,7 +63,11 @@ namespace DokiDokiRagnarok.Controllers
         public void SetVikingActor(GameObject actorPrefab)
         {
             DisableAllActors();
-            Instantiate(actorPrefab, VikingActor.transform);
+            destroyAllChildren(VikingActor.transform);
+            if (actorPrefab != null)
+            {
+                Instantiate(actorPrefab, VikingActor.transform);
+            }
         }
 
         public void SetLoki(bool active)
@@ -70,7 +85,10 @@ namespace DokiDokiRagnarok.Controllers
         public void SetVillageActor(GameObject actorPrefab)
         {
             DisableAllActors();
-            Instantiate(actorPrefab, VillageActor.transform);
+            if (actorPrefab != null)
+            {
+                Instantiate(actorPrefab, VillageActor.transform);
+            }
         }
 
         private void destroyAllChildren(Transform node)

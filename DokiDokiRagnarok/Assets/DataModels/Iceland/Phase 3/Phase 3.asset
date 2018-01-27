@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 3
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: 173158b9be3a4394bbf0df7cb44ce6f2, type: 2}
+  DialogOptions:
+  - What is more honest than throwing tantrums with an axe?
+  - '(lie) You know, I always wanted to be a baker. '
+  - (shrug)
+  - Izzi-Sama, I am an honest Warrior and you are honestly full of riches. It's a
+    match.
+  Dialogs:
+  - {fileID: 11400000, guid: 3d7f97f4b9af0f143bc70995f4a2baa7, type: 2}
+  - {fileID: 11400000, guid: cf75a71cee1eeb142854a7c743ed9150, type: 2}
+  - {fileID: 11400000, guid: e2a5ce9f1864bd144bdb16bf8c3a6457, type: 2}
+  - {fileID: 11400000, guid: f669c7d1fd7e43447b4c7175aadeb28a, type: 2}

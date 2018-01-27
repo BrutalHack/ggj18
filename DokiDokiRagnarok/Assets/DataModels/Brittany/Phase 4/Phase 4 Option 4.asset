@@ -17,7 +17,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   DialogTexts:
-  - Mr. Viking?! Some kind of liquid is leaking from your eyes!
+  - Viking-San?! Some kind of liquid is leaking from your eyes!
   - Is it the blood of your enemies?! Or pure mead?!
   - Oh, you're... crying.
   - I must admit, that seems like the least likely viking-related liquid...
