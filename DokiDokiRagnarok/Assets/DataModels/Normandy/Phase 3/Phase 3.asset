@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 3
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: 112a26cf68abd3640b759470b15c5384, type: 2}
+  DialogOptions:
+  - I'm glad we're all pro-pillaging here.
+  - (grunt happily)
+  - Let me apologize, too - I admit, I could've tried being less badass.
+  - Nah.
+  Dialogs:
+  - {fileID: 11400000, guid: 8869946ae85a23945b86308b27664e42, type: 2}
+  - {fileID: 11400000, guid: 9188a92eff616214aaa2caf6b2a6dcbb, type: 2}
+  - {fileID: 11400000, guid: bb2f02f303e997144956a0db1782a7eb, type: 2}
+  - {fileID: 11400000, guid: 5ae3848de64a9d94e8c72eef8911058a, type: 2}

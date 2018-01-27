@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 5
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: 8c202009078c42d44b8b86d59f378d29, type: 2}
+  DialogOptions:
+  - Did they see fire inside the mountain?
+  - (laughing out loud)
+  - For me it would only be a sunburn!
+  - It will be swift for I can run like the wind!
+  Dialogs:
+  - {fileID: 11400000, guid: fe5e0f5848450f848adaa1231ccdc231, type: 2}
+  - {fileID: 11400000, guid: 93b75df164b7f2843aef9251037a2efe, type: 2}
+  - {fileID: 11400000, guid: 895d549c6d6a7f6489fd70ab9326e634, type: 2}
+  - {fileID: 11400000, guid: 9b5ad73222c26f64a9810c120431ffef, type: 2}

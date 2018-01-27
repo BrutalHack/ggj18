@@ -14,5 +14,5 @@ MonoBehaviour:
   Actors:
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   DialogTexts:
-  - Oh, Mr. Viking...
+  - Oh, Viking-San...
   Events: []

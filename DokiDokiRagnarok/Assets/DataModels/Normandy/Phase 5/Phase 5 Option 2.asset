@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
+  m_Name: Phase 5 Option 2
+  m_EditorClassIdentifier: 
+  Actors:
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
+  DialogTexts:
+  - What a fearsome war cry!
+  - Now I understand! Your bellowing shout strikes fear into the hearts of the easily
+    pillagable populace!
+  - Truly, it embodies everything about the viking lifestyle!
+  - I feel like I finally understand!
+  Events: []

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
+  m_Name: Phase 1 Intro
+  m_EditorClassIdentifier: 
+  Actors:
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
+  - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
+  DialogTexts:
+  - 'Not long after you set out to sea, your inner desire for treasures even beyond
+    grows ever more restless. '
+  - 'As you breach the almost unstoppable waves and wet drops of salty water cover
+    your rugged skin, you can see dark clouds rising towards the sky. '
+  - 'Could it be? Did someone get ahead of your raiding party? '
+  - You release a pleased grunt as the worries fade from your mind.
+  - 'A rumbling noise resounds among the heavens and thick liquid erupts as a volcano
+    appears in the distance. '
+  - To its feet lies a village, awaiting your arrival.
+  - So, you finally manage to show yourself! I noticed your prying eyes from miles
+    away.
+  - '!'
+  - You aren't welcome here, Stalker! Leave me alone! For I am Izzi-Sama, the richest
+    village of them all!
+  - What do you have to say in your defense, brute?
+  Events:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

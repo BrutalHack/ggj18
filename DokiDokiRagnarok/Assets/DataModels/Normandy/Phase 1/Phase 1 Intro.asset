@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
+  m_Name: Phase 1 Intro
+  m_EditorClassIdentifier: 
+  Actors:
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: 947f0d0c68b80db4e89e98889d4e110f, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  DialogTexts:
+  - Normandy...
+  - The name alone sends shivers down your spine. But these are no mere shivers of
+    fear, the kind that a common coward would feel!
+  - These are badass shivers of anticipation!
+  - As you turn your custom overclocked dragon speedboat southwards, you cannot help
+    but imagine the alluring treasures of Normandy's coast.
+  - But, all of a sudden, land rushes right past your finely tuned booty senses!
+  - Woah! Where did this island suddenly come from?!
+  - Excuse me?!
+  - It is the coast of the Normandy, awash with easily accessible looting opportunities!
+    Oh boy!
+  - Ha-rumph! I'm no mere island! I am part of the mainland, I'll have you know!
+  - Don't think you can just pillage my town with your tired shtick, you unwashed
+    barbarian!
+  Events:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

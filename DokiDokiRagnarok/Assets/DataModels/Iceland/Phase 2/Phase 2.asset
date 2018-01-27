@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5cd2c6f4584d48a08f8d24430617ba, type: 3}
+  m_Name: Phase 2
+  m_EditorClassIdentifier: 
+  Intro: {fileID: 11400000, guid: 7a1f2640043a2884cb74a7688a7e9c1e, type: 2}
+  DialogOptions:
+  - I'm a badass viking. It's in my blood.
+  - '''Cause I like the booty.'
+  - (flex your muscles)
+  - (blow the horn)
+  Dialogs:
+  - {fileID: 11400000, guid: c44c24bdc3588624587e0e5af15614a9, type: 2}
+  - {fileID: 11400000, guid: 372cc0f28a30c2e4fbbab89aacdb949b, type: 2}
+  - {fileID: 11400000, guid: 8e9a04b278bf62e4e986aa71cabc24d1, type: 2}
+  - {fileID: 11400000, guid: aa87c08223ab7f04abbc733117996483, type: 2}

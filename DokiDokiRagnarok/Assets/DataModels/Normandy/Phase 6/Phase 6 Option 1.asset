@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
+  m_Name: Phase 6 Option 1
+  m_EditorClassIdentifier: 
+  Actors:
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: def720ba235950241b48c31982af4b48, type: 2}
+  DialogTexts:
+  - Well... I-It's not like I wanted to do that anyway!
+  - I was just asking hypothetically!
+  Events: []
