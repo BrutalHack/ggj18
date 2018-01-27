@@ -13,4 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Olaf the Destroyer
   SoundEffect: {fileID: 0}
-  Sprite: {fileID: 0}
+  ActorGameObject: {fileID: 1394981329792612, guid: 70c1d44f40a114254a0e1abc9df9a4af,
+    type: 2}
