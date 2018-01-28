@@ -49,6 +49,6 @@ public class WorldController : MonoBehaviour
     private void SelectRaid(RaidModel raidModel)
     {
         World.ChosenRaid = raidModel;
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Raid");
     }
 }

@@ -7,6 +7,8 @@ public class LoopMusic : MonoBehaviour
 {
 
     public enum WhatToPlay { Music, Loki, Odin }
+    public float Volume = 0.25f;
+
     public WhatToPlay PlayOnStart;
     public AudioClip Music;
     public AudioClip Loop;
@@ -19,9 +21,11 @@ public class LoopMusic : MonoBehaviour
 
     private AudioSource audioSource;
 
+
     void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = Volume;
 
 
         if (PlayOnStart == WhatToPlay.Loki)
@@ -32,7 +36,7 @@ public class LoopMusic : MonoBehaviour
         {
             StartCoroutine(playMusic(Odin, OdinLoop));
         }
-        else
+        else if (Music)
         {
             StartCoroutine(playMusic(Music, Loop));
         }
@@ -40,10 +44,14 @@ public class LoopMusic : MonoBehaviour
 
     IEnumerator playMusic(AudioClip clip, AudioClip loop)
     {
-        audioSource.clip = clip;
-        audioSource.Play();
-        yield return new WaitForSeconds(audioSource.clip.length);
-        if (loop != null)
+        if (clip)
+        {
+            audioSource.clip = clip;
+            audioSource.Play();
+            yield return new WaitForSeconds(audioSource.clip.length);
+        }
+
+        if (loop)
         {
             audioSource.loop = true;
             audioSource.clip = loop;
@@ -54,12 +62,19 @@ public class LoopMusic : MonoBehaviour
     public void PlayLoki()
     {
         audioSource.Stop();
-        playMusic(Loki, LokiLoop);
+        if (Loki && LokiLoop)
+        {
+            playMusic(Loki, LokiLoop);
+        }
     }
 
     public void PlayOdin()
     {
         audioSource.Stop();
-        playMusic(Odin, OdinLoop);
+        if (Odin && OdinLoop)
+        {
+            playMusic(Odin, OdinLoop);
+        }
     }
+
 }
