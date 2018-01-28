@@ -8,6 +8,6 @@ public class StartGame : MonoBehaviour
     public int NextSceneId = 1;
     public void StartLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(NextSceneId);
     }
 }
