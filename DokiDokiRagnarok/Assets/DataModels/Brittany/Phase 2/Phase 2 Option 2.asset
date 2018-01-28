@@ -20,5 +20,6 @@ MonoBehaviour:
     handsome.
   - But I do! Tell me what tragedy has ravaged you with such handsomeness.
   - Or better yet, don't! Let's make that backstory mysterious as well.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

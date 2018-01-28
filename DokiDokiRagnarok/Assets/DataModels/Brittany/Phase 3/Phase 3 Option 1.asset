@@ -25,5 +25,6 @@ MonoBehaviour:
     their livelihoods and taking their possessions...
   - '...I just feel such a warmth in my heart!'
   - Though that might just be from you setting the thatched roofs on fire.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d1331590d25324db6afa9cf72b60dc45, type: 3}
   Events: []

@@ -19,5 +19,6 @@ MonoBehaviour:
   - For me it would only be a sunburn!
   - But even a sunburn can be annoying, no?
   - Somehow I am glad you wouldn't mind taking a skinny dip in my magma...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
   Events: []

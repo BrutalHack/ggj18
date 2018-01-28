@@ -19,5 +19,6 @@ MonoBehaviour:
   - (ignore the question and burp)
   - How rude! That wasn't even a "yes" or a "no"!
   - Clearly you're only a savage, like all the other raiding parties out there!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 9016386a1d4d543abb9359f882772180, type: 3}
   Events: []

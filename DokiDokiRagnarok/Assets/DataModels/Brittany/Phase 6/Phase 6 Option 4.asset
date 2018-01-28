@@ -19,5 +19,6 @@ MonoBehaviour:
   - (belch with the reverberance of a thousand drinks)
   - Oh, Viking-San!
   - You just ALWAYS know what to say!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 2fc811f272388417bbc6b73033cb5cb7, type: 3}
   Events: []

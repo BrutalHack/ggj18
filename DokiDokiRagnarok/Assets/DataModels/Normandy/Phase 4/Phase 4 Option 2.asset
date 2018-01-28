@@ -22,5 +22,6 @@ MonoBehaviour:
   - I can't believe you unlocked my secrets with something that barely passes as human
     speech!
   - Careful - you might just grunt your way into my heart, you smelly creature.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
   Events: []

@@ -19,5 +19,6 @@ MonoBehaviour:
   - You cut my life into pieces. This is my last resort.
   - Now, now, let's not quote any lyrics we might regret later.
   - But I appreciate your honesty!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d21d9569546464266a0dc1a31f4a290c, type: 3}
   Events: []

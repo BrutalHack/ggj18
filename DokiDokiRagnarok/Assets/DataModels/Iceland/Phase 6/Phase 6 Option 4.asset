@@ -19,5 +19,6 @@ MonoBehaviour:
   - (scratch your beard and nod)
   - So tactful!
   - Who knew you could be such a gentleviking...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

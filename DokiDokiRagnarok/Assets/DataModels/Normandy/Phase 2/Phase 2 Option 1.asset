@@ -27,5 +27,6 @@ MonoBehaviour:
   - '...I can''t actually argue with that.'
   - You are, actually. You are bigger than a bee.
   - There is some hope yet for your perceptive faculties.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 7d7d2cf288baa490996f4c3579d63c2a, type: 3}
   Events: []

@@ -19,5 +19,6 @@ MonoBehaviour:
   - It will be swift for I can run like the wind!
   - Where is the fun in that?
   - Not only cocky and rude, but also egoistic!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: df1bcb945c0944b108aee5b1d1d0934f, type: 3}
   Events: []

@@ -19,5 +19,6 @@ MonoBehaviour:
   - (flex your muscles)
   - Ehhm... Why are you so cocky all of a sudden?
   - Yes, I appreciate the view, but that doesn't answer my question at all.
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 4c951fd3504234ab689eb389758e1659, type: 3}
   Events: []

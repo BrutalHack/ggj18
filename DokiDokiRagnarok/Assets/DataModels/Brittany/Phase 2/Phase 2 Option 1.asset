@@ -21,5 +21,6 @@ MonoBehaviour:
   - Wow, that's so interesting!
   - I feel like a responsible diet is an often underestimated aspect of proper vikanism.
   - Such as mead. I heard successive drinks have GREAT CUMULATIVE EFFECTS!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: f09984a1f6db34a0691e8d52ccd5d840, type: 3}
   Events: []

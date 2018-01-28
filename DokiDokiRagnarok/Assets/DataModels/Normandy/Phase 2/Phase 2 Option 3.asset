@@ -19,5 +19,6 @@ MonoBehaviour:
   - You keep calling me an unwashed barbarian, and that is starting to hurt my feelings.
   - Oh no, really?
   - Uuuuuh, I mean... Yeah, but, if you feel that way, that's all on you!
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

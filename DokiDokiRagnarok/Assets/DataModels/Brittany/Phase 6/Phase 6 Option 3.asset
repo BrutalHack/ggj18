@@ -23,5 +23,6 @@ MonoBehaviour:
   - Yet it fits perfectly to your rancid viking smell.
   - It's like sour milk... meets fierce invader passion.
   - Oh, Viking-San...
-  DialogAudio: []
+  DialogAudio:
+  - {fileID: 8300000, guid: 22c0512a074114501aba5ec3419c9186, type: 3}
   Events: []
