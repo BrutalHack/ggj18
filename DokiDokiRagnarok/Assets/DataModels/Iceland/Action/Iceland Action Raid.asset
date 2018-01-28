@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
+  m_Name: Iceland Action Raid
+  m_EditorClassIdentifier: 
+  Conditions: 04200000040000000020000000000400
+  Score: 3200000014000000140000000a000000
+  Dialogs:
+  - {fileID: 11400000, guid: d7678f6d72be26f49b4c00606aa0e32e, type: 2}
+  - {fileID: 11400000, guid: 48ce239220531ab49aeba3f526d15370, type: 2}
+  - {fileID: 11400000, guid: 55543a680b8c7cd4ead15e1a0c4015a3, type: 2}
+  - {fileID: 11400000, guid: f76f5464b19383e469cb8697513f703b, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
+  m_Name: Iceland Action England
+  m_EditorClassIdentifier: 
+  Conditions: 001000001000000000000400
+  Score: 0a0000003c0000000a000000
+  Dialogs:
+  - {fileID: 11400000, guid: 8bf1d1e69ed9a8545a81c7544f523565, type: 2}
+  - {fileID: 11400000, guid: 8fa8a1582b6363b4ea563e8062b2277e, type: 2}
+  - {fileID: 11400000, guid: 0679fc6398108274783d90e8ce3d311c, type: 2}

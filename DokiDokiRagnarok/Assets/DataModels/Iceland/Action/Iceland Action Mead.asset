@@ -9,13 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
-  m_Name: Brittany Action Dialogs
+  m_Name: Iceland Action Mead
   m_EditorClassIdentifier: 
-  Conditions: 0000000000000000000000000000000000000000
-  Score: 
+  Conditions: 0400000000000400
+  Score: 0a0000000a000000
   Dialogs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 86d16e24172644741b0254acadd442bb, type: 2}
+  - {fileID: 11400000, guid: 5c47d3fe036f2534dbf0e5ba24540c23, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
+  m_Name: Brittany Action Raid
+  m_EditorClassIdentifier: 
+  Conditions: 0800000005000000040000000100000000000400
+  Score: 320000002800000014000000140000000a000000
+  Dialogs:
+  - {fileID: 11400000, guid: 3019e120df598614296fefa2cdf10753, type: 2}
+  - {fileID: 11400000, guid: 71e85dcd07e22324f937368ea3a690b0, type: 2}
+  - {fileID: 11400000, guid: 3421af3992aa32e46a6e3b10ecfed7f0, type: 2}
+  - {fileID: 11400000, guid: 5c9596927d5c46842b795c53715f9ef6, type: 2}
+  - {fileID: 11400000, guid: 8840844d422abb242a26abbf03412b6a, type: 2}
