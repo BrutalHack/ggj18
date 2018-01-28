@@ -18,11 +18,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   DialogTexts:
-  - (start crying uncontrollably, but in a badass way)
-  - Viking-San?! Some kind of liquid is leaking from your eyes!
-  - Is it the blood of your enemies?! Or pure mead?!
-  - Oh, you're... crying.
-  - I must admit, that seems like the least likely viking-related liquid...
+  - 'OLAF: (start crying uncontrollably, but in a badass way)'
+  - 'BRITTANY: Viking-San?! Some kind of liquid is leaking from your eyes!'
+  - 'BRITTANY: Is it the blood of your enemies?! Or pure mead?!'
+  - 'BRITTANY: Oh, you''re... crying.'
+  - 'BRITTANY: I must admit, that seems like the least likely viking-related liquid...'
   DialogAudio:
   - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
   Events: []

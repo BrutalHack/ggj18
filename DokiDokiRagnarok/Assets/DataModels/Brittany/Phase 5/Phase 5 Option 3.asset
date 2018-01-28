@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   DialogTexts:
-  - 'Heehee. That rhymed. '
-  - '...what?'
-  - I mean... Yeah! It does! But that's not the point!
+  - 'OLAF: Heehee. That rhymed. '
+  - 'BRITTANY: ...what?'
+  - 'BRITTANY: I mean... Yeah! It does! But that''s not the point!'
   DialogAudio:
   - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
   Events: []

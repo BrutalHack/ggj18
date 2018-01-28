@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - What's this!? Get away with those paws!
-  - No wait! Do what you must! Yes, like that!
+  - 'ICELAND: What''s this!? Get away with those paws!'
+  - 'ICELAND: No wait! Do what you must! Yes, like that!'
   DialogAudio: []
   Events: []

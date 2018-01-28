@@ -18,13 +18,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - There was just something about the way your inhabitants flee in terror from the
-    Viking hordes.
-  - Yes, they do tend to do that.
-  - I don't know... Whenever I witness you mercilessly tormenting my populace, destroying
-    their livelihoods and taking their possessions...
-  - '...I just feel such a warmth in my heart!'
-  - Though that might just be from you setting the thatched roofs on fire.
+  - 'OLAF: There was just something about the way your inhabitants flee in terror
+    from the Viking hordes.'
+  - 'BRITTANY: Yes, they do tend to do that.'
+  - 'BRITTANY: I don''t know... Whenever I witness you mercilessly tormenting my populace,
+    destroying their livelihoods and taking their possessions...'
+  - 'BRITTANY: ...I just feel such a warmth in my heart!'
+  - 'BRITTANY: Though that might just be from you setting the thatched roofs on fire.'
   DialogAudio:
   - {fileID: 8300000, guid: d1331590d25324db6afa9cf72b60dc45, type: 3}
   Events: []

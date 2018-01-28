@@ -17,9 +17,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Here we goooo!
-  - WHHHHHYYYYYYYYYYYYYYY
-  - BWAAAAAHAHAHAHAHA
-  - Oh, that NEVER gets old!
+  - 'NORMANDY: Here we goooo!'
+  - 'BRITTANY: WHHHHHYYYYYYYYYYYYYYY'
+  - 'NORMANDY: BWAAAAAHAHAHAHAHA'
+  - 'NORMANDY: Oh, that NEVER gets old!'
   DialogAudio: []
   Events: []

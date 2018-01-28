@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 0bd91ba7f143aa048b2043664426c539, type: 2}
   DialogTexts:
-  - (laughing out loud)
-  - You can't seriously laugh about that!
-  - It wasn't even a joke!
-  - 'Respect my authoritah! '
+  - 'OLAF: (laughing out loud)'
+  - 'ICELAND: You can''t seriously laugh about that!'
+  - 'ICELAND: It wasn''t even a joke!'
+  - 'ICELAND: Respect my authoritah! '
   DialogAudio:
   - {fileID: 8300000, guid: f09984a1f6db34a0691e8d52ccd5d840, type: 3}
   Events: []

@@ -17,13 +17,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - My shtick can't be tired, it's Odin's shtick!
-  - Well - besides the fact that what you just said came out, like, HORRIBLY wrong
-    -
-  - '- I can respect that, actually. I can relate to your desire to worship your badass
-    gods.'
-  - Hey, if you show them your respect, I might just be more LENIENT WITH YOUR OTHER
-    WEIRD VIKING CUSTOMS.
+  - 'OLAF: My shtick can''t be tired, it''s Odin''s shtick!'
+  - 'NORMANDY: Well - besides the fact that what you just said came out, like, HORRIBLY
+    wrong -'
+  - 'NORMANDY: - I can respect that, actually. I can relate to your desire to worship
+    your badass gods.'
+  - 'NORMANDY: Hey, if you show them your respect, I might just be more LENIENT WITH
+    YOUR OTHER WEIRD VIKING CUSTOMS.'
   DialogAudio:
   - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   Events: []

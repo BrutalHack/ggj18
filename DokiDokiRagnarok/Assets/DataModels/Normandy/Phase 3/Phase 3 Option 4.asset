@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Nah.
-  - 'What?! '
-  - Now you're just being difficult!!!
+  - 'OLAF: Nah.'
+  - 'NORMANDY: What?! '
+  - 'NORMANDY: Now you''re just being difficult!!!'
   DialogAudio:
   - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
   Events: []

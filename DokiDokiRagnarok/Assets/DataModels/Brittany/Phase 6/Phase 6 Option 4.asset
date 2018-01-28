@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - (belch with the reverberance of a thousand drinks)
-  - Oh, Viking-San!
-  - You just ALWAYS know what to say!
+  - 'OLAF: (belch with the reverberance of a thousand drinks)'
+  - 'BRITTANY: Oh, Viking-San!'
+  - 'BRITTANY: You just ALWAYS know what to say!'
   DialogAudio:
   - {fileID: 8300000, guid: 2fc811f272388417bbc6b73033cb5cb7, type: 3}
   Events: []

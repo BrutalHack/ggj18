@@ -17,11 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - Izzi-Sama, I am an honest Warrior and you are honestly full of riches. It's a
-    match.
-  - You think so?
-  - (blow the horn)
-  - If you keep this up, I might let you in on my kinky side...
+  - 'OLAF: Izzi-Sama, I am an honest Warrior and you are honestly full of riches.
+    It''s a match.'
+  - 'ICELAND: You think so?'
+  - 'ICELAND: What is this tingly feeling inside me...? Your words flattter me.'
+  - 'ICELAND: If you keep this up, I might let you in on my kinky side...'
   DialogAudio:
   - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

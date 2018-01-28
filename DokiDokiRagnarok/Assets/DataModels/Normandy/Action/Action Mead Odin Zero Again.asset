@@ -16,8 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - You gargle that spoiled honey wine again!!!
-  - Just what IS IT with you vikings and your cultural affronts?!
-  - You won't get any wealth this time either, you naughty northman!
+  - 'NORMANDY: You gargle that spoiled honey wine again!!!'
+  - 'NORMANDY: Just what IS IT with you vikings and your cultural affronts?!'
+  - 'NORMANDY: You won''t get any wealth this time either, you naughty northman!'
   DialogAudio: []
   Events: []

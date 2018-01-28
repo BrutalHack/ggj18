@@ -16,10 +16,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - It seems you have already decided what to do.
-  - Will I be a part in your tales?
-  - Will you tell your brethren about these lands and will they come to plunder as
-    well?
+  - 'ICELAND: It seems you have already decided what to do.'
+  - 'ICELAND: Will I be a part in your tales?'
+  - 'ICELAND: Will you tell your brethren about these lands and will they come to
+    plunder as well?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

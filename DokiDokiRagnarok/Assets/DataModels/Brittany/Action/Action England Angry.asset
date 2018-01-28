@@ -17,9 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Ugh...!!! How can this be?!
-  - You deliberately put me off-guard to strike at my oafish, yet beloved royal family?
-  - Haha! I underestimated you! You lead a mean raid, Viking-San!
-  - But don't overdo it, okay?
+  - 'BRITTANY: Ugh...!!! How can this be?!'
+  - 'BRITTANY: You deliberately put me off-guard to strike at my oafish, yet beloved
+    royal family?'
+  - 'BRITTANY: Haha! I underestimated you! You lead a mean raid, Viking-San!'
+  - 'BRITTANY: But don''t overdo it, okay?'
   DialogAudio: []
   Events: []

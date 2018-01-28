@@ -15,8 +15,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Okay, you know what? I apologize.
-  - I didn't want to sound so rudely anti-pillaging. There, you happy now?
+  - 'NORMANDY: Okay, you know what? I apologize.'
+  - 'NORMANDY: I didn''t want to sound so rudely anti-pillaging. There, you happy
+    now?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

@@ -17,11 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Do I need any special reason to be a huge badass all the time?
-  - I guess not.
-  - Being badass just seems to come natural to you vikings!
-  - Perhaps it's the MEAD. It's healthy, improves your raiding capibilities and generally
-    improves your outlook on life!
+  - 'OLAF: Do I need any special reason to be a huge badass all the time?'
+  - 'BRITTANY: I guess not.'
+  - 'BRITTANY: Being badass just seems to come natural to you vikings!'
+  - 'BRITTANY: Perhaps it''s the MEAD. It''s healthy, improves your raiding capibilities
+    and generally improves your outlook on life!'
   DialogAudio:
   - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
   Events: []

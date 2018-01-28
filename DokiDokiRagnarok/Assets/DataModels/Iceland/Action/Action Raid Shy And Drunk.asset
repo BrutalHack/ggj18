@@ -16,8 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - Uuhhh...! What am I doing!?
-  - I don't even know what to think anymore!
-  - I know you want those riches all for yourself... Keep doing what you're doing...
+  - 'ICELAND: Uuhhh...! What am I doing!?'
+  - 'ICELAND: I don''t even know what to think anymore!'
+  - 'ICELAND: I know you want those riches all for yourself... Keep doing what you''re
+    doing...'
   DialogAudio: []
   Events: []

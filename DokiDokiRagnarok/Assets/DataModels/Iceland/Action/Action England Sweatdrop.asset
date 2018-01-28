@@ -17,9 +17,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - What are you doing?!
-  - 'How rude! My poor Folk! '
-  - I didn't expect you to be so aggressive.
-  - I kinda like that, but only this once...
+  - 'ICELAND: What are you doing?!'
+  - 'ICELAND: How rude! My poor Folk! '
+  - 'ICELAND: I didn''t expect you to be so aggressive.'
+  - 'ICELAND: I kinda like that, but only this once...'
   DialogAudio: []
   Events: []

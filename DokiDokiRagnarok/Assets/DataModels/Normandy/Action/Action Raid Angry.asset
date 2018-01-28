@@ -16,8 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - HEY! What made you think that YOU'RE getting any rading action today?!
-  - I'm far too angry to be just pillaged away like it's nothing!
-  - Now feel my wrath!!!
+  - 'NORMANDY: HEY! What made you think that YOU''RE getting any rading action today?!'
+  - 'NORMANDY: I''m far too angry to be just pillaged away like it''s nothing!'
+  - 'NORMANDY: Now feel my wrath!!!'
   DialogAudio: []
   Events: []

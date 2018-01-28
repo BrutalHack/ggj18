@@ -16,9 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 0bd91ba7f143aa048b2043664426c539, type: 2}
   DialogTexts:
-  - (ignore the question and burp)
-  - How rude! That wasn't even a "yes" or a "no"!
-  - Clearly you're only a savage, like all the other raiding parties out there!
+  - 'OLAF: (ignore the question and burp)'
+  - 'ICELAND: How rude! That wasn''t even a "yes" or a "no"!'
+  - 'ICELAND: Clearly you''re only a savage, like all the other raiding parties out
+    there!'
   DialogAudio:
   - {fileID: 8300000, guid: 9016386a1d4d543abb9359f882772180, type: 3}
   Events: []

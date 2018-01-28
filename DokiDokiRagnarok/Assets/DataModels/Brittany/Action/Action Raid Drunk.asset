@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Oh...?! Your pillaging has grown more powerful than before!
-  - Just how high is your plunderlevel?!
+  - 'BRITTANY: Oh...?! Your pillaging has grown more powerful than before!'
+  - 'BRITTANY: Just how high is your plunderlevel?!'
   DialogAudio: []
   Events: []

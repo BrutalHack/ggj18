@@ -21,15 +21,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - I'm doing fine. Thanks for asking.
-  - Haha, how polite! Most visitors are much more coarse...
-  - Those ruffians just don't know how to properly loot a village.
-  - That's it, brave viking! You have begun PILLAGING!
-  - Before your next action - listen closely!
-  - You might spot some CLUES for the best course of action...
-  - To tell the truth, I'm a little nervous... Not like you confident seafarers.
-  - I heard that you vikings even grow more powerful through something called LIQUID
-    COURAGE!
+  - 'OLAF: I''m doing fine. Thanks for asking.'
+  - 'BRITTANY: Haha, how polite! Most visitors are much more coarse...'
+  - 'BRITTANY: Those ruffians just don''t know how to properly loot a village.'
+  - 'ODIN: That''s it, brave viking! You have begun PILLAGING!'
+  - 'ODIN: Before your next action - listen closely!'
+  - 'ODIN: You might spot some CLUES for the best course of action...'
+  - 'BRITTANY: To tell the truth, I''m a little nervous... Not like you confident
+    seafarers.'
+  - 'BRITTANY: I heard that you vikings even grow more powerful through something
+    called LIQUID COURAGE!'
   DialogAudio:
   - {fileID: 8300000, guid: bd439c437b25e45268818fc6d7711747, type: 3}
   Events: []

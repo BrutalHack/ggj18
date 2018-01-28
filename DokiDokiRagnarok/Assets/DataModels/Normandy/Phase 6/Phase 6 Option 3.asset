@@ -17,11 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
   DialogTexts:
-  - Only if I can call you Normandy-Chan.
-  - This is getting exceedingly silly.
-  - But, let's just accept the ludicrous premise, and I'm sure things will work out
-    somehow.
-  - Normandy-Chan it is, Viking-Sempai!
+  - 'OLAF: Only if I can call you Normandy-Chan.'
+  - 'NORMANDY: This is getting exceedingly silly.'
+  - 'NORMANDY: But, let''s just accept the ludicrous premise, and I''m sure things
+    will work out somehow.'
+  - 'NORMANDY-CHAN: Normandy-Chan it is, Viking-Sempai!'
   DialogAudio:
   - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

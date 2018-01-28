@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   DialogTexts:
-  - Hear my advice, brave viking...
-  - Mead fuels your raiding's power, and many other fun things...
+  - 'ODIN: Hear my advice, brave viking...'
+  - 'ODIN: Mead fuels your raiding''s power, and many other fun things...'
   DialogAudio: []
   Events: []

@@ -18,13 +18,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 21aaf4f8932b4e7459d5776bc4ed79b3, type: 2}
   DialogTexts:
-  - You need to come out of your shell, Normandy, to allow pillaging into your township
-    once again.
-  - You're right. You are absolutely right...
-  - It is just no way to live without letting looting hordes of vikings terrorize
-    your peasants once in a while!
-  - Thank you, dear viking.
-  - Thanks to you, I can let my citizens perish at the hands of awesome vikings again.
+  - 'OLAF: You need to come out of your shell, Normandy, to allow pillaging into your
+    township once again.'
+  - 'NORMANDY: You''re right. You are absolutely right...'
+  - 'NORMANDY: It is just no way to live without letting looting hordes of vikings
+    terrorize your peasants once in a while!'
+  - 'NORMANDY: Thank you, dear viking.'
+  - 'NORMANDY: Thanks to you, I can let my citizens perish at the hands of awesome
+    vikings again.'
   DialogAudio:
   - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
   Events: []
