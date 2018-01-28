@@ -206,8 +206,8 @@ MonoBehaviour:
   Iceland: {fileID: 11400000, guid: 0e5b978b192949d46881cbcc01d69a1c, type: 2}
   Normandy: {fileID: 11400000, guid: 262031737793b464cbbcec27b7dd007f, type: 2}
   BrittanyButton: {fileID: 1427989415}
-  NormandyButton: {fileID: 2143394262}
-  IcelandButton: {fileID: 2086217035}
+  NormandyButton: {fileID: 2086217035}
+  IcelandButton: {fileID: 2143394262}
 --- !u!4 &319852295
 Transform:
   m_ObjectHideFlags: 0
