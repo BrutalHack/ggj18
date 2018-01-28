@@ -24,4 +24,4 @@ MonoBehaviour:
   - 'BRITTANY: Such as mead. I heard successive drinks have GREAT CUMULATIVE EFFECTS!'
   DialogAudio:
   - {fileID: 8300000, guid: f09984a1f6db34a0691e8d52ccd5d840, type: 3}
-  Events: []
+  Events: 

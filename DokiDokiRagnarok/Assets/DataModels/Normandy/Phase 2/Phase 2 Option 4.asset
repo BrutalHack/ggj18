@@ -30,4 +30,4 @@ MonoBehaviour:
     dangers.'
   DialogAudio:
   - {fileID: 8300000, guid: 9016386a1d4d543abb9359f882772180, type: 3}
-  Events: []
+  Events: 000000000300000000000000000000000000000000000000

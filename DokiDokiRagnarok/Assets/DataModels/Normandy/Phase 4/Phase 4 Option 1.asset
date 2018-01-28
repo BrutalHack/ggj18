@@ -22,4 +22,4 @@ MonoBehaviour:
   - 'NORMANDY: You can''t just casually pillage around and expect a stable loot life!'
   DialogAudio:
   - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
-  Events: []
+  Events: 000000000000000003000000

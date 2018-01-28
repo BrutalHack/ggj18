@@ -21,4 +21,4 @@ MonoBehaviour:
   - 'ICELAND: Do you ever think of the huts you leave behind?'
   DialogAudio:
   - {fileID: 8300000, guid: d1331590d25324db6afa9cf72b60dc45, type: 3}
-  Events: []
+  Events: 000000000000000003000000

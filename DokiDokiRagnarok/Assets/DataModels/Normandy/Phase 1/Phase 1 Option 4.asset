@@ -28,4 +28,4 @@ MonoBehaviour:
     stuff, I can see you''re itching to!'
   DialogAudio:
   - {fileID: 8300000, guid: 1e3c018a70e844c45a0ad392184f945d, type: 3}
-  Events: []
+  Events: 0000000003000000000000000000000000000000

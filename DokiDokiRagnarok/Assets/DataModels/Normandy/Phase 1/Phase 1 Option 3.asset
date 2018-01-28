@@ -26,4 +26,4 @@ MonoBehaviour:
     YOUR OTHER WEIRD VIKING CUSTOMS.'
   DialogAudio:
   - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
-  Events: []
+  Events: 00000000000000000000000000000000

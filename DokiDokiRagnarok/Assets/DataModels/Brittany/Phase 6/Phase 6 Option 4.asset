@@ -21,4 +21,4 @@ MonoBehaviour:
   - 'BRITTANY: You just ALWAYS know what to say!'
   DialogAudio:
   - {fileID: 8300000, guid: 2fc811f272388417bbc6b73033cb5cb7, type: 3}
-  Events: []
+  Events: 000000000000000000000000

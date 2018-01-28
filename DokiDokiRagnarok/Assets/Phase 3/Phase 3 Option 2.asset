@@ -9,19 +9,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
-  m_Name: Phase 3 Option 4
+  m_Name: Phase 3 Option 2
   m_EditorClassIdentifier: 
   Actors:
   - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
-  - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
+  - {fileID: 11400000, guid: 09f3b34eb8dcb1d4b8ff1ecc25bbce80, type: 2}
   DialogTexts:
-  - 'OLAF: Izzi-Sama, I am an honest Warrior and you are honestly full of riches.
-    It''s a match.'
-  - 'ICELAND: You think so?'
-  - 'ICELAND: What is this tingly feeling inside me...? Your words flattter me.'
-  - 'ICELAND: If you keep this up, I might let you in on my kinky side...'
+  - 'OLAF: (lie) You know, I always wanted to be a baker. '
+  - 'ICELAND: That doesn''t sound badass at all.'
+  - 'ICELAND: In fact, it is so unbelievable not badass that I can''t help but think
+    you are lying. '
+  - 'ICELAND: It even said so in the parentheses. Didn''t think I would catch up on
+    that?'
   DialogAudio:
-  - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
-  Events: []
+  - {fileID: 8300000, guid: bd439c437b25e45268818fc6d7711747, type: 3}
+  Events: 00000000000000000000000002000000

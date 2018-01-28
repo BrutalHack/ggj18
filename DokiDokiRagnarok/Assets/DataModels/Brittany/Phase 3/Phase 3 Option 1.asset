@@ -27,4 +27,4 @@ MonoBehaviour:
   - 'BRITTANY: Though that might just be from you setting the thatched roofs on fire.'
   DialogAudio:
   - {fileID: 8300000, guid: d1331590d25324db6afa9cf72b60dc45, type: 3}
-  Events: []
+  Events: 0000000000000000000000000100000000000000

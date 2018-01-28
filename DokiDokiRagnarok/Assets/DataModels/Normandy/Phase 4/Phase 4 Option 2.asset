@@ -24,4 +24,4 @@ MonoBehaviour:
   - 'NORMANDY: Careful - you might just grunt your way into my heart, you smelly creature.'
   DialogAudio:
   - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
-  Events: []
+  Events: 00000000000000000000000001000000

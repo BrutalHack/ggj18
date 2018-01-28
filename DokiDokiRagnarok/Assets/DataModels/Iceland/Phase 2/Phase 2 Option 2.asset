@@ -23,4 +23,4 @@ MonoBehaviour:
   - 'ICELAND: And mine is the largest of them all.'
   DialogAudio:
   - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
-  Events: []
+  Events: 00000000020000000000000000000000

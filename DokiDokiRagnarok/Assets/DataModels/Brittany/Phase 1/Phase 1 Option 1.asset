@@ -31,4 +31,4 @@ MonoBehaviour:
     called LIQUID COURAGE!'
   DialogAudio:
   - {fileID: 8300000, guid: 1e3c018a70e844c45a0ad392184f945d, type: 3}
-  Events: []
+  Events: 00000000010000000000000000000000000000000000000000000000

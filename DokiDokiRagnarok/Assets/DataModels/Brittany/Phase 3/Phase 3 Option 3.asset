@@ -21,4 +21,4 @@ MonoBehaviour:
   - 'BRITTANY: Well, this is awkward, then.'
   DialogAudio:
   - {fileID: 8300000, guid: 22c0512a074114501aba5ec3419c9186, type: 3}
-  Events: []
+  Events: 000000000000000002000000

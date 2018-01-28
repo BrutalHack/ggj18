@@ -19,4 +19,4 @@ MonoBehaviour:
   - 'ICELAND: Such... such... flattery... '
   DialogAudio:
   - {fileID: 8300000, guid: 7d7d2cf288baa490996f4c3579d63c2a, type: 3}
-  Events: []
+  Events: 0000000004000000

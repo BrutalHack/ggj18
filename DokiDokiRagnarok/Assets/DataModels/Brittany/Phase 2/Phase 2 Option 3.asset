@@ -27,4 +27,4 @@ MonoBehaviour:
   - 'BRITTANY: We really are alike, Viking-San!'
   DialogAudio:
   - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
-  Events: []
+  Events: 0000000000000000000000000000000001000000

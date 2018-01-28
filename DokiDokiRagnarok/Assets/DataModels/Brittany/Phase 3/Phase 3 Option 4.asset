@@ -26,4 +26,4 @@ MonoBehaviour:
     ELSE!'
   DialogAudio:
   - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
-  Events: []
+  Events: 00000000030000000000000000000000

@@ -27,4 +27,4 @@ MonoBehaviour:
   - 'BRITTANY: It''s over!!!'
   DialogAudio:
   - {fileID: 8300000, guid: df1bcb945c0944b108aee5b1d1d0934f, type: 3}
-  Events: []
+  Events: 0000000000000000000000000300000000000000

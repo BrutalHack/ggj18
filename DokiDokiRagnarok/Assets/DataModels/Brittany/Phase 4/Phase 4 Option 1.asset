@@ -23,4 +23,4 @@ MonoBehaviour:
   - 'BRITTANY: It''s not like I want you to subjugate my populace or anything! B-Baka!'
   DialogAudio:
   - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
-  Events: []
+  Events: 00000000020000000000000000000000

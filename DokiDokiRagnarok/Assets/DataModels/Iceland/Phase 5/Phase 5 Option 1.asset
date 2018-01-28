@@ -23,4 +23,4 @@ MonoBehaviour:
   - 'ICELAND: They screamed and burned to ashes. Simple as that!'
   DialogAudio:
   - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
-  Events: []
+  Events: 00000000000000000000000002000000

@@ -23,4 +23,4 @@ MonoBehaviour:
   - 'NORMANDY: Ain''t no fjords up in this joint, unwashed barbarian!'
   DialogAudio:
   - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
-  Events: []
+  Events: 00000000030000000000000000000000

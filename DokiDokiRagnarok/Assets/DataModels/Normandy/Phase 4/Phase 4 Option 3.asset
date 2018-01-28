@@ -28,4 +28,4 @@ MonoBehaviour:
     vikings again.'
   DialogAudio:
   - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
-  Events: []
+  Events: 0000000000000000000000000000000001000000

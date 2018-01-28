@@ -24,4 +24,4 @@ MonoBehaviour:
   - 'NORMANDY-CHAN: Normandy-Chan it is, Viking-Sempai!'
   DialogAudio:
   - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
-  Events: []
+  Events: 00000000000000000000000001000000
