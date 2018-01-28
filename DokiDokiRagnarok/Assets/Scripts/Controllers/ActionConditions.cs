@@ -23,6 +23,12 @@
         IsShyAndDrunk = IsShy | MeadGreaterZero,
         IsHappyAndDrunk = IsHappy | MeadGreaterZero,
         None = 262144,
+        OdinEqualsZeroWhileSweat = OdinEqualsZero | IsSweatDrop,
+        OdinEqualsZeroWhileNotSweat = OdinEqualsZero | IsNotSweatDrop,
+        OdinEqualsOneWhileSweat = OdinEqualsOne | IsSweatDrop,
+        OdinEqualsOneWhileNotSweat = OdinEqualsOne | IsNotSweatDrop,
+        OdinGreaterOneWhileSweat = OdinGreaterOne | IsSweatDrop,
+        OdinGreaterOneWhileNotSweat = OdinGreaterOne | IsNotSweatDrop
         
     }
 }

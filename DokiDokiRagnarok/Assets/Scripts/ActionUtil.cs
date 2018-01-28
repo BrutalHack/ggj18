@@ -181,6 +181,48 @@ namespace DokiDokiRagnarok
                 return true;
             }
 
+            if (conditions == ActionConditions.OdinEqualsZeroWhileNotSweat &&
+                Village.Emotion != Emotion.SweatDrop &&
+                Viking.OdinCount == 0)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinEqualsOneWhileNotSweat &&
+                Village.Emotion != Emotion.SweatDrop &&
+                Viking.OdinCount == 1)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinGreaterOneWhileNotSweat &&
+                Village.Emotion != Emotion.SweatDrop &&
+                Viking.OdinCount > 0)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinEqualsZeroWhileSweat &&
+                Village.Emotion == Emotion.SweatDrop &&
+                Viking.OdinCount == 0)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinEqualsOneWhileSweat &&
+                Village.Emotion == Emotion.SweatDrop &&
+                Viking.OdinCount == 1)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinGreaterOneWhileSweat &&
+                Village.Emotion == Emotion.SweatDrop &&
+                Viking.OdinCount > 0)
+            {
+                return true;
+            }
+
             if (conditions == ActionConditions.None)
             {
                 return true;
