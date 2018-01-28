@@ -836,8 +836,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Volume: 0.25
   PlayOnStart: 3
-  Music: {fileID: 8300000, guid: b27690d01d8c52049b724751c33ad55a, type: 3}
-  Loop: {fileID: 8300000, guid: 4f295a214c4eb9c499090e05ff1ced4c, type: 3}
+  Music: {fileID: 8300000, guid: f1ae8c745050a46bc971c1f2c46066e9, type: 3}
+  Loop: {fileID: 8300000, guid: f1ae8c745050a46bc971c1f2c46066e9, type: 3}
   Loki: {fileID: 8300000, guid: 38ae4e3d8aa27bf49a2e08603482891a, type: 3}
   LokiLoop: {fileID: 8300000, guid: 4c290c6649fc7d74f8727c647acdab34, type: 3}
   Odin: {fileID: 8300000, guid: 14be9e908250ab54ca183864ea45d34a, type: 3}
@@ -2797,8 +2797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 107.2, y: -48.1}
-  m_SizeDelta: {x: 550.5, y: 106.3}
+  m_AnchoredPosition: {x: 116.10631, y: -50.33}
+  m_SizeDelta: {x: 525.98, y: 94.41}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1969863082
 MonoBehaviour:
