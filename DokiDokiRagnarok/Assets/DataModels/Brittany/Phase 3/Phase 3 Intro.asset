@@ -14,8 +14,8 @@ MonoBehaviour:
   Actors:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 'BRITTANY: Tell me, uuuuh... why did you chose to sail here, when you had so many
-    rich, defenseless settlements to chose from?'
+  - 'BRITTANY: Tell me, uuuuh... why did you choose to sail here, when you had so
+    many rich, defenseless settlements to chose from?'
   DialogAudio: []
   Events:
   - m_PersistentCalls:
