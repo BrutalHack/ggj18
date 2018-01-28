@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Editor" t="Include">
           <e p="DataModels" t="Include">
+            <e p="ActionDialogModelAsset.cs" t="Include" />
             <e p="ActorModelAsset.cs" t="Include" />
             <e p="DialogSegmentModelAsset.cs" t="Include" />
             <e p="RaidModelAsset.cs" t="Include" />
@@ -25,6 +26,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Controllers" t="Include">
+            <e p="ActionConditions.cs" t="Include" />
+            <e p="ActionController.cs" t="Include" />
             <e p="ActorController.cs" t="Include" />
             <e p="RaidController.cs" t="Include" />
             <e p="WorldController.cs" t="Include" />
@@ -33,6 +36,7 @@
           <e p="LoopMusic.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="Action.cs" t="Include" />
+            <e p="ActionDialogModel.cs" t="Include" />
             <e p="ActorModel.cs" t="Include" />
             <e p="ActorType.cs" t="Include" />
             <e p="DialogModel.cs" t="Include" />

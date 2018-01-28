@@ -5,5 +5,6 @@ using DokiDokiRagnarok;
 public static class Village {
 
     public static Emotion Emotion;
-
+    public static bool AttackedEnglandWhileAngry;
+    public static bool AttackedEnglandWhileSweatDrop;
 }

@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldMap.unity
     guid: be783cfe52dff29439319d20cfc4a2f6
+  - enabled: 1
+    path: Assets/Scenes/Raid.unity
+    guid: e81a11f2bbfbc4ff794187038d7176ca

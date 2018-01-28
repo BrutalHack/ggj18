@@ -5,6 +5,7 @@
         None,
         Happy,
         SweatDrop,
-        Angry
+        Angry,
+        Shy
     }
 }

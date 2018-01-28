@@ -1,6 +1,7 @@
 ﻿using DokiDokiRagnarok.Models;
 using DokiDokiRagnarok.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace DokiDokiRagnarok.Controllers
 {
@@ -14,6 +15,7 @@ namespace DokiDokiRagnarok.Controllers
         private DialogModel _dialog;
         public RaidModel DebugRaidModel;
         private AudioSource _audioSource;
+        public ActionController ActionController;
 
         private int _dialogStep = -1;
         private int _phaseStep = -1;
@@ -29,6 +31,7 @@ namespace DokiDokiRagnarok.Controllers
             }
 
             NextPhase();
+            Victory();
         }
 
         public void NextStep()
@@ -41,20 +44,22 @@ namespace DokiDokiRagnarok.Controllers
                     StartDialog();
                     return;
                 }
-                else if (_dialog == _raid.DefeatDialog)
+
+                if (_dialog == _raid.DefeatDialog)
                 {
-                    //TODO End it
-                    Debug.Log("Defeat");
-                } else if (_dialog == _raid.VictoryDialog)
-                {
-                    //TODO
-                    Debug.Log("Victory");
-                }
-                else
-                {
-                    NextPhase();
+                    SceneManager.LoadScene(3);
                     return;
                 }
+
+                if (_dialog == _raid.VictoryDialog)
+                {
+                    World.RaidedVillages.Add(_raid);
+                    SceneManager.LoadScene(3);
+                    return;
+                }
+
+                NextPhase();
+                return;
             }
 
             ActorController.SetActor(_dialog.Actors[_dialogStep]);
@@ -65,6 +70,7 @@ namespace DokiDokiRagnarok.Controllers
                 _audioSource.Stop();
                 _audioSource.PlayOneShot(_dialog.DialogAudio[_dialogStep]);
             }
+
             if (_dialogStep < _dialog.Events.Count)
             {
                 _dialog.Events[_dialogStep].Invoke();
@@ -105,7 +111,9 @@ namespace DokiDokiRagnarok.Controllers
 
         public void Defeat()
         {
-            
+            _dialogStep = -1;
+            _dialog = _raid.DefeatDialog;
+            NextStep();
         }
     }
 }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: Brittany (Normal)
   m_EditorClassIdentifier: 
   Name: Brittany
-  ActorGameObject: {fileID: 1589087395501398, guid: 027ccb7611e814181b197edf3a9717a4,
+  ActorGameObject: {fileID: 1931567715776806, guid: 8586a3c5106b0412ab499b60e3ec50c7,
     type: 2}
-  ActorType: 0
+  ActorType: 1

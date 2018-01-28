@@ -278,8 +278,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Brittany: {fileID: 11400000, guid: 52a99e599338d4c4a8b3874af8b3bb03, type: 2}
-  Iceland: {fileID: 0}
-  Normandy: {fileID: 0}
+  Iceland: {fileID: 11400000, guid: 0e5b978b192949d46881cbcc01d69a1c, type: 2}
+  Normandy: {fileID: 11400000, guid: 262031737793b464cbbcec27b7dd007f, type: 2}
+  BrittanyButton: {fileID: 1427989415}
+  NormandyButton: {fileID: 2143394262}
+  IcelandButton: {fileID: 2086217035}
 --- !u!4 &319852295
 Transform:
   m_ObjectHideFlags: 0
@@ -304,8 +307,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942308769b8f8ad4c8f12303722f24c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayOnStart: 0
   Music: {fileID: 8300000, guid: 332c601d7aabb294a9476d337ade702f, type: 3}
   Loop: {fileID: 8300000, guid: 332c601d7aabb294a9476d337ade702f, type: 3}
+  Loki: {fileID: 0}
+  LokiLoop: {fileID: 0}
+  Odin: {fileID: 0}
+  OdinLoop: {fileID: 0}
 --- !u!1 &1202440471
 GameObject:
   m_ObjectHideFlags: 0

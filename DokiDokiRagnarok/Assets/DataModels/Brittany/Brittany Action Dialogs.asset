@@ -8,10 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41f75b348789f4d58a8c466c54eb6f02, type: 3}
-  m_Name: Brittany (Sweatdrop)
+  m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
+  m_Name: New DokiDokiRagnarok.Models.ActionDialogModel
   m_EditorClassIdentifier: 
-  Name: Brittany
-  ActorGameObject: {fileID: 1931567715776806, guid: 8586a3c5106b0412ab499b60e3ec50c7,
-    type: 2}
-  ActorType: 1
+  Conditions: 
+  Dialogs: []
