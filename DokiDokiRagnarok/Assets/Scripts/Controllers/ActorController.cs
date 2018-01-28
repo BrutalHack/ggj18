@@ -71,10 +71,12 @@ namespace DokiDokiRagnarok.Controllers
             destroyAllChildren(VillageActor.transform);
             LokiActor.SetActive(false);
             OdinActor.SetActive(false);
+            VillageEmotions.SetActive(false);
         }
 
         public void SetEmotion(Emotion emotion)
         {
+            VillageEmotions.SetActive(true);
             foreach (Transform child in VillageEmotions.transform)
             {
                 if (child.name.Equals(emotion.ToString()))
@@ -145,15 +147,23 @@ namespace DokiDokiRagnarok.Controllers
 
         public void SetVillageActor(GameObject actorPrefab)
         {
-            currentActor = ActorType.Village;
-            StopWorldMusicIfActive();
-            MusicController.PlayMainTheme();
-            _villageWasHere = true;
-            DisableRightActors();
-            if (actorPrefab != null)
+            if (currentActor == ActorType.Village)
             {
-                Instantiate(actorPrefab, VillageActor.transform);
+                
             }
+            else
+            {
+                StopWorldMusicIfActive();
+                MusicController.PlayMainTheme();
+                _villageWasHere = true;
+                DisableRightActors();
+                if (actorPrefab != null)
+                {
+                    Instantiate(actorPrefab, VillageActor.transform);
+                    VillageEmotions.SetActive(true);
+                }
+            }
+            currentActor = ActorType.Village;
         }
 
         private static void StopWorldMusicIfActive()
