@@ -49,6 +49,7 @@
           <e p="UI" t="Include">
             <e p="AnimateText.cs" t="Include" />
             <e p="ChooseViking.cs" t="Include" />
+            <e p="DialogOptions.cs" t="Include" />
             <e p="EndGame.cs" t="Include" />
             <e p="StartGame.cs" t="Include" />
           </e>

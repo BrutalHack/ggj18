@@ -33,7 +33,6 @@ namespace DokiDokiRagnarok.Controllers
             }
 
             NextPhase();
-            Victory();
         }
 
         public void NextStep()
@@ -60,6 +59,7 @@ namespace DokiDokiRagnarok.Controllers
                     return;
                 }
 
+                ShowActionsDialog();
                 NextPhase();
                 return;
             }
@@ -79,6 +79,11 @@ namespace DokiDokiRagnarok.Controllers
             }
         }
 
+        private void ShowActionsDialog()
+        {
+            
+        }
+
         private void NextPhase()
         {
             _phaseStep++;
@@ -93,10 +98,8 @@ namespace DokiDokiRagnarok.Controllers
             _dialogStep = -1;
             if (_dialog == _raidPhase.Intro)
             {
-                //TODO Dialog Prompt
-                //ChooseDialog(3);
                 AnimateText.SetTextButtonInteractable(false);
-                DialogOptions.ShowDialogOptions();
+                DialogOptions.ShowDialogOptions(_raidPhase.DialogOptions);
 
             }
         }

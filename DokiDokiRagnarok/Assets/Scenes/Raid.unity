@@ -666,7 +666,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -690,6 +690,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e784fc820be9f3e4795c8eda5309d621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonTexts:
+  - {fileID: 1725264051}
+  - {fileID: 1034799613}
+  - {fileID: 1610117664}
+  - {fileID: 1509204458}
 --- !u!1 &623892738
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +739,7 @@ MonoBehaviour:
   ActorController: {fileID: 1112287838}
   AnimateText: {fileID: 1816403212}
   DebugRaidModel: {fileID: 11400000, guid: 52a99e599338d4c4a8b3874af8b3bb03, type: 2}
+  ActionController: {fileID: 0}
   DialogOptions: {fileID: 579278358}
 --- !u!82 &623892741
 AudioSource:
@@ -1068,7 +1074,7 @@ GameObject:
   - component: {fileID: 1034799614}
   - component: {fileID: 1034799613}
   m_Layer: 5
-  m_Name: Text
+  m_Name: SecondOptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1709,7 +1715,7 @@ GameObject:
   - component: {fileID: 1509204459}
   - component: {fileID: 1509204458}
   m_Layer: 5
-  m_Name: Text
+  m_Name: FourthOptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1819,7 +1825,7 @@ GameObject:
   - component: {fileID: 1610117665}
   - component: {fileID: 1610117664}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ThirdOptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1997,7 +2003,7 @@ GameObject:
   - component: {fileID: 1725264052}
   - component: {fileID: 1725264051}
   m_Layer: 5
-  m_Name: Text
+  m_Name: FirstOptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,20 +10,20 @@ namespace DokiDokiRagnarok.Controllers
         public ActionDialogModel OdinActionDialogModel; 
         public ActionDialogModel AttackEnglandActionDialogModel; 
         
-        public void Raid()
+        /// <returns>Next Dialog or null, if no reaction from village.</returns>
+        public DialogModel Raid()
         {
             int nextDialog = GetDialogIdByCondition(RaidActionDialogModel);
+            Viking.Score += RaidActionDialogModel.Score[nextDialog];
+
+            DialogModel dialogModel = null;
             if (nextDialog > -1)
             {
+                dialogModel = RaidActionDialogModel.Dialogs[nextDialog];
                 //RaidController dialog = 
-                var dialog = RaidActionDialogModel.Dialogs[nextDialog];
-                Viking.Score += RaidActionDialogModel.Score[nextDialog];
-            }
-            else
-            {
-                //RaidController NextPhase directly
             }
             Viking.RaidCount++;
+            return dialogModel;
         }
 
         private int GetDialogIdByCondition(ActionDialogModel actionDialogModel)

@@ -1,22 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Net.Mime;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class DialogOptions : MonoBehaviour
+namespace DokiDokiRagnarok.UI
 {
-
-    void Start()
+    public class DialogOptions : MonoBehaviour
     {
-        HideDialogOptions();
-    }
+        public Text[] buttonTexts = new Text[4];
+        void Start()
+        {
+            HideDialogOptions();
+        }
 
-    public void ShowDialogOptions()
-    {
-        gameObject.SetActive(true);
-    }
+        public void ShowDialogOptions(string[] newButtonLabels)
+        {
+            if (newButtonLabels.Length != 4)
+            {
+                Debug.LogError("newButtonLabels have wrong array size");
+            }
 
-    public void HideDialogOptions()
-    {
-        gameObject.SetActive(false);
+            for (int i = 0; i < buttonTexts.Length; i++)
+            {
+                buttonTexts[i].text = newButtonLabels[i];
+            }
+            gameObject.SetActive(true);
+            
+        }
+
+        public void HideDialogOptions()
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
