@@ -21,13 +21,31 @@ GameObject:
   - component: {fileID: 224460697467120360}
   - component: {fileID: 222707713878059746}
   - component: {fileID: 114493021828550368}
+  - component: {fileID: 95362805013268342}
   m_Layer: 5
   m_Name: SweatDrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
+--- !u!95 &95362805013268342
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1722087770346072}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51119a64ca1d7a241a97519dc243d7ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114493021828550368
 MonoBehaviour:
   m_ObjectHideFlags: 1
