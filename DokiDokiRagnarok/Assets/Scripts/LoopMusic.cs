@@ -1,15 +1,19 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 
 public class LoopMusic : MonoBehaviour
 {
+    public enum MusicList
+    {
+        Music,
+        Loki,
+        Odin,
+        None
+    }
 
-    public enum WhatToPlay { Music, Loki, Odin }
     public float Volume = 0.25f;
 
-    public WhatToPlay PlayOnStart;
+    public MusicList PlayOnStart;
     public AudioClip Music;
     public AudioClip Loop;
 
@@ -21,22 +25,29 @@ public class LoopMusic : MonoBehaviour
 
     private AudioSource audioSource;
 
+    public bool Persistent = false;
+
+    private MusicList nowPlaying = MusicList.None;
 
     void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.volume = Volume;
 
+        if (Persistent)
+        {
+            DontDestroyOnLoad(this.gameObject);
+        }
 
-        if (PlayOnStart == WhatToPlay.Loki)
+        if (PlayOnStart == MusicList.Loki)
         {
             StartCoroutine(playMusic(Loki, LokiLoop));
         }
-        else if (PlayOnStart == WhatToPlay.Odin)
+        else if (PlayOnStart == MusicList.Odin)
         {
             StartCoroutine(playMusic(Odin, OdinLoop));
         }
-        else if (Music)
+        else if (PlayOnStart == MusicList.Music)
         {
             StartCoroutine(playMusic(Music, Loop));
         }
@@ -61,20 +72,31 @@ public class LoopMusic : MonoBehaviour
 
     public void PlayLoki()
     {
-        audioSource.Stop();
-        if (Loki && LokiLoop)
+        if (Loki && LokiLoop && nowPlaying != MusicList.Loki)
         {
-            playMusic(Loki, LokiLoop);
+            audioSource.Stop();
+            StartCoroutine(playMusic(Loki, LokiLoop));
+            nowPlaying = MusicList.Loki;
         }
     }
 
     public void PlayOdin()
     {
-        audioSource.Stop();
-        if (Odin && OdinLoop)
+        if (Odin && OdinLoop && nowPlaying != MusicList.Odin)
         {
-            playMusic(Odin, OdinLoop);
+            audioSource.Stop();
+            StartCoroutine(playMusic(Odin, OdinLoop));
+            nowPlaying = MusicList.Odin;
         }
     }
 
+    public void PlayMainTheme()
+    {
+        if (Music && Loop && nowPlaying != MusicList.Music)
+        {
+            audioSource.Stop();
+            StartCoroutine(playMusic(Music, Loop));
+            nowPlaying = MusicList.Music;
+        }
+    }
 }

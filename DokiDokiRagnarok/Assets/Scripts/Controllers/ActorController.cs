@@ -15,27 +15,34 @@ namespace DokiDokiRagnarok.Controllers
         public List<GameObject> VillagePrefabs;
         private GameObject VillagePrefab;
 
+        public LoopMusic MusicController;
+
         private bool _villageWasHere;
 
         void Start()
         {
-//            if (World.ChosenRaid.Name.Equals("Brittany"))
-//            {
-//                VillagePrefab = VillagePrefabs[0];
-//            } else if (World.ChosenRaid.Name.Equals("Iceland"))
-//            {
-//                VillagePrefab = VillagePrefabs[1];
-//            } else if (World.ChosenRaid.Name.Equals("Normandy"))
-//            {
-//                VillagePrefab = VillagePrefabs[2];
-//            }
-//            else
+            DisableRightActors();
+
+            if (World.ChosenRaid == null)
+            {
+                VillagePrefab = VillagePrefabs[0];
+                return;
+            }
+
+            if (World.ChosenRaid.Name.Equals("Brittany"))
             {
                 VillagePrefab = VillagePrefabs[0];
             }
-            DisableRightActors();
+            else if (World.ChosenRaid.Name.Equals("Iceland"))
+            {
+                VillagePrefab = VillagePrefabs[1];
+            }
+            else if (World.ChosenRaid.Name.Equals("Normandy"))
+            {
+                VillagePrefab = VillagePrefabs[2];
+            }
         }
-        
+
         public void SetActor(ActorModel actor)
         {
             if (actor.ActorType == ActorType.Loki)
@@ -90,40 +97,59 @@ namespace DokiDokiRagnarok.Controllers
 
         private void DisableLokiAndOdinActors()
         {
-            if (LokiActor.activeSelf || OdinActor.activeSelf)
-            {
-                SetLoki(false);
-                SetOdin(false);                
-            }
+            SetLoki(false);
+            SetOdin(false);
         }
 
         public void SetLoki(bool active)
         {
-            DisableRightActors();
-            LokiActor.SetActive(active);
-            if (_villageWasHere)
+            if (active)
+            {
+                MusicController.PlayLoki();
+            }
+            else if (_villageWasHere)
             {
                 SetVillageActor(VillagePrefab);
             }
+
+            DisableRightActors();
+            LokiActor.SetActive(active);
         }
 
         public void SetOdin(bool active)
         {
-            DisableRightActors();
-            OdinActor.SetActive(active);
-            if (_villageWasHere)
+            if (active)
+            {
+                MusicController.PlayOdin();
+            }
+            else if (_villageWasHere)
             {
                 SetVillageActor(VillagePrefab);
             }
+
+            DisableRightActors();
+            OdinActor.SetActive(active);
         }
 
         public void SetVillageActor(GameObject actorPrefab)
         {
+            StopWorldMusicIfActive();
+            MusicController.PlayMainTheme();
             _villageWasHere = true;
             DisableRightActors();
             if (actorPrefab != null)
             {
                 Instantiate(actorPrefab, VillageActor.transform);
+            }
+        }
+
+        private static void StopWorldMusicIfActive()
+        {
+            GameObject worldMusic = GameObject.FindGameObjectWithTag("WorldMusic");
+            if (worldMusic)
+            {
+                worldMusic.GetComponent<AudioSource>().Stop();
+                GameObject.Destroy(worldMusic);    
             }
         }
 
