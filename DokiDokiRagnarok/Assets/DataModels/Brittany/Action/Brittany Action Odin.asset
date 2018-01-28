@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
+  m_Name: Brittany Action Odin
+  m_EditorClassIdentifier: 
+  Conditions: 404000008040000000420000500000009000000010020000
+  Score: 0a0000000a0000000a000000140000001400000014000000
+  Dialogs:
+  - {fileID: 11400000, guid: b813fdb9280b8734184436bebb094e60, type: 2}
+  - {fileID: 11400000, guid: 381c564aeb8976b438d0cbf19789ec6e, type: 2}
+  - {fileID: 11400000, guid: 4f85049f95b3f1f44ade2f3565f95f24, type: 2}
+  - {fileID: 11400000, guid: dfa05862232a1ac43aac16e7468aed97, type: 2}
+  - {fileID: 11400000, guid: 9abca456ca4d10a4f90295d10c1bab65, type: 2}
+  - {fileID: 11400000, guid: 1efa3c82c2d382849957fd280457eba3, type: 2}
