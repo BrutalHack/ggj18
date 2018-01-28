@@ -1003,8 +1003,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActorController: {fileID: 1112287838}
   AnimateText: {fileID: 1816403212}
-  DebugRaidModel: {fileID: 11400000, guid: 52a99e599338d4c4a8b3874af8b3bb03, type: 2}
-  VictoryScore: 60
+  DebugRaidModel: {fileID: 11400000, guid: 9fb5bf1c880ee474b99d6c4a627ea4f2, type: 2}
+  VictoryScore: 0
   DialogOptions: {fileID: 1983556713}
 --- !u!82 &623892741
 AudioSource:

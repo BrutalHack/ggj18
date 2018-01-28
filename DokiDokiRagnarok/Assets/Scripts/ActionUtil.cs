@@ -2,6 +2,7 @@
 using System.Runtime.Serialization.Formatters;
 using DokiDokiRagnarok.Controllers;
 using DokiDokiRagnarok.Models;
+using UnityEngine;
 
 namespace DokiDokiRagnarok
 {
@@ -35,6 +36,7 @@ namespace DokiDokiRagnarok
         {
             int nextDialog = GetDialogIdByCondition(actionDialogModel);
             Viking.Score += actionDialogModel.Score[nextDialog];
+            Debug.Log(Viking.Score);
 
             DialogModel dialogModel = null;
             if (nextDialog > -1)
