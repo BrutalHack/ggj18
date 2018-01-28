@@ -2,6 +2,7 @@
 using System.Runtime.Serialization.Formatters;
 using DokiDokiRagnarok.Controllers;
 using DokiDokiRagnarok.Models;
+using UnityEngine;
 
 namespace DokiDokiRagnarok
 {
@@ -35,6 +36,7 @@ namespace DokiDokiRagnarok
         {
             int nextDialog = GetDialogIdByCondition(actionDialogModel);
             Viking.Score += actionDialogModel.Score[nextDialog];
+            Debug.Log(Viking.Score);
 
             DialogModel dialogModel = null;
             if (nextDialog > -1)
@@ -177,6 +179,48 @@ namespace DokiDokiRagnarok
 
             if (conditions == ActionConditions.IsShyAndDrunk &&
                 (Village.Emotion == Emotion.Shy && Viking.MeadCount > 0))
+            {
+                return true;
+            }
+
+            if (conditions == ActionConditions.OdinEqualsZeroWhileNotSweat &&
+                Village.Emotion != Emotion.SweatDrop &&
+                Viking.OdinCount == 0)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinEqualsOneWhileNotSweat &&
+                Village.Emotion != Emotion.SweatDrop &&
+                Viking.OdinCount == 1)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinGreaterOneWhileNotSweat &&
+                Village.Emotion != Emotion.SweatDrop &&
+                Viking.OdinCount > 0)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinEqualsZeroWhileSweat &&
+                Village.Emotion == Emotion.SweatDrop &&
+                Viking.OdinCount == 0)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinEqualsOneWhileSweat &&
+                Village.Emotion == Emotion.SweatDrop &&
+                Viking.OdinCount == 1)
+            {
+                return true;
+            }
+            
+            if (conditions == ActionConditions.OdinGreaterOneWhileSweat &&
+                Village.Emotion == Emotion.SweatDrop &&
+                Viking.OdinCount > 0)
             {
                 return true;
             }

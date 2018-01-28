@@ -80,14 +80,14 @@ namespace DokiDokiRagnarok.Controllers
 
                 if (_dialog == _raid.DefeatDialog)
                 {
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene(1);
                     return true;
                 }
 
                 if (_dialog == _raid.VictoryDialog)
                 {
                     World.RaidedVillages.Add(_raid);
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene(1);
                     return true;
                 }
 
@@ -120,9 +120,10 @@ namespace DokiDokiRagnarok.Controllers
         private void NextPhase()
         {
             _phaseStep++;
-            if (_phaseStep == _raid.RaidPhases.Count)
+            if (_phaseStep >= _raid.RaidPhases.Count)
             {
                 HandleRaidEnd();
+                return;
             }
 
             _dialogStep = -1;
@@ -145,6 +146,11 @@ namespace DokiDokiRagnarok.Controllers
 
         public void StartDialog()
         {
+            if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                SceneManager.LoadScene(1);
+                return;
+            }
             _dialogStep = -1;
             AnimateText.SetTextButtonInteractable(false);
             if (_dialog == _raidPhase.Intro)

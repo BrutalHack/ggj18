@@ -1003,8 +1003,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActorController: {fileID: 1112287838}
   AnimateText: {fileID: 1816403212}
-  DebugRaidModel: {fileID: 11400000, guid: 52a99e599338d4c4a8b3874af8b3bb03, type: 2}
-  VictoryScore: 60
+  DebugRaidModel: {fileID: 11400000, guid: 9fb5bf1c880ee474b99d6c4a627ea4f2, type: 2}
+  VictoryScore: 0
   DialogOptions: {fileID: 1983556713}
 --- !u!82 &623892741
 AudioSource:
@@ -2447,9 +2447,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1816403208}
   - component: {fileID: 1816403210}
-  - component: {fileID: 1816403212}
   - component: {fileID: 1816403209}
   - component: {fileID: 1816403211}
+  - component: {fileID: 1816403212}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   TextComponent: {fileID: 1969863082}
   TextButton: {fileID: 1816403211}
   lineSpacing: 1.3
-  DebugInstantText: 0
+  DebugInstantText: 1
 --- !u!1001 &1870874893
 Prefab:
   m_ObjectHideFlags: 0
