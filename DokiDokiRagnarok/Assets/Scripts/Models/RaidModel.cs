@@ -10,5 +10,10 @@ namespace DokiDokiRagnarok.Models
         
         public DialogModel VictoryDialog;
         public DialogModel DefeatDialog;
+
+        public ActionDialogModel RaidActionDialogModel;
+        public ActionDialogModel MeadActionDialogModel;
+        public ActionDialogModel OdinActionDialogModel;
+        public ActionDialogModel EnglandActionDialogModel;
     }
 }

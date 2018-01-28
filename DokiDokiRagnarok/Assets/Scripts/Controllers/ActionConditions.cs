@@ -22,6 +22,7 @@
         AttackedEnglandGreaterOne = 131072,
         IsShyAndDrunk = IsShy | MeadGreaterZero,
         IsHappyAndDrunk = IsHappy | MeadGreaterZero,
-        None = 262144
+        None = 262144,
+        
     }
 }

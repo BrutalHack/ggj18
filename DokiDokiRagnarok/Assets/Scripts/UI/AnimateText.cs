@@ -10,14 +10,16 @@ namespace DokiDokiRagnarok.UI
         [SerializeField] private float _newLineInterval = 0.4f;
         public Text TextComponent;
         public Button TextButton;
-
-        void Start()
-        {
-        }
+        public bool DebugInstantText = false;
 
         public void ShowText(string message)
         {
             TextComponent.text = "";
+            if (DebugInstantText)
+            {
+                TextComponent.text = message;
+                return;
+            }
             TextButton.interactable = false;
             StartCoroutine(TypeText(message));
         }

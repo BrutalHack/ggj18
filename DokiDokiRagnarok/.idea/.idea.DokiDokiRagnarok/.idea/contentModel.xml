@@ -25,9 +25,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActionUtil.cs" t="Include" />
           <e p="Controllers" t="Include">
             <e p="ActionConditions.cs" t="Include" />
-            <e p="ActionController.cs" t="Include" />
             <e p="ActorController.cs" t="Include" />
             <e p="RaidController.cs" t="Include" />
             <e p="WorldController.cs" t="Include" />

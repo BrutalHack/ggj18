@@ -705,6 +705,7 @@ GameObject:
   - component: {fileID: 623892739}
   - component: {fileID: 623892740}
   - component: {fileID: 623892741}
+  - component: {fileID: 623892742}
   m_Layer: 0
   m_Name: RaidController
   m_TagString: Untagged
@@ -739,7 +740,6 @@ MonoBehaviour:
   ActorController: {fileID: 1112287838}
   AnimateText: {fileID: 1816403212}
   DebugRaidModel: {fileID: 11400000, guid: 52a99e599338d4c4a8b3874af8b3bb03, type: 2}
-  ActionController: {fileID: 0}
   DialogOptions: {fileID: 579278358}
 --- !u!82 &623892741
 AudioSource:
@@ -821,6 +821,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &623892742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623892738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80e8a7d4be441818b4d8297d9b5ff37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RaidActionDialogModel: {fileID: 0}
+  MeadActionDialogModel: {fileID: 0}
+  OdinActionDialogModel: {fileID: 0}
+  AttackEnglandActionDialogModel: {fileID: 0}
 --- !u!1 &637159410 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1394981329792612, guid: 3e4e30ece44bf4eb39adfdeb604bfaf4,

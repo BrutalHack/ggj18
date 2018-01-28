@@ -21,3 +21,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5862ac3e89ca72340b2bcf15dccfa5c1, type: 2}
   VictoryDialog: {fileID: 11400000, guid: ef7cd80ff8d4bfe43b21b3f6a264fcab, type: 2}
   DefeatDialog: {fileID: 11400000, guid: 5b5b4b8342d041749b2408e9e6344f84, type: 2}
+  RaidActionDialogModel: {fileID: 11400000, guid: 6da73f3b5e7ee2643a49550a619bf435,
+    type: 2}
+  MeadActionDialogModel: {fileID: 11400000, guid: 58eaff33f6896714c85d5fcf7ba505bc,
+    type: 2}
+  OdinActionDialogModel: {fileID: 11400000, guid: 60995c8e0a752c443af5725e39b4612e,
+    type: 2}
+  EnglandActionDialogModel: {fileID: 11400000, guid: 082a4b6b7e7de7248b770d1e37761c51,
+    type: 2}

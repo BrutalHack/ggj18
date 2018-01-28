@@ -1,32 +1,50 @@
-﻿using DokiDokiRagnarok.Models;
-using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization.Formatters;
+using DokiDokiRagnarok.Controllers;
+using DokiDokiRagnarok.Models;
 
-namespace DokiDokiRagnarok.Controllers
+namespace DokiDokiRagnarok
 {
-    public class ActionController : MonoBehaviour
+    public static class ActionUtil
     {
-        public ActionDialogModel RaidActionDialogModel; 
-        public ActionDialogModel MeadActionDialogModel; 
-        public ActionDialogModel OdinActionDialogModel; 
-        public ActionDialogModel AttackEnglandActionDialogModel; 
+        
+        public static DialogModel PerformAction(List<ActionDialogModel> actionDialogModels, int option)
+        {
+            DialogModel nextDialog = Raid(actionDialogModels[option]);
+
+            switch (option)
+            {
+                case 0:
+                    Viking.RaidCount++;
+                    break;
+                case 1:
+                    Viking.MeadCount++;
+                    break;
+                case 2:
+                    Viking.OdinCount++;
+                    break;
+                case 3:
+                    Viking.AttackedEnglandCount++;
+                    break;
+            }
+            return nextDialog;
+        }
         
         /// <returns>Next Dialog or null, if no reaction from village.</returns>
-        public DialogModel Raid()
+        public static DialogModel Raid(ActionDialogModel actionDialogModel)
         {
-            int nextDialog = GetDialogIdByCondition(RaidActionDialogModel);
-            Viking.Score += RaidActionDialogModel.Score[nextDialog];
+            int nextDialog = GetDialogIdByCondition(actionDialogModel);
+            Viking.Score += actionDialogModel.Score[nextDialog];
 
             DialogModel dialogModel = null;
             if (nextDialog > -1)
             {
-                dialogModel = RaidActionDialogModel.Dialogs[nextDialog];
-                //RaidController dialog = 
+                dialogModel = actionDialogModel.Dialogs[nextDialog];
             }
-            Viking.RaidCount++;
             return dialogModel;
         }
 
-        private int GetDialogIdByCondition(ActionDialogModel actionDialogModel)
+        private static int GetDialogIdByCondition(ActionDialogModel actionDialogModel)
         {
             for (int i = 0; i < actionDialogModel.Conditions.Count; i++)
             {
@@ -38,34 +56,10 @@ namespace DokiDokiRagnarok.Controllers
                 }
             }
 
-            Debug.LogError("No DialogId");
             return -1;
         }
 
-        public void PraiseOdin()
-        {
-            Viking.OdinCount++;
-        }
-
-        public void AttackEngland()
-        {
-            if (Village.Emotion == Emotion.Angry)
-            {
-                Village.AttackedEnglandWhileAngry = true;
-            } else if (Village.Emotion == Emotion.SweatDrop)
-            {
-                Village.AttackedEnglandWhileSweatDrop = true;
-            }
-
-            Viking.AttackedEnglandCount++;
-        }
-
-        public void DrinkMead()
-        {
-            Viking.MeadCount++;
-        }
-        
-        public bool CheckCondition(ActionConditions conditions)
+        public static bool CheckCondition(ActionConditions conditions)
         {
             if (conditions == ActionConditions.IsHappy &&
                 Village.Emotion == Emotion.Happy)
@@ -162,7 +156,7 @@ namespace DokiDokiRagnarok.Controllers
             {
                 return true;
             }
-            
+
             if (conditions == ActionConditions.AttackedEnglandEqualsOne &&
                 Viking.AttackedEnglandCount == 1)
             {
@@ -180,14 +174,21 @@ namespace DokiDokiRagnarok.Controllers
             {
                 return true;
             }
-            
+
             if (conditions == ActionConditions.IsShyAndDrunk &&
                 (Village.Emotion == Emotion.Shy && Viking.MeadCount > 0))
             {
                 return true;
             }
-            
+
+            if (conditions == ActionConditions.None)
+            {
+                return true;
+            }
+
             return false;
         }
+
+
     }
 }
