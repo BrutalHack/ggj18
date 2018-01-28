@@ -307,6 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942308769b8f8ad4c8f12303722f24c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Volume: 0.25
   PlayOnStart: 0
   Music: {fileID: 8300000, guid: 332c601d7aabb294a9476d337ade702f, type: 3}
   Loop: {fileID: 8300000, guid: 332c601d7aabb294a9476d337ade702f, type: 3}
