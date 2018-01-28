@@ -15,8 +15,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: def720ba235950241b48c31982af4b48, type: 2}
   DialogTexts:
-  - I'm glad we're all pro-pillaging here.
-  - O-Of course! Did it ever sound like I wasn't?
+  - 'OLAF: I''m glad we''re all pro-pillaging here.'
+  - 'NORMANDY: O-Of course! Did it ever sound like I wasn''t?'
   DialogAudio:
   - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

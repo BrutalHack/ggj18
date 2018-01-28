@@ -30,20 +30,21 @@ MonoBehaviour:
   - As you turn your custom overclocked dragon speedboat southwards, you cannot help
     but imagine the alluring treasures of Normandy's coast.
   - But, all of a sudden, land rushes right past your finely tuned booty senses!
-  - Woah! Where did this island suddenly come from?!
-  - Excuse me?!
+  - 'OLAF: Woah! Where did this island suddenly come from?!'
+  - 'NORMANDY: Excuse me?!'
   - It is the coast of the Normandy, awash with easily accessible looting opportunities!
     Oh boy!
-  - Ha-rumph! I'm no mere island! I am part of the mainland, I'll have you know!
-  - Don't think you can just pillage my town with your tired shtick, you unwashed
-    barbarian!
+  - 'NORMANDY: Ha-rumph! I''m no mere island! I am part of the mainland, I''ll have
+    you know!'
+  - 'NORMANDY: Don''t think you can just pillage my town with your tired shtick, you
+    unwashed barbarian!'
   DialogAudio:
   - {fileID: 8300000, guid: 2c0ef4080bcb44b9db3912e39a8881a6, type: 3}
   - {fileID: 8300000, guid: b335148b785dd4b35b7d3cd9e9568639, type: 3}
   - {fileID: 8300000, guid: 217d8c1551bba40648717a6ab3ba690e, type: 3}
   - {fileID: 8300000, guid: 3f0bd0c68c9f847f69e73150c55f0c6b, type: 3}
   - {fileID: 8300000, guid: a5bbf8c813ec64dfb947a387e4e538e1, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

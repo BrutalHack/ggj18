@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - '''Cause I like the booty.'
-  - So you're simple-minded, i get it.
-  - Who doesn't enjoy big booty...
-  - And mine is the largest of them all.
+  - 'OLAF: ''Cause I like the booty.'
+  - 'ICELAND: So you''re simple-minded, i get it.'
+  - 'ICELAND: Who doesn''t enjoy big booty...'
+  - 'ICELAND: And mine is the largest of them all.'
   DialogAudio:
   - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
   Events: []

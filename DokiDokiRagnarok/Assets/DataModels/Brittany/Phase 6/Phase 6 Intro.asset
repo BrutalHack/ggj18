@@ -16,9 +16,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - 'I... I just have to go out and say it. '
-  - With all what you're doing for me, Viking-San... You can't mean...
-  - You... wouldn't really conquer me for the Danish King Canute's realm, would you?
+  - 'BRITTANY: I... I just have to go out and say it. '
+  - 'BRITTANY: With all what you''re doing for me, Viking-San... You can''t mean...'
+  - 'BRITTANY: You... wouldn''t really conquer me for the Danish King Canute''s realm,
+    would you?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

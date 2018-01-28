@@ -15,9 +15,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 0bd91ba7f143aa048b2043664426c539, type: 2}
   DialogTexts:
-  - (blow the horn)
-  - I am trying to start a conversation! Don't just try to win me over with your embarrassing
-    attempts at music!
+  - 'OLAF: (blow the horn)'
+  - 'ICELAND: I am trying to start a conversation! Don''t just try to win me over
+    with your embarrassing attempts at music!'
   DialogAudio:
   - {fileID: 8300000, guid: d21d9569546464266a0dc1a31f4a290c, type: 3}
   Events: []

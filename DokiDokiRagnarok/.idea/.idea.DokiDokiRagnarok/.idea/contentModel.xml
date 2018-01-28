@@ -17,6 +17,9 @@
             <e p="ScriptableObjectUtility.cs" t="Include" />
           </e>
         </e>
+        <e p="Fonts" t="Include">
+          <e p="Jorvik0.95.txt" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">

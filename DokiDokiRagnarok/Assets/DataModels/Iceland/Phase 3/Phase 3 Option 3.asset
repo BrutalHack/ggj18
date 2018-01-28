@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 09f3b34eb8dcb1d4b8ff1ecc25bbce80, type: 2}
   DialogTexts:
-  - (shrug)
-  - Not really interested in engaging in a conversation?
-  - How pedestrian and unspeakably plain.
+  - 'OLAF: (shrug)'
+  - 'ICELAND: Not really interested in engaging in a conversation?'
+  - 'ICELAND: How pedestrian and unspeakably plain.'
   DialogAudio:
   - {fileID: 8300000, guid: 1e976481b0e90433bb84ea07391f24a8, type: 3}
   Events: []

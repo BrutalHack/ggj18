@@ -34,10 +34,10 @@ MonoBehaviour:
   - And just as the merciless northern winds start encrusting your eyes with delicious
     seasalt...
   - '...a coastal village appears in your sights seductively!'
-  - '...OHHH!!!! What''s this? A viking!'
-  - '!'
-  - I've never seen one before! Hello!
-  - I'm BRITTANY-CHAN! How do you do, Viking-San?
+  - 'BRITTANY: ...OHHH!!!! What''s this? A viking!'
+  - 'OLAF: !'
+  - 'BRITTANY: I''ve never seen one before! Hello!'
+  - 'BRITTANY: I''m BRITTANY-CHAN! How do you do, Viking-San?'
   DialogAudio:
   - {fileID: 8300000, guid: 4b748c14fa6514913adae3aa30b8a810, type: 3}
   - {fileID: 8300000, guid: 02e551cce89a347f2b8db5ce49be5f2b, type: 3}

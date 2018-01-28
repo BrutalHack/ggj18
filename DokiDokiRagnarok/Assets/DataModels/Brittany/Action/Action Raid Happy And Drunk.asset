@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Guh...! Ridiculous!
-  - Have you truly mastered the parallel coastline razing technique in such a short
-    time?!
-  - Haha! Your pillaging woos and entices me... you scoundrel!
+  - 'BRITTANY: Guh...! Ridiculous!'
+  - 'BRITTANY: Have you truly mastered the parallel coastline razing technique in
+    such a short time?!'
+  - 'BRITTANY: Haha! Your pillaging woos and entices me... you scoundrel!'
   DialogAudio: []
   Events: []

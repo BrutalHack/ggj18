@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Brittany, I want to be more than just conquerbuddies.
-  - Huh?!
-  - D-Don't be stupid!
-  - It's not like I want you to subjugate my populace or anything! B-Baka!
+  - 'OLAF: Brittany, I want to be more than just conquerbuddies.'
+  - 'BRITTANY: Huh?!'
+  - 'BRITTANY: D-Don''t be stupid!'
+  - 'BRITTANY: It''s not like I want you to subjugate my populace or anything! B-Baka!'
   DialogAudio:
   - {fileID: 8300000, guid: 38c1c24b194ed4c7e868a5bed785e6cd, type: 3}
   Events: []

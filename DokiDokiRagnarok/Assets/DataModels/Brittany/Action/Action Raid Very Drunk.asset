@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - S-Such raiding power!!!
-  - Look how many exclamation marks you made me use! I'm... I'm lacking vocabulary
-    to do your relentless village pummeling justice!
-  - Hmmm... Plunderealistic?
-  - Sounds good! Plunderealistic job, Viking-San!!!
+  - 'BRITTANY: S-Such raiding power!!!'
+  - 'BRITTANY: Look how many exclamation marks you made me use! I''m... I''m lacking
+    vocabulary to do your relentless village pummeling justice!'
+  - 'BRITTANY: Hmmm... Plunderealistic?'
+  - 'BRITTANY: Sounds good! Plunderealistic job, Viking-San!!!'
   DialogAudio: []
   Events: []

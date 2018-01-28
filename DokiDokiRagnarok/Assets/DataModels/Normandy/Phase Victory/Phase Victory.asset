@@ -28,10 +28,10 @@ MonoBehaviour:
   - You successfully raided another peaceful dwelling, like a true viking.
   - Not bad, kiddo.
   - Odin approves.
-  - Hahaha! And so do I, viking!
-  - And here I thought that I, Loki, could trick you with my false advice!
-  - Good job! Hahahahaaaaa...
-  - So long, sucker!
+  - 'LOKI: Hahaha! And so do I, viking!'
+  - 'LOKI: And here I thought that I, Loki, could trick you with my false advice!'
+  - 'LOKI: Good job! Hahahahaaaaa...'
+  - 'LOKI: So long, sucker!'
   DialogAudio:
   - {fileID: 8300000, guid: 34987a34df1e84392a83c2fd55aa0b58, type: 3}
   - {fileID: 8300000, guid: 010dc1c8d2e47471e9fce6f7e1b3cc8d, type: 3}

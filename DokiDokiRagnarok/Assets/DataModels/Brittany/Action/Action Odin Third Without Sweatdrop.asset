@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   DialogTexts:
-  - Hear my advice, brave viking...
-  - When you see the shining drop, call upon my name...
+  - 'ODIN: Hear my advice, brave viking...'
+  - 'ODIN: When you see the shining drop, call upon my name...'
   DialogAudio: []
   Events: []

@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: def720ba235950241b48c31982af4b48, type: 2}
   DialogTexts:
-  - Incredibly unhygienic.
-  - Go figure.
-  - I mean, I could smell that, and so could the entire continent...
-  - But I figured it's some sort of natural defense mechanism or something.
+  - 'OLAF: Incredibly unhygienic.'
+  - 'NORMANDY: Go figure.'
+  - 'NORMANDY: I mean, I could smell that, and so could the entire continent...'
+  - 'NORMANDY: But I figured it''s some sort of natural defense mechanism or something.'
   DialogAudio:
   - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

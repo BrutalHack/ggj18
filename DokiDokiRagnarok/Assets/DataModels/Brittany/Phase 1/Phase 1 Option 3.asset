@@ -21,15 +21,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   DialogTexts:
-  - (grunt plunderingly)
-  - W-What are you insinuating, Viking-San?
-  - Are - are your grunts some sort of communication? How rude! At least use words
-    when you address a simple British fishing village!
-  - That's it, brave viking! You have begun PILLAGING!
-  - Before your next action - listen closely!
-  - You might spot some CLUES for the best course of action...
-  - Ah! Now you made me all flustered...
-  - Just what are you trying to pull by making me LOSE MY COMPOSURE, Viking-San?!
+  - 'OLAF: (grunt plunderingly)'
+  - 'BRITTANY: W-What are you insinuating, Viking-San?'
+  - 'BRITTANY: Are - are your grunts some sort of communication? How rude! At least
+    use words when you address a simple British fishing village!'
+  - 'ODIN: That''s it, brave viking! You have begun PILLAGING!'
+  - 'ODIN: Before your next action - listen closely!'
+  - 'ODIN: You might spot some CLUES for the best course of action...'
+  - 'BRITTANY: Ah! Now you made me all flustered...'
+  - 'BRITTANY: Just what are you trying to pull by making me LOSE MY COMPOSURE, Viking-San?!'
   DialogAudio:
   - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
   Events: []

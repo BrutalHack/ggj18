@@ -17,10 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   DialogTexts:
-  - Can't I just be a simple viking, head over heels in bloodlust?
-  - Haha, you're right. Bloodlust truly is a powerful emotion.
-  - Why shouldn't we just give in to our emotions, and be just conqueror and conqueree?
-  - It could be so simple.
+  - 'OLAF: Can''t I just be a simple viking, head over heels in bloodlust?'
+  - 'BRITTANY: Haha, you''re right. Bloodlust truly is a powerful emotion.'
+  - 'BRITTANY: Why shouldn''t we just give in to our emotions, and be just conqueror
+    and conqueree?'
+  - 'BRITTANY: It could be so simple.'
   DialogAudio:
   - {fileID: 8300000, guid: 4c951fd3504234ab689eb389758e1659, type: 3}
   Events: []

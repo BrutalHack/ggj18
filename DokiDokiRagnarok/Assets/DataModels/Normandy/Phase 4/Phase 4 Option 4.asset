@@ -17,10 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - I'm, like, WAY beyond checked out at this point.
-  - Yeah, I noticed.
-  - How foolish of me! Argh!
-  - It was a mistake to interpret your various grunting sounds as sage advice.
+  - 'OLAF: I''m, like, WAY beyond checked out at this point.'
+  - 'NORMANDY: Yeah, I noticed.'
+  - 'NORMANDY: How foolish of me! Argh!'
+  - 'NORMANDY: It was a mistake to interpret your various grunting sounds as sage
+    advice.'
   DialogAudio:
   - {fileID: 8300000, guid: 7d7d2cf288baa490996f4c3579d63c2a, type: 3}
   Events: []

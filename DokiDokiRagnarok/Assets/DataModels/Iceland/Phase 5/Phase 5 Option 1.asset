@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 09f3b34eb8dcb1d4b8ff1ecc25bbce80, type: 2}
   DialogTexts:
-  - Did they see fire inside the mountain?
-  - They even saw fire burning the trees.
-  - Not that this has to do with anything!
-  - They screamed and burned to ashes. Simple as that!
+  - 'OLAF: Did they see fire inside the mountain?'
+  - 'ICELAND: They even saw fire burning the trees.'
+  - 'ICELAND: Not that this has to do with anything!'
+  - 'ICELAND: They screamed and burned to ashes. Simple as that!'
   DialogAudio:
   - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

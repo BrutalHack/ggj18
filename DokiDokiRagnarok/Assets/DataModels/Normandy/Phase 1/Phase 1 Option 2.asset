@@ -18,13 +18,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   DialogTexts:
-  - (grunt indignantly)
-  - Yeah, you just hatin' because you can't handle the continental-sized loads of
-    truth I'm heaping on your plate here, unwashed barbarian!
-  - Yeah, you just hatin' because you can't handle the continental-sized loads of
-    truth I'm heaping on your plate here, unwashed barbarian!
-  - You and those accursed Englishmen!
-  - Grrrrrrr! I HATE THOSE ENGLISH GUYS SO MUCH!
+  - 'OLAF: (grunt indignantly)'
+  - 'NORMANDY: Yeah, you just hatin'' because you can''t handle the continental-sized
+    loads of truth I''m heaping on your plate here, unwashed barbarian!'
+  - 'NORMANDY: Yeah, you just hatin'' because you can''t handle the continental-sized
+    loads of truth I''m heaping on your plate here, unwashed barbarian!'
+  - 'NORMANDY: You and those accursed Englishmen!'
+  - 'NORMANDY: Grrrrrrr! I HATE THOSE ENGLISH GUYS SO MUCH!'
   DialogAudio:
   - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
   Events: []

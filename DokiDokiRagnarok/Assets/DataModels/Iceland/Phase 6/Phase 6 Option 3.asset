@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - Izzi-sama, I shall keep you in my volcano forever...
-  - Such disappointment...
-  - That is actually really sweet...
-  - I am melting...
+  - 'OLAF: Izzi-sama, I shall keep you in my volcano forever...'
+  - 'ICELAND: Such disappointment...'
+  - 'ICELAND: That is actually really sweet...'
+  - 'ICELAND: I am melting...'
   DialogAudio:
   - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

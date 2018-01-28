@@ -17,9 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - What is this?!
-  - This sickening honey-like stench!
-  - Someone seeks to defile these lands with their MEAD addiction!!!
-  - NOT with me, friendo! You're not transmitting ANY wealth from these lands today!
+  - 'NORMANDY: What is this?!'
+  - 'NORMANDY: This sickening honey-like stench!'
+  - 'NORMANDY: Someone seeks to defile these lands with their MEAD addiction!!!'
+  - 'NORMANDY: NOT with me, friendo! You''re not transmitting ANY wealth from these
+    lands today!'
   DialogAudio: []
   Events: []

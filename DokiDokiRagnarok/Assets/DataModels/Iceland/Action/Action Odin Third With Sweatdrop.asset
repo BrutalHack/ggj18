@@ -16,8 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   DialogTexts:
-  - I am not sure what to think of your obsession with Odin...
-  - Hear my advice, brave viking...
-  - An opponent's anger means nothing before Odin's might...
+  - 'ICELAND: I am not sure what to think of your obsession with Odin...'
+  - 'ODIN: Hear my advice, brave viking...'
+  - 'ODIN: An opponent''s anger means nothing before Odin''s might...'
   DialogAudio: []
   Events: []

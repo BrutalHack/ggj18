@@ -15,8 +15,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - 'I''m curious, actually. '
-  - How WOULD you describe the jetset raid lifestyle of the modern viking?
+  - 'NORMANDY: I''m curious, actually. '
+  - 'NORMANDY: How WOULD you describe the jetset raid lifestyle of the modern viking?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

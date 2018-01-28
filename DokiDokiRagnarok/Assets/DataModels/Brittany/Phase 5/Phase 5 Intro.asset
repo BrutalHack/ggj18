@@ -16,9 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - I... I just don't know if I'm ready for the next step!
-  - I mean, could I really commit? Could YOU really commit?
-  - Just think of all you'd have to give up to pillage my village!
+  - 'BRITTANY: I... I just don''t know if I''m ready for the next step!'
+  - 'BRITTANY: I mean, could I really commit? Could YOU really commit?'
+  - 'BRITTANY: Just think of all you''d have to give up to pillage my village!'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

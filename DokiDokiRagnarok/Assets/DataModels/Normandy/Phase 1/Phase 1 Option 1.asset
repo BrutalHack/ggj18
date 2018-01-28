@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Uh, I like your... fjords.
-  - What?! What do you think you're saying?
-  - I'm mainland! I ride with the continental gang, dude!
-  - Ain't no fjords up in this joint, unwashed barbarian!
+  - 'OLAF: Uh, I like your... fjords.'
+  - 'NORMANDY: What?! What do you think you''re saying?'
+  - 'NORMANDY: I''m mainland! I ride with the continental gang, dude!'
+  - 'NORMANDY: Ain''t no fjords up in this joint, unwashed barbarian!'
   DialogAudio:
   - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
   Events: []

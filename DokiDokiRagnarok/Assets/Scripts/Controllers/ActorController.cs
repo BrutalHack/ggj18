@@ -1,4 +1,5 @@
-﻿using DokiDokiRagnarok.Models;
+﻿using System.Collections.Generic;
+using DokiDokiRagnarok.Models;
 using UnityEngine;
 
 namespace DokiDokiRagnarok.Controllers
@@ -11,13 +12,30 @@ namespace DokiDokiRagnarok.Controllers
         public GameObject LokiActor;
         public GameObject OdinActor;
 
-        public GameObject VikingPrefab;
-        public GameObject VillagePrefab;
+        public List<GameObject> VillagePrefabs;
+        private GameObject VillagePrefab;
+
+        private bool _villageWasHere;
 
         void Start()
         {
+//            if (World.ChosenRaid.Name.Equals("Brittany"))
+//            {
+//                VillagePrefab = VillagePrefabs[0];
+//            } else if (World.ChosenRaid.Name.Equals("Iceland"))
+//            {
+//                VillagePrefab = VillagePrefabs[1];
+//            } else if (World.ChosenRaid.Name.Equals("Normandy"))
+//            {
+//                VillagePrefab = VillagePrefabs[2];
+//            }
+//            else
+            {
+                VillagePrefab = VillagePrefabs[0];
+            }
+            DisableRightActors();
         }
-
+        
         public void SetActor(ActorModel actor)
         {
             if (actor.ActorType == ActorType.Loki)
@@ -38,7 +56,7 @@ namespace DokiDokiRagnarok.Controllers
             }
         }
 
-        public void DisableAllActors()
+        public void DisableRightActors()
         {
             destroyAllChildren(VillageActor.transform);
             LokiActor.SetActive(false);
@@ -62,29 +80,47 @@ namespace DokiDokiRagnarok.Controllers
 
         public void SetVikingActor(GameObject actorPrefab)
         {
-            DisableAllActors();
-            destroyAllChildren(VikingActor.transform);
-            if (actorPrefab != null)
+            //DisableLokiAndOdinActors();
+            //destroyAllChildren(VikingActor.transform);
+            //if (actorPrefab != null)
+            //{
+            //    Instantiate(actorPrefab, VikingActor.transform);
+            //}
+        }
+
+        private void DisableLokiAndOdinActors()
+        {
+            if (LokiActor.activeSelf || OdinActor.activeSelf)
             {
-                Instantiate(actorPrefab, VikingActor.transform);
+                SetLoki(false);
+                SetOdin(false);                
             }
         }
 
         public void SetLoki(bool active)
         {
-            DisableAllActors();
+            DisableRightActors();
             LokiActor.SetActive(active);
+            if (_villageWasHere)
+            {
+                SetVillageActor(VillagePrefab);
+            }
         }
 
         public void SetOdin(bool active)
         {
-            DisableAllActors();
+            DisableRightActors();
             OdinActor.SetActive(active);
+            if (_villageWasHere)
+            {
+                SetVillageActor(VillagePrefab);
+            }
         }
 
         public void SetVillageActor(GameObject actorPrefab)
         {
-            DisableAllActors();
+            _villageWasHere = true;
+            DisableRightActors();
             if (actorPrefab != null)
             {
                 Instantiate(actorPrefab, VillageActor.transform);

@@ -15,8 +15,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - Why do you take such a long journey on yourself to visit me, brute?
-  - What drives a Viking like you to go to such lengths?
+  - 'ICELAND: Why do you take such a long journey on yourself to visit me, brute?'
+  - 'ICELAND: What drives a Viking like you to go to such lengths?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

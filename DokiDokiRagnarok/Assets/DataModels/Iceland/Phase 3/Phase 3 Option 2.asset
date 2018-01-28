@@ -17,11 +17,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 09f3b34eb8dcb1d4b8ff1ecc25bbce80, type: 2}
   DialogTexts:
-  - '(lie) You know, I always wanted to be a baker. '
-  - That doesn't sound badass at all.
-  - 'In fact, it is so unbelievable not badass that I can''t help but think you are
-    lying. '
-  - It even said so in the parentheses. Didn't think I would catch up on that?
+  - 'OLAF: (lie) You know, I always wanted to be a baker. '
+  - 'ICELAND: That doesn''t sound badass at all.'
+  - 'ICELAND: In fact, it is so unbelievable not badass that I can''t help but think
+    you are lying. '
+  - 'ICELAND: It even said so in the parentheses. Didn''t think I would catch up on
+    that?'
   DialogAudio:
   - {fileID: 8300000, guid: bd439c437b25e45268818fc6d7711747, type: 3}
   Events: []

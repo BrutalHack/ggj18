@@ -32,12 +32,12 @@ MonoBehaviour:
   - 'A rumbling noise resounds among the heavens and thick liquid erupts as a volcano
     appears in the distance. '
   - To its feet lies a village, awaiting your arrival.
-  - So, you finally manage to show yourself! I noticed your prying eyes from miles
-    away.
-  - '!'
-  - You aren't welcome here, Stalker! Leave me alone! For I am Izzi-Sama, the richest
-    village of them all!
-  - What do you have to say in your defense, brute?
+  - 'ICELAND: So, you finally manage to show yourself! I noticed your prying eyes
+    from miles away.'
+  - 'OLAF: !'
+  - 'ICELAND: You aren''t welcome here, Stalker! Leave me alone! For I am Izzi-Sama,
+    the richest village of them all!'
+  - 'ICELAND: What do you have to say in your defense, brute?'
   DialogAudio:
   - {fileID: 8300000, guid: 2e49540541768412b8d2fa1bd1f06e45, type: 3}
   - {fileID: 8300000, guid: 55526a5ddf9ef43e3958354066578ae7, type: 3}
@@ -45,6 +45,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: dc5dafdc63d7b4bd79828c2dfb6bd3e1, type: 3}
   - {fileID: 8300000, guid: 893b7a49883a4483aab95317a4a1b4a2, type: 3}
   - {fileID: 8300000, guid: df11532fe462f4a459c0392311b69b0c, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   Events:
   - m_PersistentCalls:
       m_Calls: []

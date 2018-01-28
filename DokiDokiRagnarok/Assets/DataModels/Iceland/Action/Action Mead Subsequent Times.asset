@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - 'Yes... '
-  - The gulping motion from your throat really emphasizes your neck muscles...
+  - 'ICELAND: Yes... '
+  - 'ICELAND: The gulping motion from your throat really emphasizes your neck muscles...'
   DialogAudio: []
   Events: []

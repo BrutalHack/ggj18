@@ -19,12 +19,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Oh, I know that look!
-  - You're planning something fun again, aren't you?
-  - AARRRGH!!!
-  - I've been attacked again! Who would do such a thing?! Everybody loves plucky little
-    England!
-  - HAHAHAHAHAHAHAHA
-  - Haha, that was even better than the last one! Nice job, viking!
+  - 'NORMANDY: Oh, I know that look!'
+  - 'NORMANDY: You''re planning something fun again, aren''t you?'
+  - 'BRITTANY: AARRRGH!!!'
+  - 'BRITTANY: I''ve been attacked again! Who would do such a thing?! Everybody loves
+    plucky little England!'
+  - 'NORMANDY: HAHAHAHAHAHAHAHA'
+  - 'NORMANDY: Haha, that was even better than the last one! Nice job, viking!'
   DialogAudio: []
   Events: []

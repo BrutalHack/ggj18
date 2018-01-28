@@ -18,12 +18,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   - {fileID: 11400000, guid: cccd986830ae8fe4a83473a57077e8cc, type: 2}
   DialogTexts:
-  - I'm sorry, I was just thinking of those other rich, defenseless settlements again.
-  - What?!
-  - You're so heartless! Why do you disrespect my feelings in such a way?
-  - You can't just invade a foreign nation and expect a subjugated village not to
-    feel ANY affection!
-  - It's over!!!
+  - 'OLAF: I''m sorry, I was just thinking of those other rich, defenseless settlements
+    again.'
+  - 'BRITTANY: What?!'
+  - 'BRITTANY: You''re so heartless! Why do you disrespect my feelings in such a way?'
+  - 'BRITTANY: You can''t just invade a foreign nation and expect a subjugated village
+    not to feel ANY affection!'
+  - 'BRITTANY: It''s over!!!'
   DialogAudio:
   - {fileID: 8300000, guid: df1bcb945c0944b108aee5b1d1d0934f, type: 3}
   Events: []
