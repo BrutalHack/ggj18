@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - (scratch your beard and nod)
-  - So tactful!
-  - Who knew you could be such a gentleviking...
+  - 'OLAF: (scratch your beard and nod)'
+  - 'ICELAND: So tactful!'
+  - 'ICELAND: Who knew you could be such a gentleviking...'
   DialogAudio:
   - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - CHUG CHUG CHUG! Amazing, Viking-San!
-  - Just how do you stay this thirsty all the time?!
+  - 'BRITTANY: CHUG CHUG CHUG! Amazing, Viking-San!'
+  - 'BRITTANY: Just how do you stay this thirsty all the time?!'
   DialogAudio: []
   Events: []

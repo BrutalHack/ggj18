@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Oh! That's mead! I'd recognize that stench anywhere...
-  - But, seeing how deep your devotion to Allfather Odin is, I understand that it's
-    culturally significant to you as a viking.
-  - By all means, get piss-drunk in the name of your culture!
+  - 'NORMANDY: Oh! That''s mead! I''d recognize that stench anywhere...'
+  - 'NORMANDY: But, seeing how deep your devotion to Allfather Odin is, I understand
+    that it''s culturally significant to you as a viking.'
+  - 'NORMANDY: By all means, get piss-drunk in the name of your culture!'
   DialogAudio: []
   Events: []

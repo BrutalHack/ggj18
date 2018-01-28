@@ -17,10 +17,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - I can see now what a foolish landscape I've been.
-  - I can see now what a foolish landscape I've been.
-  - This has been an eye-opening experience...
-  - Can... Can I call you Viking-Sempai?
+  - 'NORMANDY: I can see now what a foolish landscape I''ve been.'
+  - 'NORMANDY: I rebuffed you with harsh words, when it were my prejudices towards
+    vikingkind that should''ve been rebuffed!'
+  - 'NORMANDY: This has been an eye-opening experience...'
+  - 'NORMANDY: Can... Can I call you Viking-Sempai?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

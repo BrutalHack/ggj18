@@ -18,12 +18,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - (bend the knee)
-  - 'W- what are you doing?! Oh my... '
-  - You may have caught me off guard, but still! Don't believe you can persuade me
-    that easily!
-  - Stand up, I can't handle this much flattery.
-  - I hope none of the other villages hear about this...
+  - 'OLAF: (bend the knee)'
+  - 'ICELAND: W- what are you doing?! Oh my... '
+  - 'ICELAND: You may have caught me off guard, but still! Don''t believe you can
+    persuade me that easily!'
+  - 'ICELAND: Stand up, I can''t handle this much flattery.'
+  - 'ICELAND: I hope none of the other villages hear about this...'
   DialogAudio:
   - {fileID: 8300000, guid: 22c0512a074114501aba5ec3419c9186, type: 3}
   Events: []

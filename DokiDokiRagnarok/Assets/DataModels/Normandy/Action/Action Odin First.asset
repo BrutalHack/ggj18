@@ -17,9 +17,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d875d9be9188f435592ec8f77542bf60, type: 2}
   - {fileID: 11400000, guid: d875d9be9188f435592ec8f77542bf60, type: 2}
   DialogTexts:
-  - Oh, what's this?
-  - Genuine Odin worship! This should be interesting!
-  - Hear my advice, brave viking...
-  - Whatever you do, do not drink mead after you have called upon me...
+  - 'NORMANDY: Oh, what''s this?'
+  - 'NORMANDY: Genuine Odin worship! This should be interesting!'
+  - 'ODIN: Hear my advice, brave viking...'
+  - 'ODIN: Whatever you do, do not drink mead after you have called upon me...'
   DialogAudio: []
   Events: []

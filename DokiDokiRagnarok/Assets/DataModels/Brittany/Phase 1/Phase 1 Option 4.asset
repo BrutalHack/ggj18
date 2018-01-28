@@ -21,14 +21,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   DialogTexts:
-  - (start with confused pillaging motions)
-  - Uh, what are you doing?
-  - This is kinda awkward... What if the Isle of Man sees us like this?
-  - That's it, brave viking! You have begun PILLAGING!
-  - Before your next action - listen closely!
-  - You might spot some CLUES for the best course of action...
-  - But, I shouldn't say that, when we barely know each other...
-  - Is pillaging in such a straightforward manner common to YOUR FAITH?
+  - 'OLAF: (start with confused pillaging motions)'
+  - 'BRITTANY: Uh, what are you doing?'
+  - 'BRITTANY: This is kinda awkward... What if the Isle of Man sees us like this?'
+  - 'ODIN: That''s it, brave viking! You have begun PILLAGING!'
+  - 'ODIN: Before your next action - listen closely!'
+  - 'ODIN: You might spot some CLUES for the best course of action...'
+  - 'BRITTANY: But, I shouldn''t say that, when we barely know each other...'
+  - 'BRITTANY: Is pillaging in such a straightforward manner common to YOUR FAITH?'
   DialogAudio:
   - {fileID: 8300000, guid: 4c951fd3504234ab689eb389758e1659, type: 3}
   Events: []

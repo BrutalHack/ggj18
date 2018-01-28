@@ -17,11 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - I greet thee Izzi-sama, may I have a look at those so called riches?
-  - How dare you! That is not a way you should treat a village!
-  - NEVER have I encountered a Warrior like you!
-  - Don't you now the basics of village etiquette? You haven't been BLESSED with good
-    manners!
+  - 'OLAF: I greet thee Izzi-sama, may I have a look at those so called riches?'
+  - 'ICELAND: How dare you! That is not a way you should treat a village!'
+  - 'ICELAND: NEVER have I encountered a Warrior like you!'
+  - 'ICELAND: Don''t you now the basics of village etiquette? You haven''t been BLESSED
+    with good manners!'
   DialogAudio:
   - {fileID: 8300000, guid: 1e3c018a70e844c45a0ad392184f945d, type: 3}
   Events: []

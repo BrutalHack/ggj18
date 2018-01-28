@@ -16,9 +16,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Well, I feel like we already got to know each other better.
-  - It's not every day you have fire set to your coastline in such a personable manner.
-  - Why don't you tell me something about yourself?
+  - 'BRITTANY: Well, I feel like we already got to know each other better.'
+  - 'BRITTANY: It''s not every day you have fire set to your coastline in such a personable
+    manner.'
+  - 'BRITTANY: Why don''t you tell me something about yourself?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

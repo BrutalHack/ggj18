@@ -16,9 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - Tell me, are you a loyal viking?
-  - Do you revisit your old conquests for another round?
-  - Or do you disappear to never return again?
+  - 'ICELAND: Tell me, are you a loyal viking?'
+  - 'ICELAND: Do you revisit your old conquests for another round?'
+  - 'ICELAND: Or do you disappear to never return again?'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

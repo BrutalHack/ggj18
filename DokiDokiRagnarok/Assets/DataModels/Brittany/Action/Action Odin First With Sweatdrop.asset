@@ -18,10 +18,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   DialogTexts:
-  - Ah, I see! So that's what viking culture is like!
-  - I'm glad you could demonstrate this aspect of your rich viking history to me.
-  - I'm already feeling much better!
-  - Hear my advice, brave viking...
-  - Strike at England when your foe's anger is at its greatest...
+  - 'BRITTANY: Ah, I see! So that''s what viking culture is like!'
+  - 'BRITTANY: I''m glad you could demonstrate this aspect of your rich viking history
+    to me.'
+  - 'BRITTANY: I''m already feeling much better!'
+  - 'ODIN: Hear my advice, brave viking...'
+  - 'ODIN: Strike at England when your foe''s anger is at its greatest...'
   DialogAudio: []
   Events: []

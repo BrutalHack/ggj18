@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
+  m_Name: Game Intro
+  m_EditorClassIdentifier: 
+  Actors:
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
+  - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
+  DialogTexts:
+  - 'OLAF: I am a true Viking!'
+  - 'OLAF: A true viking and, thus, pretty much a certified badass.'
+  - 'OLAF: Yet I''ve never actually raided a village before!'
+  - 'OLAF: I''m so embarrassed! All the other vikings laugh at me. Sometimes I cry
+    a little, but in a badass way.'
+  - 'OLAF: Then suddenly, after a long night of mead-based partying...'
+  - 'ODIN: Brave Warrior... It is I, Allfather Odin...'
+  - 'OLAF: What?! Is this a dream?!'
+  - 'ODIN: ...no. It''s Odin. I JUST said that.'
+  - 'OLAF: Oh. Right.'
+  - 'ODIN: Anyhow. Brave Warrior... I command you...'
+  - 'ODIN: Go forth and pillage! For the glory of the Vikings!'
+  - 'OLAF: Squinting through heavy eyelids, I rise from my fearsome powernap.'
+  - 'OLAF: I take a moment to gather myself.'
+  - 'OLAF: And then I pretty much begin pillaging immediately.'
+  DialogAudio:
+  - {fileID: 8300000, guid: e378fa491df69407c92f0194d8dce739, type: 3}
+  - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
+  - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
+  - {fileID: 8300000, guid: 66041d212614c4ec693b036efa08abca, type: 3}
+  - {fileID: 8300000, guid: 7d7d2cf288baa490996f4c3579d63c2a, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 43590d60204174732b86e10d65906bf6, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 22c0512a074114501aba5ec3419c9186, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: c80eef150c488422cab409e99a27ea21, type: 3}
+  - {fileID: 8300000, guid: bd439c437b25e45268818fc6d7711747, type: 3}
+  - {fileID: 8300000, guid: d21d9569546464266a0dc1a31f4a290c, type: 3}
+  Events:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

@@ -20,12 +20,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Huh? What are you doing?
-  - OUCH!!!
-  - Whatthe-?! Did someone just attack my vulnerable coastlines without warning?
-  - BWAHAHAHAHAHA!
-  - Oh, I love it! Just look at the dumb look on Brittany's face!
-  - I mean, it's a village, it doesn't really have a face, but... You get the idea.
-  - That was fun!
+  - 'NORMANDY: Huh? What are you doing?'
+  - 'BRITTANY: OUCH!!!'
+  - 'BRITTANY: Whatthe-?! Did someone just attack my vulnerable coastlines without
+    warning?'
+  - 'NORMANDY: BWAHAHAHAHAHA!'
+  - 'NORMANDY: Oh, I love it! Just look at the dumb look on Brittany''s face!'
+  - 'NORMANDY: I mean, it''s a village, it doesn''t really have a face, but... You
+    get the idea.'
+  - 'NORMANDY: That was fun!'
   DialogAudio: []
   Events: []

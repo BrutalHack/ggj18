@@ -16,8 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - BAH! You call that a raid?
-  - I can't even HEAR my tortured populace crying out in terror!
-  - You've got to do better than that!
+  - 'NORMANDY: BAH! You call that a raid?'
+  - 'NORMANDY: I can''t even HEAR my tortured populace crying out in terror!'
+  - 'NORMANDY: You''ve got to do better than that!'
   DialogAudio: []
   Events: []

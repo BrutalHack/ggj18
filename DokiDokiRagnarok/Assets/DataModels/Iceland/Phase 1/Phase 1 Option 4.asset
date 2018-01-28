@@ -18,11 +18,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - (present your goods)
-  - So you want to compare riches?
-  - I won't show you what's behind my doors just because you start bragging!
-  - Is that why you're here?
-  - To show me the SKILLS your people are known for?
+  - 'OLAF: (present your goods)'
+  - 'ICELAND: So you want to compare riches?'
+  - 'ICELAND: I won''t show you what''s behind my doors just because you start bragging!'
+  - 'ICELAND: Is that why you''re here?'
+  - 'ICELAND: To show me the SKILLS your people are known for?'
   DialogAudio:
   - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

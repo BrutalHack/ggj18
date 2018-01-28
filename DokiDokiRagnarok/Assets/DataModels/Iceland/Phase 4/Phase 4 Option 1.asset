@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - Fertile land is always worth burning again.
-  - Nani?!
-  - I was talking about riches, but YOU evidently only care about one thing!
-  - Destruction!
+  - 'OLAF: Fertile land is always worth burning again.'
+  - 'ICELAND: Nani?!'
+  - 'ICELAND: I was talking about riches, but YOU evidently only care about one thing!'
+  - 'ICELAND: Destruction!'
   DialogAudio:
   - {fileID: 8300000, guid: f09984a1f6db34a0691e8d52ccd5d840, type: 3}
   Events: []

@@ -15,8 +15,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: de74ca0d4db73f84c9e4adb733fe7ba8, type: 2}
   DialogTexts:
-  - (scream unintelligibly)
-  - Uuuuuh... I didn't quite catch that.
+  - 'OLAF: (scream unintelligibly)'
+  - 'BRITTANY: Uuuuuh... I didn''t quite catch that.'
   DialogAudio:
   - {fileID: 8300000, guid: d21d9569546464266a0dc1a31f4a290c, type: 3}
   Events: []

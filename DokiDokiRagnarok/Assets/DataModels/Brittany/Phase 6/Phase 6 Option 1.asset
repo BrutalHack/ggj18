@@ -15,8 +15,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   DialogTexts:
-  - Canute, not CAN NOT.
-  - Oh, Viking-San...
+  - 'OLAF: Canute, not CAN NOT.'
+  - 'BRITTANY: Oh, Viking-San...'
   DialogAudio:
   - {fileID: 8300000, guid: f09984a1f6db34a0691e8d52ccd5d840, type: 3}
   Events: []

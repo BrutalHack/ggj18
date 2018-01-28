@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 0bd91ba7f143aa048b2043664426c539, type: 2}
   DialogTexts:
-  - I raid until there is nothing left to flourish!
-  - 'Such an egoistic way of life! '
-  - Do you ever think of the huts you leave behind?
+  - 'OLAF: I raid until there is nothing left to flourish!'
+  - 'ICELAND: Such an egoistic way of life! '
+  - 'ICELAND: Do you ever think of the huts you leave behind?'
   DialogAudio:
   - {fileID: 8300000, guid: d1331590d25324db6afa9cf72b60dc45, type: 3}
   Events: []

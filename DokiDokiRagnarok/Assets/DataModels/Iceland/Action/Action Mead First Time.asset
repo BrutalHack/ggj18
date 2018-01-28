@@ -16,8 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - That's what I was talking about.
-  - You Vikings really know your stuff, when it comes to mead...
-  - Still, is that all you can try to impress me?
+  - 'ICELAND: That''s what I was talking about.'
+  - 'ICELAND: You Vikings really know your stuff, when it comes to mead...'
+  - 'ICELAND: Still, is that all you can try to impress me?'
   DialogAudio: []
   Events: []

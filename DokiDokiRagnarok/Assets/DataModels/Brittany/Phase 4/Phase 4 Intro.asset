@@ -17,10 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - But still...
-  - I can't help but feel that this meeting was destiny!
-  - Uuuuuh... But don't take this the wrong way!
-  - I just think we could be very good friends.
+  - 'BRITTANY: But still...'
+  - 'BRITTANY: I can''t help but feel that this meeting was destiny!'
+  - 'BRITTANY: Uuuuuh... But don''t take this the wrong way!'
+  - 'BRITTANY: I just think we could be very good friends.'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []

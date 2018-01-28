@@ -16,10 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - (grunt happily)
-  - You don't have to sound so darn happy about it!
-  - Really, if it weren't for your severely limited volcabulary, I'd think you're
-    making fun of me!
+  - 'OLAF: (grunt happily)'
+  - 'NORMANDY: You don''t have to sound so darn happy about it!'
+  - 'NORMANDY: Really, if it weren''t for your severely limited volcabulary, I''d
+    think you''re making fun of me!'
   DialogAudio:
   - {fileID: 8300000, guid: f8a2e843352794e3e9d4d855145a9e3c, type: 3}
   Events: []

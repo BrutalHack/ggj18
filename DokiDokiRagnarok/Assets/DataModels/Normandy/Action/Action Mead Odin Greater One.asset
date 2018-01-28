@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - Here we go again!
-  - Drink up that mead. I'm all for intercultural intoxication.
+  - 'NORMANDY: Here we go again!'
+  - 'NORMANDY: Drink up that mead. I''m all for intercultural intoxication.'
   DialogAudio: []
   Events: []

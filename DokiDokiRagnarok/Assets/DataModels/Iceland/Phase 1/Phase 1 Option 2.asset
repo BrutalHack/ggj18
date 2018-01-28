@@ -17,11 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - '(mumble) S-sorry... '
-  - You won't get away that easily. A simple sorry won't cut it.
-  - NEVER have I encountered a Warrior like you!
-  - Don't you now the basics of village etiquette? You haven't been BLESSED with good
-    manners!
+  - 'OLAF: (mumble) S-sorry... '
+  - 'ICELAND: You won''t get away that easily. A simple sorry won''t cut it.'
+  - 'ICELAND: NEVER have I encountered a Warrior like you!'
+  - 'ICELAND: Don''t you now the basics of village etiquette? You haven''t been BLESSED
+    with good manners!'
   DialogAudio:
   - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

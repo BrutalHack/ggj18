@@ -16,10 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 099d3b52f9cea6841afe988023cfc31e, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - You don't want to know about my tormented past that has left me so tragically
-    handsome.
-  - But I do! Tell me what tragedy has ravaged you with such handsomeness.
-  - Or better yet, don't! Let's make that backstory mysterious as well.
+  - 'OLAF: You don''t want to know about my tormented past that has left me so tragically
+    handsome.'
+  - 'BRITTANY: But I do! Tell me what tragedy has ravaged you with such handsomeness.'
+  - 'BRITTANY: Or better yet, don''t! Let''s make that backstory mysterious as well.'
   DialogAudio:
   - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

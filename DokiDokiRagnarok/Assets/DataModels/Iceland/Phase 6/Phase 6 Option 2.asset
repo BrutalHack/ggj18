@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - This raid will be one you won't be able to forget!
-  - There he goes again being cocky...
-  - I thought you would have learned a bit about me by now...
-  - Such disappointment...
+  - 'OLAF: This raid will be one you won''t be able to forget!'
+  - 'ICELAND: There he goes again being cocky...'
+  - 'ICELAND: I thought you would have learned a bit about me by now...'
+  - 'ICELAND: Such disappointment...'
   DialogAudio:
   - {fileID: 8300000, guid: de250f278ed454c99bc3500895398e32, type: 3}
   Events: []

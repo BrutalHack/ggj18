@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - '*gasp*!!!'
-  - Your raiding technique...! Despite your appearance, it shows both power and...
-    intricate nimbleness...
-  - N-Not like I'm praising you or anything!!!
+  - 'NORMANDY: *gasp*!!!'
+  - 'NORMANDY: Your raiding technique...! Despite your appearance, it shows both power
+    and... intricate nimbleness...'
+  - 'NORMANDY: N-Not like I''m praising you or anything!!!'
   DialogAudio: []
   Events: []

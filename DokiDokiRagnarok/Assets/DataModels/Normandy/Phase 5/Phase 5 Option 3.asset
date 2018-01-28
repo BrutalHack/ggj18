@@ -15,9 +15,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ceabd8d08782a4c498ad63c422326ec8, type: 2}
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   DialogTexts:
-  - There is an emptiness in my heart that no amount of pillaging, or actual hearts,
-    could ever fill.
-  - Now you're just sounding whiny.
+  - 'OLAF: There is an emptiness in my heart that no amount of pillaging, or actual
+    hearts, could ever fill.'
+  - 'NORMANDY: Now you''re just sounding whiny.'
   DialogAudio:
   - {fileID: 8300000, guid: d8c0f9865565f46458f3b363b305fabb, type: 3}
   Events: []

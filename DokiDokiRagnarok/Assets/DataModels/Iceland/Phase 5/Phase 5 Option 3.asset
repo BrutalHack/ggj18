@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - For me it would only be a sunburn!
-  - But even a sunburn can be annoying, no?
-  - Somehow I am glad you wouldn't mind taking a skinny dip in my magma...
+  - 'OLAF: For me it would only be a sunburn!'
+  - 'ICELAND: But even a sunburn can be annoying, no?'
+  - 'ICELAND: Somehow I am glad you wouldn''t mind taking a skinny dip in my magma...'
   DialogAudio:
   - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
   Events: []

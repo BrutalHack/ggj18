@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - What...?!
-  - What unparalleled drinking speed! I can see why they call you vikings the HONEYED
-    MAELSTROM!
-  - They do call you that, don't they?
+  - 'BRITTANY: What...?!'
+  - 'BRITTANY: What unparalleled drinking speed! I can see why they call you vikings
+    the HONEYED MAELSTROM!'
+  - 'BRITTANY: They do call you that, don''t they?'
   DialogAudio: []
   Events: []

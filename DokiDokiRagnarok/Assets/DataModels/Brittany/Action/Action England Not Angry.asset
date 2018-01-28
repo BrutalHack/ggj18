@@ -15,7 +15,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
   DialogTexts:
-  - Oh, please... Attacking the heartland right away?
-  - You can't expect that to work when I've still got my COMPOSURE!
+  - 'BRITTANY: Oh, please... Attacking the heartland right away?'
+  - 'BRITTANY: You can''t expect that to work when I''ve still got my COMPOSURE!'
   DialogAudio: []
   Events: []

@@ -16,9 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: af541be6f5cb7fd4dabf186232d0fbe8, type: 2}
   DialogTexts:
-  - We're all afraid to love, which is why I replaced all of MY love with casual pillaging.
-  - C... Casual pillaging?!
-  - You can't just casually pillage around and expect a stable loot life!
+  - 'OLAF: We''re all afraid to love, which is why I replaced all of MY love with
+    casual pillaging.'
+  - 'NORMANDY: C... Casual pillaging?!'
+  - 'NORMANDY: You can''t just casually pillage around and expect a stable loot life!'
   DialogAudio:
   - {fileID: 8300000, guid: da9045c75e3794903bb1d96db5050df1, type: 3}
   Events: []

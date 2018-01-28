@@ -18,10 +18,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   - {fileID: 11400000, guid: 994dfe7493c0e435fac69776c54ed0b3, type: 2}
   DialogTexts:
-  - That's it. Always ask for permission.
-  - I'm pleased with your behaviour - show me more respect. Just a little bit.
-  - Maybe we can start things over now.
-  - Hear my advice, brave viking...
-  - Raid is more effective against an embarrassed opponent... Weird, but true...
+  - 'ICELAND: That''s it. Always ask for permission.'
+  - 'ICELAND: I''m pleased with your behaviour - show me more respect. Just a little
+    bit.'
+  - 'ICELAND: Maybe we can start things over now.'
+  - 'ODIN: Hear my advice, brave viking...'
+  - 'ODIN: Raid is more effective against an embarrassed opponent... Weird, but true...'
   DialogAudio: []
   Events: []

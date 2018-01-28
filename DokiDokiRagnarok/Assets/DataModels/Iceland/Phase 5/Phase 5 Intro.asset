@@ -16,10 +16,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   - {fileID: 11400000, guid: 1a306f8aa9f573541b0e8b5b61d595a9, type: 2}
   DialogTexts:
-  - I am not even sure if I could let anyone get close to me...
-  - The last crew of ruffians that tried to get close ended up staying in my heart
-    forever.
-  - My heart is a metaphor for the giant volcano in the back.
+  - 'ICELAND: I am not even sure if I could let anyone get close to me...'
+  - 'ICELAND: The last crew of ruffians that tried to get close ended up staying in
+    my heart forever.'
+  - 'ICELAND: My heart is a metaphor for the giant volcano in the back.'
+  DialogAudio: []
   Events:
   - m_PersistentCalls:
       m_Calls: []
