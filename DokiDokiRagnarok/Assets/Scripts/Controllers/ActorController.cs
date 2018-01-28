@@ -29,6 +29,7 @@ namespace DokiDokiRagnarok.Controllers
                 return;
             }
 
+            Debug.Log(World.ChosenRaid.Name);
             if (World.ChosenRaid.Name.Equals("Brittany"))
             {
                 VillagePrefab = VillagePrefabs[0];

@@ -36,6 +36,8 @@
             <e p="WorldController.cs" t="Include" />
           </e>
           <e p="Emotion.cs" t="Include" />
+          <e p="Event.cs" t="Include" />
+          <e p="EventUtil.cs" t="Include" />
           <e p="LoopMusic.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="Action.cs" t="Include" />

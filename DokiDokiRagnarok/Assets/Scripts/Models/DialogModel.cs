@@ -9,6 +9,6 @@ namespace DokiDokiRagnarok.Models
         public List<ActorModel> Actors;
         [TextArea] public List<string> DialogTexts;
         public List<AudioClip> DialogAudio;
-        public List<UnityEvent> Events;
+        public List<Event> Events;
     }
 }

@@ -184,7 +184,6 @@ GameObject:
   m_Component:
   - component: {fileID: 319852295}
   - component: {fileID: 319852294}
-  - component: {fileID: 319852296}
   m_Layer: 0
   m_Name: WorldController
   m_TagString: Untagged
@@ -222,12 +221,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &319852296
+--- !u!1 &522307874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 522307876}
+  - component: {fileID: 522307875}
+  m_Layer: 0
+  m_Name: WorldMusic
+  m_TagString: WorldMusic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &522307875
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 319852293}
+  m_GameObject: {fileID: 522307874}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 942308769b8f8ad4c8f12303722f24c2, type: 3}
@@ -241,6 +256,20 @@ MonoBehaviour:
   LokiLoop: {fileID: 0}
   Odin: {fileID: 0}
   OdinLoop: {fileID: 0}
+  Persistent: 1
+--- !u!4 &522307876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 522307874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7385696, y: -3.727284, z: 90.12572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &762696146
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +787,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 319852294}
-        m_MethodName: SelectIceland
+        m_MethodName: SelectNormandy
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -879,7 +908,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 319852294}
-        m_MethodName: SelectNormandy
+        m_MethodName: SelectIceland
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

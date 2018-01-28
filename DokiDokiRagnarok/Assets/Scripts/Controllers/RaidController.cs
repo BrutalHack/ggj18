@@ -30,7 +30,7 @@ namespace DokiDokiRagnarok.Controllers
             _audioSource = GetComponent<AudioSource>();
             _raid = World.ChosenRaid;
 
-            if (DebugRaidModel)
+            if (_raid == null && DebugRaidModel)
             {
                 _raid = DebugRaidModel;
             }
@@ -59,7 +59,7 @@ namespace DokiDokiRagnarok.Controllers
 
             if (_dialogStep < _dialog.Events.Count)
             {
-                _dialog.Events[_dialogStep].Invoke();
+                EventUtil.ExecuteEvent(_dialog.Events[_dialogStep]);
             }
         }
 
