@@ -9,13 +9,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5de0044e15d4aa19c5bc4e539663fa4, type: 3}
-  m_Name: Action Mead Subsequent Times
+  m_Name: Action England Attacked Subsequent
   m_EditorClassIdentifier: 
   Actors:
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
-  - {fileID: 11400000, guid: 50b389756bb15334789b49b6bde87a32, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
+  - {fileID: 11400000, guid: d96cdc0fc829e9d4892a0b66e9170d89, type: 2}
   DialogTexts:
-  - CHUG CHUG CHUG! Amazing, Viking-San!
-  - Just how do you stay this thirsty all the time?!
+  - Here we goooo!
+  - WHHHHHYYYYYYYYYYYYYYY
+  - BWAAAAAHAHAHAHAHA
+  - Oh, that NEVER gets old!
   DialogAudio: []
   Events: []

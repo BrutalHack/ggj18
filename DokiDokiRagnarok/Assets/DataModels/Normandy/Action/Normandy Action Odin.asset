@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91160513fca04d978ede61491d1ae119, type: 3}
+  m_Name: Normandy Action Odin
+  m_EditorClassIdentifier: 
+  Conditions: 400000008000000000020000
+  Score: 0a0000000a0000000a000000
+  Dialogs:
+  - {fileID: 11400000, guid: 2c1c26349de22c34697677b49eb88062, type: 2}
+  - {fileID: 11400000, guid: 0ef835efe78096f4fa4887e2da2a27cb, type: 2}
+  - {fileID: 11400000, guid: e9756b5e3676fcf49806fd5f2bec39ec, type: 2}
