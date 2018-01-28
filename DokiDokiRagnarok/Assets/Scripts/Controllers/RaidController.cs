@@ -123,6 +123,7 @@ namespace DokiDokiRagnarok.Controllers
             if (_phaseStep >= _raid.RaidPhases.Count)
             {
                 HandleRaidEnd();
+                return;
             }
 
             _dialogStep = -1;

@@ -19,6 +19,8 @@ namespace DokiDokiRagnarok.Controllers
 
         private bool _villageWasHere;
 
+        private ActorType currentActor = ActorType.Player;
+
         void Start()
         {
             DisableRightActors();
@@ -104,36 +106,46 @@ namespace DokiDokiRagnarok.Controllers
 
         public void SetLoki(bool active)
         {
-            if (active)
+            if (active && currentActor != ActorType.Loki)
             {
                 MusicController.PlayLoki();
+                DisableRightActors();
+                LokiActor.SetActive(true);
+                currentActor = ActorType.Loki;
+                
             }
-            else if (_villageWasHere)
+            else if (!active && _villageWasHere)
             {
                 SetVillageActor(VillagePrefab);
             }
-
-            DisableRightActors();
-            LokiActor.SetActive(active);
+            else if (!active)
+            {
+                DisableRightActors();
+            }
         }
 
         public void SetOdin(bool active)
         {
-            if (active)
+            if (active && currentActor != ActorType.Odin)
             {
                 MusicController.PlayOdin();
+                DisableRightActors();
+                OdinActor.SetActive(true);
+                currentActor = ActorType.Odin;
             }
-            else if (_villageWasHere)
+            else if (!active && _villageWasHere)
             {
                 SetVillageActor(VillagePrefab);
             }
-
-            DisableRightActors();
-            OdinActor.SetActive(active);
+            else if (!active)
+            {
+                DisableRightActors();
+            }
         }
 
         public void SetVillageActor(GameObject actorPrefab)
         {
+            currentActor = ActorType.Village;
             StopWorldMusicIfActive();
             MusicController.PlayMainTheme();
             _villageWasHere = true;
