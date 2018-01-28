@@ -459,7 +459,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ae854dffd9e7bc74a959d8c315c414dc, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -669,7 +669,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ae854dffd9e7bc74a959d8c315c414dc, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -717,8 +717,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942308769b8f8ad4c8f12303722f24c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Volume: 0.25
+  PlayOnStart: 0
   Music: {fileID: 8300000, guid: 332c601d7aabb294a9476d337ade702f, type: 3}
   Loop: {fileID: 8300000, guid: 332c601d7aabb294a9476d337ade702f, type: 3}
+  Loki: {fileID: 0}
+  LokiLoop: {fileID: 0}
+  Odin: {fileID: 0}
+  OdinLoop: {fileID: 0}
 --- !u!4 &1651874205
 Transform:
   m_ObjectHideFlags: 0
