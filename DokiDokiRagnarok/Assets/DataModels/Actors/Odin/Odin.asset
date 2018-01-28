@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: Odin
   m_EditorClassIdentifier: 
   Name: Odin
-  SoundEffect: {fileID: 0}
-  Sprite: {fileID: 0}
+  ActorGameObject: {fileID: 1394981329792612, guid: 3e4e30ece44bf4eb39adfdeb604bfaf4,
+    type: 2}
+  ActorType: 3

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: Iceland (Angry)
   m_EditorClassIdentifier: 
   Name: Iceland
-  SoundEffect: {fileID: 0}
-  ActorGameObject: {fileID: 0}
+  ActorGameObject: {fileID: 1874694249442646, guid: bb9b91ee42e264ea385f02619bd67b8c,
+    type: 2}
+  ActorType: 1

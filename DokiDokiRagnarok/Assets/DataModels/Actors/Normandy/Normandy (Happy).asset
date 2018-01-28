@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: Normandy (Happy)
   m_EditorClassIdentifier: 
   Name: Normandy
-  SoundEffect: {fileID: 0}
-  ActorGameObject: {fileID: 0}
+  ActorGameObject: {fileID: 1022422515513618, guid: 16d17bd0489d9472193dbca47f6372ba,
+    type: 2}
+  ActorType: 1
