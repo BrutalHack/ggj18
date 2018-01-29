@@ -11,6 +11,7 @@ namespace DokiDokiRagnarok.UI
         public Text TextComponent;
         public Button TextButton;
         public float lineSpacing = 1f;
+
         public bool InstantText = false;
 
         void Start()
@@ -21,12 +22,15 @@ namespace DokiDokiRagnarok.UI
         public void ShowText(string message)
         {
             TextComponent.text = "";
-            if (InstantText || Application.platform == RuntimePlatform.Android)
+            TextButton.interactable = false;
+            if (InstantText || Application.platform == RuntimePlatform.Android ||
+                Application.platform == RuntimePlatform.IPhonePlayer)
             {
                 TextComponent.text = message;
+                StartCoroutine(EnableTextButtonAfterDelay(0.5f));
                 return;
             }
-            TextButton.interactable = false;
+
             StartCoroutine(TypeText(message));
         }
 
@@ -45,6 +49,13 @@ namespace DokiDokiRagnarok.UI
                     yield return new WaitForSeconds(_letterInterval);
                 }
             }
+
+            TextButton.interactable = true;
+        }
+
+        IEnumerator EnableTextButtonAfterDelay(float seconds)
+        {
+            yield return new WaitForSeconds(seconds);
             TextButton.interactable = true;
         }
 
