@@ -23,80 +23,92 @@ public class LoopMusic : MonoBehaviour
     public AudioClip Odin;
     public AudioClip OdinLoop;
 
-    private AudioSource audioSource;
+    private AudioSource _audioSource;
 
     public bool Persistent = false;
 
-    private MusicList nowPlaying = MusicList.None;
+    private MusicList _nowPlaying = MusicList.None;
+    private Coroutine _currentCoroutine;
 
     void Start()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.volume = Volume;
+        _audioSource = gameObject.GetComponent<AudioSource>();
+        _audioSource.volume = Volume;
 
         if (Persistent)
         {
             DontDestroyOnLoad(this.gameObject);
         }
 
-        if (PlayOnStart == MusicList.Loki)
-        {
-            StartCoroutine(playMusic(Loki, LokiLoop));
-        }
-        else if (PlayOnStart == MusicList.Odin)
-        {
-            StartCoroutine(playMusic(Odin, OdinLoop));
-        }
-        else if (PlayOnStart == MusicList.Music)
-        {
-            StartCoroutine(playMusic(Music, Loop));
-        }
+        PlayMusic(PlayOnStart);
     }
 
-    IEnumerator playMusic(AudioClip clip, AudioClip loop)
+    private IEnumerator PlayMusicCoroutine(AudioClip clip, AudioClip loop)
     {
         if (clip)
         {
-            audioSource.clip = clip;
-            audioSource.Play();
-            yield return new WaitForSeconds(audioSource.clip.length);
+            _audioSource.clip = clip;
+            _audioSource.Play();
+            yield return new WaitForSeconds(_audioSource.clip.length);
         }
 
         if (loop)
         {
-            audioSource.loop = true;
-            audioSource.clip = loop;
-            audioSource.Play();
+            _audioSource.loop = true;
+            _audioSource.clip = loop;
+            _audioSource.Play();
         }
+    }
+
+    private void PlayMusic(MusicList song)
+    {
+        if (_nowPlaying == song)
+        {
+            return;
+        }
+
+        AudioClip clip = null;
+        AudioClip loop = null;
+        switch (song)
+        {
+            case MusicList.Loki:
+                clip = Loki;
+                loop = LokiLoop;
+                break;
+            case MusicList.Odin:
+                clip = Odin;
+                loop = OdinLoop;
+                break;
+            case MusicList.Music:
+                clip = Music;
+                loop = Loop;
+                break;
+            case MusicList.None:
+                return;
+        }
+
+        _audioSource.Stop();
+        if (_currentCoroutine != null)
+        {
+            StopCoroutine(_currentCoroutine);
+        }
+
+        _currentCoroutine = StartCoroutine(PlayMusicCoroutine(clip, loop));
+        _nowPlaying = song;
     }
 
     public void PlayLoki()
     {
-        if (Loki && LokiLoop && nowPlaying != MusicList.Loki)
-        {
-            audioSource.Stop();
-            StartCoroutine(playMusic(Loki, LokiLoop));
-            nowPlaying = MusicList.Loki;
-        }
+        PlayMusic(MusicList.Loki);
     }
 
     public void PlayOdin()
     {
-        if (Odin && OdinLoop && nowPlaying != MusicList.Odin)
-        {
-            audioSource.Stop();
-            StartCoroutine(playMusic(Odin, OdinLoop));
-            nowPlaying = MusicList.Odin;
-        }
+        PlayMusic(MusicList.Odin);
     }
 
     public void PlayMainTheme()
     {
-        if (Music && Loop && nowPlaying != MusicList.Music)
-        {
-            audioSource.Stop();
-            StartCoroutine(playMusic(Music, Loop));
-            nowPlaying = MusicList.Music;
-        }
+        PlayMusic(MusicList.Music);
     }
 }

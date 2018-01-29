@@ -7,4 +7,12 @@ public static class Village {
     public static Emotion Emotion;
     public static bool AttackedEnglandWhileAngry;
     public static bool AttackedEnglandWhileSweatDrop;
+
+    public static void Reset()
+    {
+        Emotion = Emotion.None;
+        AttackedEnglandWhileAngry = false;
+        AttackedEnglandWhileSweatDrop = false;
+        
+    }
 }

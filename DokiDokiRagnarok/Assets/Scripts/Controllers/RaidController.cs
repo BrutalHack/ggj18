@@ -29,6 +29,8 @@ namespace DokiDokiRagnarok.Controllers
         {
             _audioSource = GetComponent<AudioSource>();
             _raid = World.ChosenRaid;
+            Viking.Reset();
+            Village.Reset();
 
             if (_raid == null && DebugRaidModel)
             {
