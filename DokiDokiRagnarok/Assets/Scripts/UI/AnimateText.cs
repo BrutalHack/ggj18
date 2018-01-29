@@ -11,7 +11,7 @@ namespace DokiDokiRagnarok.UI
         public Text TextComponent;
         public Button TextButton;
         public float lineSpacing = 1f;
-        public bool DebugInstantText = false;
+        public bool InstantText = false;
 
         void Start()
         {
@@ -21,7 +21,7 @@ namespace DokiDokiRagnarok.UI
         public void ShowText(string message)
         {
             TextComponent.text = "";
-            if (DebugInstantText)
+            if (InstantText || Application.platform == RuntimePlatform.Android)
             {
                 TextComponent.text = message;
                 return;
